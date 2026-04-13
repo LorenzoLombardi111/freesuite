@@ -1,10 +1,11 @@
-const CACHE_NAME = 'freesuite-v3';
+const CACHE_NAME = 'freesuite-v4';
 const ASSETS = [
   '/',
   '/index.html',
   '/manifest.json',
   '/favicon.svg',
   '/favicon.png',
+  '/apple-touch-icon.png',
   '/og-image.svg',
   '/404.html',
   '/pages/free-document-tools.html',
