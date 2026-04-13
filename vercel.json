@@ -285,6 +285,10 @@
     {
       "source": "/tools/freememegen",
       "destination": "/pages/tools/freememegen.html"
+    },
+    {
+      "source": "/tools/freedrawboard",
+      "destination": "/pages/tools/freedrawboard.html"
     }
   ]
 }

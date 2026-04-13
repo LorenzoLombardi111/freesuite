@@ -2038,6 +2038,59 @@
         "freeemojipicker",
         "freegradientgen"
       ]
+    },
+    {
+      "slug": "freedrawboard",
+      "title": "Draw Board",
+      "name": "Freedrawboard",
+      "domain": "freedrawboard.app",
+      "category": "productivity",
+      "cardDesc": "Real-time collaborative whiteboard. Password-protected rooms with optional self-destruct timer.",
+      "seoTitle": "Free Online Whiteboard — Real-Time Collaborative Drawing",
+      "metaDesc": "Free real-time collaborative whiteboard. Draw, sketch, brainstorm with others. No signup, password-protected, ephemeral.",
+      "h1": "Free Online Whiteboard — real-time collaboration without signup",
+      "hero": "A vector whiteboard with pen, shapes, text, sticky notes, and image import. Share a password to draw together in real time. No accounts, ephemeral, password-protected rooms.",
+      "features": [
+        "Pen, eraser, rectangle, circle, line, arrow, text, sticky notes, images",
+        "Real-time multi-user drawing with multi-cursor display",
+        "Auto-generated memorable passwords (e.g., 'blue-otter-42-moon')",
+        "Optional self-destruct timer: 1 hour or 24 hours",
+        "Per-user undo / redo (Cmd+Z, Cmd+Shift+Z)",
+        "Pan and zoom (10%-500%)",
+        "Drag-and-drop or paste images",
+        "PNG export with auto-cropped bounding box",
+        "Works offline as a Progressive Web App",
+        "Mobile touch support"
+      ],
+      "howItWorks": [
+        "Open freedrawboard.app and click 'Create Board' (or pick a self-destruct duration)",
+        "Get an auto-generated strong password — share it with anyone you want to draw with",
+        "They join by entering the password — no signup for them either",
+        "Draw, type, drop images. Everything syncs in real time. Drawings never touch a database."
+      ],
+      "useCases": [
+        "Quick design feedback sessions",
+        "Classroom diagramming with students",
+        "Pair brainstorming for product ideas",
+        "Casual sketches with remote teammates",
+        "Throwaway whiteboarding without setting up a shared account"
+      ],
+      "comparison": "Compared to Miro and Mural — those are heavyweight enterprise tools with persistent boards, infinite features, and account requirements. Freedrawboard is instant: no signup, password-protected rooms, ephemeral by default. For ongoing team workspaces use Miro; for quick collaborative sketches use freedrawboard. Compared to Excalidraw, freedrawboard's real-time sync works without an Excalidraw+ subscription. Compared to Google Jamboard (discontinued in 2024), freedrawboard fills the no-account quick-collab gap.",
+      "privacyNote": "Drawings are relayed through Supabase Realtime but never stored on any database. The password is the room identity — without it, the URL leads to a different empty channel. Local board copies live in your browser; ephemeral rooms wipe on tab close, timed rooms wipe on global expiry.",
+      "faqs": [
+        ["Is freedrawboard.app really free?", "Yes. 100% free with no signup, no ads, and no usage limits. Create as many boards as you want."],
+        ["How does collaboration work?", "Create a board to get a strong auto-generated password. Anyone with that password can join the same board from any device. Drawings sync in real-time."],
+        ["Are my drawings stored on a server?", "No. Drawings are relayed through Supabase Realtime but never written to any database. Your local copy lives in your browser's localStorage."],
+        ["What is the self-destruct timer?", "When creating a board, you can choose 1-hour or 24-hour mode. After that duration, all drawings are wiped from every participant's device simultaneously."],
+        ["How is freedrawboard different from Miro or Excalidraw?", "Miro requires accounts and is heavyweight. Excalidraw is excellent for solo drawing but real-time collaboration requires a paid subscription. Freedrawboard is instant — no account, password-protected rooms, ephemeral by default."],
+        ["Does it work on mobile?", "Yes. Touch drawing works on phones and tablets. Installable as a Progressive Web App for offline use of single-user mode."]
+      ],
+      "related": [
+        "freechatroom",
+        "freenotepad",
+        "freegradientgen",
+        "freeboxshadow"
+      ]
     }
   ]
 }

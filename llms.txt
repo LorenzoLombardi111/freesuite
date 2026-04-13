@@ -48,12 +48,13 @@ Freesuite is a family of single-purpose web apps. Each tool does exactly one tas
 - [Freeboxshadow](https://freeboxshadow.app/) — Design CSS box-shadow visually with live preview
 - [Freecolorconvert](https://freecolorconvert.app/) — Convert colors between HEX, RGB, HSL, HSV, and CMYK formats
 
-### Productivity (5)
+### Productivity (6)
 - [Freetypingtest](https://freetypingtest.app/) — Free typing speed test
 - [Freehabittracker](https://freehabittracker.app/) — Free daily habit tracker with streak counting
 - [Freepomodoro](https://freepomodoro.app/) — Free browser pomodoro timer with 25-minute focus sessions and 5-minute breaks
 - [Freeemojipicker](https://freeemojipicker.app/) — Search any emoji by name, category, or keyword
 - [Freechatroom](https://freechatroom.app/) — Instant password-protected chat rooms
+- [Freedrawboard](https://freedrawboard.app/) — Free real-time collaborative whiteboard
 
 ### Utilities (4)
 - [Freeqrcodegen](https://freeqrcodegen.app/) — Free QR code generator for URLs, text, Wi-Fi credentials, vCards, emails, phone
@@ -118,6 +119,7 @@ Every tool has a dedicated page with features, use cases, FAQ, and comparisons t
 - [/tools/freepasswordgenerator](https://freesuite.app/tools/freepasswordgenerator)
 - [/tools/freeunitconvert](https://freesuite.app/tools/freeunitconvert)
 - [/tools/freememegen](https://freesuite.app/tools/freememegen)
+- [/tools/freedrawboard](https://freesuite.app/tools/freedrawboard)
 
 
 ## Why Freesuite exists
