@@ -1,0 +1,2043 @@
+{
+  "categories": {
+    "documents": {
+      "label": "Documents",
+      "url": "/free-document-tools"
+    },
+    "pdf": {
+      "label": "PDF",
+      "url": "/free-pdf-tools"
+    },
+    "images": {
+      "label": "Images",
+      "url": "/free-image-tools"
+    },
+    "text": {
+      "label": "Text",
+      "url": "/free-text-tools"
+    },
+    "developer": {
+      "label": "Developer",
+      "url": "/free-developer-tools"
+    },
+    "productivity": {
+      "label": "Productivity",
+      "url": "/free-productivity-tools"
+    },
+    "utilities": {
+      "label": "Utilities",
+      "url": "/free-utility-tools"
+    }
+  },
+  "tools": [
+    {
+      "slug": "freenotepad",
+      "name": "Freenotepad",
+      "title": "Notepad",
+      "domain": "freenotepad.app",
+      "category": "documents",
+      "seoTitle": "Free Online Notepad — No Signup, Autosave in Browser",
+      "metaDesc": "Free online notepad that works in your browser. Autosave, markdown, no signup. Write notes instantly without creating an account.",
+      "h1": "Free Online Notepad — distraction-free writing in your browser",
+      "hero": "Open a notepad in one click. Autosave keeps your work safe across refreshes. Markdown support for formatting. No signup, no account, no ads.",
+      "features": [
+        "Instant autosave to browser local storage",
+        "Markdown formatting support (bold, italic, headings, lists)",
+        "Distraction-free writing mode",
+        "Export to .txt or .md",
+        "Dark mode shared across Freesuite",
+        "Works offline after first load",
+        "No signup, no account, no ads"
+      ],
+      "howItWorks": [
+        "Open freenotepad.app in any browser",
+        "Start typing — no setup needed",
+        "Content autosaves to your browser as you type",
+        "Export as .txt or .md when you want to save externally"
+      ],
+      "useCases": [
+        "Meeting notes during calls",
+        "Quick drafts before pasting into a longer document",
+        "Daily journal entries",
+        "Brainstorming sessions",
+        "Copying text between applications without formatting"
+      ],
+      "comparison": "Unlike Google Docs or Notion, Freenotepad requires no account and loads in under a second. Unlike system note apps (Apple Notes, Samsung Notes), it works on any device with a browser. For ongoing note libraries, Obsidian or Notion are better. For immediate \"grab a notepad\" needs, Freenotepad is faster.",
+      "privacyNote": "Every character stays in your browser. Nothing is uploaded. Notes persist locally until you explicitly clear them.",
+      "faqs": [
+        [
+          "Is Freenotepad really free?",
+          "Yes. 100% free with no signup, no paid tier, no ads, and no feature limits."
+        ],
+        [
+          "Where are my notes stored?",
+          "In your browser's local storage, on your device only. Nothing is synced to a cloud or server."
+        ],
+        [
+          "Can I access my notes on another device?",
+          "Not directly — notes are per-device by design for privacy. Export as .txt or .md and transfer manually if needed."
+        ],
+        [
+          "Does Freenotepad support markdown?",
+          "Yes. Standard markdown syntax (bold, italic, headings, lists, links, code) is supported for formatted writing."
+        ],
+        [
+          "What happens if I clear browser data?",
+          "Notes saved to local storage will be cleared too. Export important notes as files for long-term keeping."
+        ],
+        [
+          "Does it work on mobile?",
+          "Yes. Freenotepad is fully responsive and works on phones, tablets, and desktops. Installable as a PWA for offline use."
+        ]
+      ],
+      "related": [
+        "freepage",
+        "freewordcounter",
+        "freecaseconverter",
+        "freepomodoro"
+      ]
+    },
+    {
+      "slug": "freepage",
+      "name": "Freepage",
+      "title": "Document Writer",
+      "domain": "freepage.app",
+      "category": "documents",
+      "seoTitle": "Free Online Document Writer — Rich Text Editor Without Signup",
+      "metaDesc": "Free browser document writer with rich-text formatting. Headings, lists, links, images, tables. Export DOCX and PDF. No account needed.",
+      "h1": "Free Document Writer — rich-text editing without the Google account",
+      "hero": "A full rich-text document editor in your browser. Headings, bold and italic, lists, links, images, tables. Exports to DOCX and PDF. No signup.",
+      "features": [
+        "Rich-text editor with formatting toolbar",
+        "Headings (H1-H6), bold, italic, underline, strikethrough",
+        "Bulleted and numbered lists, blockquotes",
+        "Insert links, images, and tables",
+        "Export to DOCX (Word-compatible) or PDF",
+        "Autosave to browser local storage",
+        "Dark mode, works offline after first load"
+      ],
+      "howItWorks": [
+        "Open freepage.app",
+        "Start writing with full formatting controls in the toolbar",
+        "Document autosaves as you type",
+        "Export to DOCX or PDF when ready to share"
+      ],
+      "useCases": [
+        "Writing cover letters and resumes",
+        "Drafting formatted reports",
+        "Creating quick proposals",
+        "Writing blog post drafts with formatting",
+        "Academic paper drafts"
+      ],
+      "comparison": "Compared to Google Docs, Freepage has no account requirement and no cloud sync — your documents stay on your device. For team collaboration, Google Docs is still the right choice. For individual formatted writing, Freepage is faster to start and more private.",
+      "privacyNote": "Documents live in your browser's local storage. Export to DOCX or PDF for permanent keeping.",
+      "faqs": [
+        [
+          "Is Freepage really free?",
+          "Yes. Completely free, no signup, no paid tier, no ads, no watermarks."
+        ],
+        [
+          "Can I export to Microsoft Word format?",
+          "Yes. Freepage exports to .docx which opens in Microsoft Word, Google Docs, LibreOffice, and Apple Pages."
+        ],
+        [
+          "Is there real-time collaboration?",
+          "No. Freepage is designed for individual writing without the complexity of shared editing. For team collaboration, use Google Docs."
+        ],
+        [
+          "Can I paste content from Word or Google Docs?",
+          "Yes. Paste from other sources and formatting is preserved where possible."
+        ],
+        [
+          "Does Freepage work offline?",
+          "Yes. After the first page load, Freepage works without an internet connection as a Progressive Web App."
+        ],
+        [
+          "Where are my documents saved?",
+          "In your browser's local storage by default. Use the export button to download a .docx or .pdf copy to your device."
+        ]
+      ],
+      "related": [
+        "freenotepad",
+        "freesheets",
+        "freeslides",
+        "freewordcounter"
+      ]
+    },
+    {
+      "slug": "freesheets",
+      "name": "Freesheets",
+      "title": "Spreadsheets",
+      "domain": "freesheets.app",
+      "category": "documents",
+      "seoTitle": "Free Online Spreadsheet — No Account, Formulas, CSV Export",
+      "metaDesc": "Free browser spreadsheet with formulas like SUM, AVG, VLOOKUP. No signup. Export to CSV or XLSX. Works offline after first load.",
+      "h1": "Free Online Spreadsheet — formulas and calculations without Google",
+      "hero": "A lightweight browser spreadsheet for formulas, running totals, and simple tables. Standard functions (SUM, AVG, IF, VLOOKUP, COUNT) supported. No account.",
+      "features": [
+        "Standard spreadsheet functions (SUM, AVG, IF, VLOOKUP, COUNT, MAX, MIN, etc.)",
+        "Cell references and formulas",
+        "Copy-paste to and from Excel or Google Sheets",
+        "Export to CSV or XLSX (Excel-compatible)",
+        "Sort and filter rows",
+        "Works offline after first load",
+        "No signup, no account"
+      ],
+      "howItWorks": [
+        "Open freesheets.app",
+        "Type data into cells like any spreadsheet",
+        "Use formulas starting with = (e.g., =SUM(A1:A10))",
+        "Export to CSV or XLSX when ready"
+      ],
+      "useCases": [
+        "Quick calculations and running totals",
+        "Tracking personal budget items",
+        "Small data tables without Excel",
+        "Summing expenses for a report",
+        "Simple pivot-like aggregations"
+      ],
+      "comparison": "Compared to Google Sheets, Freesheets is lighter weight and doesn't require a Google account. It's not designed for heavy analytics or multi-user collaboration — for those, Sheets or Excel are better. For everyday \"I need to add up some numbers\" work, Freesheets is faster.",
+      "privacyNote": "Spreadsheet data stays in your browser. Export to CSV or XLSX to save externally.",
+      "faqs": [
+        [
+          "Is Freesheets free?",
+          "Yes. 100% free with no signup and no usage limits."
+        ],
+        [
+          "Which formulas are supported?",
+          "Common spreadsheet functions: SUM, AVG, COUNT, MIN, MAX, IF, VLOOKUP, CONCAT, LEN, ROUND, and many more."
+        ],
+        [
+          "Can I import an Excel file?",
+          "Yes. Open .xlsx files directly, or copy-paste a range from Excel or Google Sheets."
+        ],
+        [
+          "How large a sheet can Freesheets handle?",
+          "Up to a few thousand rows comfortably. For larger datasets, use Excel or Google Sheets."
+        ],
+        [
+          "Does it have charts?",
+          "Not yet. For charts, pair with Excel or export the CSV to a visualization tool."
+        ],
+        [
+          "Is there cross-device sync?",
+          "No. Export to CSV or XLSX and transfer manually for cross-device use."
+        ]
+      ],
+      "related": [
+        "freepage",
+        "freenotepad",
+        "freeunitconvert",
+        "freejsonformatter"
+      ]
+    },
+    {
+      "slug": "freeslides",
+      "name": "Freeslides",
+      "title": "Presentations",
+      "domain": "freeslides.app",
+      "category": "documents",
+      "seoTitle": "Free Online Presentation Maker — No Account Needed",
+      "metaDesc": "Free in-browser presentation builder. Slides, text, images, speaker notes. Export to PDF. No signup, no download.",
+      "h1": "Free Online Slide Builder — presentations without PowerPoint or Keynote",
+      "hero": "Build slide decks in your browser. Text, images, speaker notes, layout presets. Export to PDF. No account, no app install.",
+      "features": [
+        "Add, reorder, and delete slides easily",
+        "Layout presets (title, content, two-column, image + text)",
+        "Text formatting and image embedding",
+        "Speaker notes per slide",
+        "Export entire deck to PDF",
+        "Works offline as a PWA",
+        "No signup"
+      ],
+      "howItWorks": [
+        "Open freeslides.app",
+        "Add slides and choose layouts",
+        "Add text, images, and speaker notes",
+        "Export as PDF for presenting or sharing"
+      ],
+      "useCases": [
+        "Quick pitch decks for informal sharing",
+        "Classroom or training slides",
+        "Event announcements as shareable PDFs",
+        "Portfolio presentations",
+        "Conference talk drafts"
+      ],
+      "comparison": "Compared to PowerPoint and Keynote, Freeslides doesn't need a software install. Compared to Google Slides, it doesn't need an account. For heavy design work or polished animations, PowerPoint/Keynote still win. For quick decks, Freeslides is faster.",
+      "privacyNote": "Slides are saved in your browser. Export to PDF for permanent keeping.",
+      "faqs": [
+        [
+          "Is Freeslides free?",
+          "Yes. Completely free with no signup, watermarks, or feature limits."
+        ],
+        [
+          "Can I export to PowerPoint format?",
+          "Freeslides currently exports to PDF. For PowerPoint format, use PowerPoint's own import from PDF or Google Slides."
+        ],
+        [
+          "Does it have animations and transitions?",
+          "Basic transitions are supported. For advanced animations, PowerPoint or Keynote remain better fits."
+        ],
+        [
+          "Can I present directly in the browser?",
+          "Yes. Full-screen presentation mode is built in."
+        ],
+        [
+          "What image formats does it accept?",
+          "JPG, PNG, WebP, SVG, and GIF."
+        ],
+        [
+          "Is there template gallery?",
+          "A small set of layout presets is included. For extensive template libraries, use a dedicated presentation tool."
+        ]
+      ],
+      "related": [
+        "freepage",
+        "freenotepad",
+        "freememegen",
+        "freemergepdf"
+      ]
+    },
+    {
+      "slug": "freemergepdf",
+      "name": "Freemergepdf",
+      "title": "PDF Merger",
+      "domain": "freemergepdf.app",
+      "category": "pdf",
+      "seoTitle": "Free PDF Merger Online — No Signup, No Upload, No Watermark",
+      "metaDesc": "Free online PDF merger. Combine multiple PDFs into one. No signup, no file size limit, no watermark, no upload to any server.",
+      "h1": "Free Online PDF Merger — combine PDFs without uploading",
+      "hero": "Merge multiple PDFs into a single file. Drag to reorder pages. No signup, no daily limits, no watermarks. Files never leave your browser.",
+      "features": [
+        "Merge unlimited PDFs in one operation",
+        "Drag-and-drop file ordering",
+        "No file size limit (bound only by device memory)",
+        "No daily usage cap",
+        "No watermarks on output",
+        "Fully client-side — files never uploaded",
+        "Works offline as a PWA"
+      ],
+      "howItWorks": [
+        "Open freemergepdf.app",
+        "Drop or select PDF files to merge",
+        "Drag to reorder if needed",
+        "Click Merge and download the combined PDF"
+      ],
+      "useCases": [
+        "Combining scanned receipts for expense reports",
+        "Merging multi-chapter documents into one file",
+        "Consolidating research papers",
+        "Assembling bank statements or invoices",
+        "Creating single-file portfolios from separate PDFs"
+      ],
+      "comparison": "Smallpdf and iLovePDF offer similar merging but limit free-tier usage to 2 files per day and upload your PDFs to their servers. Freemergepdf has no usage cap and never uploads. For basic merging, Freemergepdf is faster and more private. For advanced features like OCR or compression, Smallpdf has the broader feature set.",
+      "privacyNote": "PDFs never leave your browser. All merging happens client-side using JavaScript. No upload, no server storage.",
+      "faqs": [
+        [
+          "Is Freemergepdf really free with no limits?",
+          "Yes. Unlimited merges per day, unlimited file count per merge, unlimited file size. No watermarks."
+        ],
+        [
+          "Are my PDFs uploaded to a server?",
+          "No. Files are processed entirely in your browser. They never leave your device."
+        ],
+        [
+          "What is the max file size?",
+          "Bounded by your device's available memory. Most users can comfortably merge PDFs totaling hundreds of megabytes."
+        ],
+        [
+          "Can I reorder pages before merging?",
+          "Yes. Drag files into any order before merging."
+        ],
+        [
+          "Is the merged PDF compressed?",
+          "The output preserves each source PDF's quality. For compression, pair with a dedicated PDF compressor."
+        ],
+        [
+          "Does it work offline?",
+          "Yes. After the first load, Freemergepdf is installable as a PWA and works fully offline."
+        ]
+      ],
+      "related": [
+        "freeimagetopdf",
+        "freepdftoimage",
+        "freeimagecompressor",
+        "freecropimage"
+      ]
+    },
+    {
+      "slug": "freeimagetopdf",
+      "name": "Freeimagetopdf",
+      "title": "Image to PDF",
+      "domain": "freeimagetopdf.app",
+      "category": "pdf",
+      "seoTitle": "Free Image to PDF Converter Online — JPG/PNG to PDF, No Upload",
+      "metaDesc": "Convert JPG, PNG, or WebP images to a single PDF in your browser. No signup, no upload, no watermark. Free and unlimited.",
+      "h1": "Free Image to PDF Converter — JPG and PNG to PDF in your browser",
+      "hero": "Convert multiple images into a single PDF file. Supports JPG, PNG, WebP. No signup, no upload to servers, no watermark.",
+      "features": [
+        "Accepts JPG, PNG, WebP, and most common image formats",
+        "Combine multiple images into one PDF",
+        "Drag to reorder pages",
+        "No size limits or watermarks",
+        "Output preserves image quality",
+        "Fully client-side — images never uploaded",
+        "Works offline after first load"
+      ],
+      "howItWorks": [
+        "Open freeimagetopdf.app",
+        "Drop images or click to select",
+        "Arrange in desired order",
+        "Click Convert and download the PDF"
+      ],
+      "useCases": [
+        "Assembling phone-scanned receipts into a single expense-report PDF",
+        "Creating photo archives as PDFs",
+        "Compiling screenshot collections for documentation",
+        "Turning scanned document pages into a single PDF",
+        "Creating image portfolios"
+      ],
+      "comparison": "Smallpdf and iLovePDF offer similar conversion but require signup after a few uses and upload your images. Freeimagetopdf has no usage limits and processes everything locally. For OCR on scanned images, dedicated services like Smallpdf or Adobe Acrobat are better. For pure image-to-PDF conversion, Freeimagetopdf is simpler and free.",
+      "privacyNote": "Images stay in your browser. Conversion happens client-side with no server upload.",
+      "faqs": [
+        [
+          "Is Freeimagetopdf free with no limits?",
+          "Yes. No daily limits, no signup, no watermarks."
+        ],
+        [
+          "What image formats does it accept?",
+          "JPG, PNG, WebP, and most browser-supported image formats."
+        ],
+        [
+          "Can I change the order of pages?",
+          "Yes. Drag images into any order before conversion."
+        ],
+        [
+          "Is image quality preserved?",
+          "Yes. Images are embedded at original quality. For smaller file sizes, compress images first with Freeimagecompressor."
+        ],
+        [
+          "Are images uploaded to a server?",
+          "No. All processing is client-side in your browser."
+        ],
+        [
+          "How many images can I combine?",
+          "No artificial limit. Bounded by browser memory — typically dozens to hundreds of images."
+        ]
+      ],
+      "related": [
+        "freemergepdf",
+        "freepdftoimage",
+        "freeimagecompressor",
+        "freecropimage"
+      ]
+    },
+    {
+      "slug": "freepdftoimage",
+      "name": "Freepdftoimage",
+      "title": "PDF to Image",
+      "domain": "freepdftoimage.app",
+      "category": "pdf",
+      "seoTitle": "Free PDF to Image Converter — PDF to PNG/JPG in Browser",
+      "metaDesc": "Convert PDF pages to PNG or JPG images in your browser. High-quality output. No signup, no upload, no watermark. Free.",
+      "h1": "Free PDF to Image Converter — PDF pages to PNG or JPG",
+      "hero": "Extract every PDF page as a high-quality PNG or JPG image. Configurable quality. No signup, no upload, no watermark. All client-side.",
+      "features": [
+        "Convert PDF pages to PNG or JPG",
+        "Configurable output quality and resolution",
+        "Download individual pages or all at once",
+        "No signup, no daily limits",
+        "Fully client-side — PDFs never uploaded",
+        "Works offline after first load",
+        "No watermarks on output"
+      ],
+      "howItWorks": [
+        "Open freepdftoimage.app",
+        "Drop or select a PDF file",
+        "Choose PNG or JPG output and quality",
+        "Download extracted images individually or as a ZIP"
+      ],
+      "useCases": [
+        "Sending a single PDF page as a chat image without a PDF viewer",
+        "Creating web-ready thumbnails from PDF content",
+        "Extracting figures or charts from a PDF",
+        "Embedding PDF pages into presentations",
+        "Creating social-media previews from PDF content"
+      ],
+      "comparison": "Smallpdf, iLovePDF, and similar services upload your PDFs to their servers. Freepdftoimage runs locally in your browser so files stay private. For batch PDF-to-image on hundreds of files, dedicated desktop tools may be more convenient. For individual PDFs, Freepdftoimage is the simplest option.",
+      "privacyNote": "PDFs are processed in your browser. Nothing is uploaded. Extracted images download directly to your device.",
+      "faqs": [
+        [
+          "Is Freepdftoimage free?",
+          "Yes. Free, unlimited, with no signup or watermarks."
+        ],
+        [
+          "What quality are the output images?",
+          "Configurable. Default is 150 DPI which is suitable for screens. Increase for print quality."
+        ],
+        [
+          "Can I choose PNG or JPG?",
+          "Yes. PNG preserves transparency and offers lossless quality. JPG gives smaller files for photographic content."
+        ],
+        [
+          "Are PDFs uploaded?",
+          "No. All processing is client-side in your browser."
+        ],
+        [
+          "Can I extract a single page?",
+          "Yes. After processing, download individual pages or all as a ZIP."
+        ],
+        [
+          "What PDF versions are supported?",
+          "Most standard PDF versions (1.4 through 2.0). Encrypted or password-protected PDFs need to be decrypted first."
+        ]
+      ],
+      "related": [
+        "freemergepdf",
+        "freeimagetopdf",
+        "freeimagecompressor",
+        "freecropimage"
+      ]
+    },
+    {
+      "slug": "freeimagecompressor",
+      "name": "Freeimagecompressor",
+      "title": "Image Compressor",
+      "domain": "freeimagecompressor.app",
+      "category": "images",
+      "seoTitle": "Free Online Image Compressor — Reduce JPG/PNG Without Quality Loss",
+      "metaDesc": "Compress JPG and PNG images up to 80% with live quality preview. No signup, no upload limits, no watermarks. Free.",
+      "h1": "Free Image Compressor — reduce file size without quality loss",
+      "hero": "Compress JPG and PNG images with a live quality slider. Typical results: 60-85% file size reduction with no visible quality loss. No signup, no upload.",
+      "features": [
+        "Reduce JPG and PNG file sizes up to 80%",
+        "Live quality slider with before/after preview",
+        "Batch compression — drop multiple images",
+        "No file size limits",
+        "Fully client-side — images never uploaded",
+        "No watermarks",
+        "Works offline after first load"
+      ],
+      "howItWorks": [
+        "Open freeimagecompressor.app",
+        "Drop images or click to select",
+        "Adjust quality slider while seeing live preview",
+        "Download compressed versions"
+      ],
+      "useCases": [
+        "Reducing image size before emailing",
+        "Optimizing photos for website use",
+        "Shrinking images to fit message attachment limits",
+        "Creating smaller versions for social media uploads",
+        "Reducing asset sizes in apps and presentations"
+      ],
+      "comparison": "TinyPNG uploads your images and has a free-tier file size limit. ImageOptim is macOS-only. Squoosh (Google) is fully client-side and excellent for advanced tuning but has more complexity. Freeimagecompressor is simpler for everyday compression and works on any platform.",
+      "privacyNote": "Images are compressed in your browser with the Canvas API. Nothing is uploaded.",
+      "faqs": [
+        [
+          "Is Freeimagecompressor really free?",
+          "Yes. No signup, no limits, no watermarks."
+        ],
+        [
+          "How much can I reduce file size?",
+          "60-85% for typical JPG photos without visible quality loss. PNG with transparency: 40-70%."
+        ],
+        [
+          "Are images uploaded?",
+          "No. Everything happens in your browser with the Canvas API."
+        ],
+        [
+          "Can I compress multiple images at once?",
+          "Yes. Drop multiple images and apply a single quality setting to all."
+        ],
+        [
+          "What formats are supported?",
+          "JPG, PNG, and WebP. Output is typically JPG or PNG depending on whether transparency is needed."
+        ],
+        [
+          "Does it work on mobile?",
+          "Yes. Fully responsive and installable as a PWA on iOS and Android."
+        ]
+      ],
+      "related": [
+        "freecropimage",
+        "freeimagetopdf",
+        "freepdftoimage",
+        "freememegen"
+      ]
+    },
+    {
+      "slug": "freecropimage",
+      "name": "Freecropimage",
+      "title": "Image Cropper",
+      "domain": "freecropimage.app",
+      "category": "images",
+      "seoTitle": "Free Online Image Cropper — Any Aspect Ratio, No Signup",
+      "metaDesc": "Free browser image cropper with presets for Instagram, Twitter, YouTube, LinkedIn. No signup. No upload. Works on any device.",
+      "h1": "Free Image Cropper — any aspect ratio, no upload",
+      "hero": "Crop images to any aspect ratio with presets for Instagram, Twitter, YouTube, LinkedIn, and more. No signup, no upload, no watermark.",
+      "features": [
+        "Aspect ratio presets for all major social media",
+        "Custom aspect ratio input",
+        "Visual crop box with drag-to-resize",
+        "Preview of final dimensions",
+        "Output as JPG or PNG",
+        "Fully client-side",
+        "Works offline"
+      ],
+      "howItWorks": [
+        "Open freecropimage.app",
+        "Drop or select an image",
+        "Choose a preset or enter custom aspect ratio",
+        "Drag the crop box and download the result"
+      ],
+      "useCases": [
+        "Creating Instagram posts from existing photos",
+        "Cropping profile photos to exact square",
+        "Making YouTube thumbnails at 16:9",
+        "Cropping images for print at specific ratios",
+        "Preparing LinkedIn cover images at the right size"
+      ],
+      "comparison": "Online editors like Canva or Adobe Express offer cropping plus more design features but require accounts. Freecropimage is a single-purpose tool for when you just need to crop quickly. For extensive editing, Canva is the broader platform.",
+      "privacyNote": "Cropping happens in your browser. Nothing is uploaded.",
+      "faqs": [
+        [
+          "Is Freecropimage really free?",
+          "Yes. Completely free with no signup or watermarks."
+        ],
+        [
+          "Which aspect ratio presets are included?",
+          "Instagram post (1:1), Instagram story (9:16), Twitter header, YouTube thumbnail (16:9), LinkedIn profile, Facebook cover, and custom."
+        ],
+        [
+          "Can I enter a custom aspect ratio?",
+          "Yes. Type any ratio (e.g., 4:3 or 21:9) or exact pixel dimensions."
+        ],
+        [
+          "Does it rotate or flip images?",
+          "Basic rotation (90° increments) is supported. For rotation at arbitrary angles, a dedicated editor works better."
+        ],
+        [
+          "What input formats does it accept?",
+          "JPG, PNG, WebP, and GIF."
+        ],
+        [
+          "Are images uploaded?",
+          "No. All cropping is done in your browser."
+        ]
+      ],
+      "related": [
+        "freeimagecompressor",
+        "freeimagetopdf",
+        "freememegen",
+        "freeqrcodegen"
+      ]
+    },
+    {
+      "slug": "freewordcounter",
+      "name": "Freewordcounter",
+      "title": "Word Counter",
+      "domain": "freewordcounter.app",
+      "category": "text",
+      "seoTitle": "Free Online Word Counter — Character, Sentence, Reading Time",
+      "metaDesc": "Live word and character counter in your browser. Sentences, paragraphs, reading time, speaking time. No signup, no ads.",
+      "h1": "Free Online Word Counter — live word and character counts",
+      "hero": "Type or paste text and see live counts for words, characters, sentences, paragraphs, reading time, and speaking time. No signup, ad-free.",
+      "features": [
+        "Live word and character counts (with and without spaces)",
+        "Sentence and paragraph counts",
+        "Reading time estimate (based on 200 WPM)",
+        "Speaking time estimate (based on 130 WPM)",
+        "Works in any language with whitespace-separated words",
+        "Character counts work for CJK (Chinese, Japanese, Korean)",
+        "Ad-free, tracker-free"
+      ],
+      "howItWorks": [
+        "Open freewordcounter.app",
+        "Type or paste text into the input area",
+        "See live counts update as you type",
+        "Copy the cleaned text if needed"
+      ],
+      "useCases": [
+        "Essay writing with strict word limits",
+        "Blog posts targeting a specific length",
+        "Tweet or LinkedIn post drafts within character limits",
+        "Academic paper word count verification",
+        "Reading time estimation for content planning"
+      ],
+      "comparison": "WordCounter.net is the most common result but ads and trackers are heavy. Freewordcounter has neither. Microsoft Word and Google Docs have built-in word counts but opening them requires more setup. For quick counts on pasted text, Freewordcounter is fastest.",
+      "privacyNote": "Text is processed in your browser. Nothing is sent anywhere.",
+      "faqs": [
+        [
+          "Is Freewordcounter free and ad-free?",
+          "Yes. 100% free with no ads, no trackers, no signup."
+        ],
+        [
+          "Does it work in languages other than English?",
+          "Yes. Any language with space-separated words works for word counts. Character counts work for all languages including CJK."
+        ],
+        [
+          "What reading speed does it use?",
+          "Default 200 words per minute for reading time, 130 WPM for speaking time. These are industry-standard averages."
+        ],
+        [
+          "Is my text sent anywhere?",
+          "No. Everything happens in your browser."
+        ],
+        [
+          "Can I count words in a specific selection?",
+          "Select text within the input area and the count updates to reflect the selection."
+        ],
+        [
+          "Does it handle pasted rich text?",
+          "Yes. Pasted formatted text has formatting stripped for accurate counting."
+        ]
+      ],
+      "related": [
+        "freecaseconverter",
+        "freeloremipsum",
+        "freenotepad",
+        "freepage"
+      ]
+    },
+    {
+      "slug": "freecaseconverter",
+      "name": "Freecaseconverter",
+      "title": "Case Converter",
+      "domain": "freecaseconverter.app",
+      "category": "text",
+      "seoTitle": "Free Case Converter — UPPER, lower, Title, snake_case, camelCase",
+      "metaDesc": "Convert text between UPPER, lower, Title, Sentence, snake_case, kebab-case, camelCase, PascalCase, and more. Free, no signup.",
+      "h1": "Free Case Converter — 10 transformations for any text",
+      "hero": "Convert text between 10 case formats: UPPER, lower, Title, Sentence, camelCase, PascalCase, snake_case, kebab-case, CONSTANT_CASE, and inverted. All in one click.",
+      "features": [
+        "UPPERCASE, lowercase, Title Case, Sentence case",
+        "camelCase, PascalCase (for programming)",
+        "snake_case, kebab-case, CONSTANT_CASE",
+        "Inverted case (iNVERT whatever you type)",
+        "Works on any text length",
+        "No signup, ad-free, works offline",
+        "Copy result with one click"
+      ],
+      "howItWorks": [
+        "Open freecaseconverter.app",
+        "Type or paste text",
+        "Click the case button you want",
+        "Copy the result"
+      ],
+      "useCases": [
+        "Converting variable names between programming conventions",
+        "Fixing ALL-CAPS pasted content",
+        "Generating kebab-case URLs from titles",
+        "Creating snake_case identifiers from regular text",
+        "Converting between data formats with different case styles"
+      ],
+      "comparison": "ConvertCase.net has ads. Programming-specific converters handle only some transformations. Freecaseconverter has all 10 common transformations on one page, ad-free.",
+      "privacyNote": "All conversions happen in your browser. No network requests.",
+      "faqs": [
+        [
+          "Is Freecaseconverter free?",
+          "Yes. Free with no signup, ads, or limits."
+        ],
+        [
+          "What is the difference between Title Case and Sentence case?",
+          "Title Case capitalizes major words (like in article titles). Sentence case capitalizes only the first letter of each sentence."
+        ],
+        [
+          "What is CONSTANT_CASE?",
+          "Uppercase with underscores between words. Used for constants in many programming languages (e.g., MAX_BUFFER_SIZE)."
+        ],
+        [
+          "Does it handle accented characters?",
+          "Yes. Unicode-aware — é, ñ, ü, etc. convert correctly."
+        ],
+        [
+          "Is there a character limit?",
+          "No. Works on arbitrary text length (bounded by browser memory)."
+        ],
+        [
+          "Can I chain conversions?",
+          "Yes. Apply one conversion, then another, to reach a specific output."
+        ]
+      ],
+      "related": [
+        "freewordcounter",
+        "freeloremipsum",
+        "freenotepad",
+        "freecodebeautify"
+      ]
+    },
+    {
+      "slug": "freeloremipsum",
+      "name": "Freeloremipsum",
+      "title": "Lorem Ipsum Generator",
+      "domain": "freeloremipsum.app",
+      "category": "text",
+      "seoTitle": "Free Lorem Ipsum Generator — By Paragraphs, Words, Characters",
+      "metaDesc": "Generate lorem ipsum placeholder text by paragraph, sentence, word, or exact character count. Ad-free, no signup.",
+      "h1": "Free Lorem Ipsum Generator — placeholder text for any design need",
+      "hero": "Generate classic lorem ipsum placeholder text. Pick by paragraphs, sentences, words, or exact character count. Optional HTML tags for mockups.",
+      "features": [
+        "Classic Cicero-derived lorem ipsum",
+        "Generate by paragraphs, sentences, words, or character count",
+        "Optional HTML wrapping (p, li, div, etc.)",
+        "Copy to clipboard with one click",
+        "Ad-free, tracker-free",
+        "Works offline after first load"
+      ],
+      "howItWorks": [
+        "Open freeloremipsum.app",
+        "Choose generation unit (paragraphs, sentences, words, characters)",
+        "Enter how many to generate",
+        "Copy the result to your design or mockup"
+      ],
+      "useCases": [
+        "Filling design mockups with placeholder text",
+        "Testing layouts before real content is written",
+        "Wireframing content-heavy pages",
+        "Demonstrating typography and spacing",
+        "Generating test data for content systems"
+      ],
+      "comparison": "Lipsum.com has ads. Hipsum.co generates themed variants (hipster, pirate) but similar ad model. Freeloremipsum is ad-free and adds exact-character-count generation that most alternatives don't offer.",
+      "privacyNote": "Generation happens in your browser. No network requests.",
+      "faqs": [
+        [
+          "Is Freeloremipsum really free?",
+          "Yes. Ad-free and no signup."
+        ],
+        [
+          "Is the generated text real Latin?",
+          "It's classic \"Cicero-derived\" lorem ipsum — scrambled Latin-like text that has no actual meaning."
+        ],
+        [
+          "Can I generate an exact number of characters?",
+          "Yes. Specify exact character count and the generator truncates accordingly."
+        ],
+        [
+          "Can I wrap in HTML tags?",
+          "Yes. Optional wrapping in <p>, <li>, <div>, or other HTML tags for design mockups."
+        ],
+        [
+          "Does it work offline?",
+          "Yes. After first load, it's a PWA and works without internet."
+        ],
+        [
+          "Can I start with \"Lorem ipsum dolor sit amet\" or other variations?",
+          "Yes. Default starts with the classic opening. Toggle for random position within the source text."
+        ]
+      ],
+      "related": [
+        "freewordcounter",
+        "freecaseconverter",
+        "freenotepad",
+        "freepage"
+      ]
+    },
+    {
+      "slug": "freejsonformatter",
+      "name": "Freejsonformatter",
+      "title": "JSON Formatter",
+      "domain": "freejsonformatter.app",
+      "category": "developer",
+      "seoTitle": "Free Online JSON Formatter — Format, Validate, Minify JSON",
+      "metaDesc": "Free JSON formatter in your browser. Format, validate, and minify JSON with syntax highlighting and error detection. No signup.",
+      "h1": "Free JSON Formatter, Validator, and Minifier",
+      "hero": "Paste JSON and get pretty-printed output with syntax highlighting. Invalid JSON shows exact line and error. Minify mode produces compact output.",
+      "features": [
+        "Format and pretty-print JSON with indentation",
+        "Minify JSON to single-line compact form",
+        "Live error highlighting with line numbers",
+        "Syntax highlighting",
+        "Tree view for nested structures",
+        "Copy formatted or minified output",
+        "No signup, no uploads to server"
+      ],
+      "howItWorks": [
+        "Open freejsonformatter.app",
+        "Paste JSON into the input",
+        "See formatted output with validation instantly",
+        "Copy formatted or minified version"
+      ],
+      "useCases": [
+        "Debugging API responses",
+        "Preparing JSON for configuration files",
+        "Validating JSON schema output",
+        "Minifying for production or embedding",
+        "Understanding nested JSON structures"
+      ],
+      "comparison": "JSONLint is a classic choice but ad-supported. JSON Viewer Pro and similar extensions add features but require installation. Freejsonformatter is ad-free, browser-native, and works offline.",
+      "privacyNote": "JSON stays in your browser. Nothing is sent to any server — important when working with sensitive API data.",
+      "faqs": [
+        [
+          "Is Freejsonformatter free?",
+          "Yes. Ad-free with no signup."
+        ],
+        [
+          "Is my JSON uploaded to a server?",
+          "No. Everything happens in your browser. Safe to use with proprietary or confidential JSON."
+        ],
+        [
+          "What JSON syntax errors does it detect?",
+          "Missing quotes, trailing commas, unclosed brackets, invalid escape sequences, and more."
+        ],
+        [
+          "Can I format deeply nested JSON?",
+          "Yes. No depth limit. A tree view helps navigate nested structures."
+        ],
+        [
+          "Does it handle JSONC (JSON with comments)?",
+          "Standard JSON rejects comments. For JSONC or JSON5, use dedicated tools."
+        ],
+        [
+          "Can I convert JSON to YAML?",
+          "Not yet. For YAML conversion, use dedicated JSON-to-YAML tools."
+        ]
+      ],
+      "related": [
+        "freebase64",
+        "freeregextester",
+        "freediffchecker",
+        "freesqlformatter"
+      ]
+    },
+    {
+      "slug": "freebase64",
+      "name": "Freebase64",
+      "title": "Base64 Encoder/Decoder",
+      "domain": "freebase64.app",
+      "category": "developer",
+      "seoTitle": "Free Base64 Encoder/Decoder Online — Text and Files",
+      "metaDesc": "Encode and decode Base64 for text and files. Works in your browser. No signup, no upload. Private by design.",
+      "h1": "Free Base64 Encoder and Decoder — text and files",
+      "hero": "Encode text or files into Base64 and decode Base64 back to text or binary. No signup. All processing is client-side.",
+      "features": [
+        "Encode text to Base64",
+        "Decode Base64 back to text",
+        "Encode files (images, PDFs, any binary)",
+        "Decode Base64 into downloadable files",
+        "URL-safe Base64 variant supported",
+        "Works offline",
+        "No signup, no upload"
+      ],
+      "howItWorks": [
+        "Open freebase64.app",
+        "Paste text or drop a file",
+        "Choose encode or decode",
+        "Copy the Base64 string or download the decoded file"
+      ],
+      "useCases": [
+        "Creating data URIs for embedding images in HTML/CSS",
+        "Decoding JWT token payloads",
+        "Inspecting encoded API payloads",
+        "Encoding binary files for email or text-only transports",
+        "Debugging authorization headers"
+      ],
+      "comparison": "Base64encode.org works well but has ads. Command-line tools like `base64` are developer-friendly but not always available. Freebase64 combines browser convenience with ad-free experience and file encoding support.",
+      "privacyNote": "All encoding and decoding happens in your browser. Useful for sensitive data like API keys or auth tokens that shouldn't be sent to a third-party service.",
+      "faqs": [
+        [
+          "Is Freebase64 free?",
+          "Yes. Free and ad-free with no signup."
+        ],
+        [
+          "Can I encode files, not just text?",
+          "Yes. Drop any file to get its Base64 representation."
+        ],
+        [
+          "Is there a size limit?",
+          "Bounded by browser memory. Typical files (up to tens of megabytes) encode fine."
+        ],
+        [
+          "Is my data sent anywhere?",
+          "No. Entirely client-side."
+        ],
+        [
+          "Does it support URL-safe Base64?",
+          "Yes. Toggle between standard and URL-safe (base64url) variants."
+        ],
+        [
+          "Can I decode a JWT?",
+          "Use the Base64 decode feature on each JWT segment (header, payload) to see the underlying JSON. Signature is binary and typically not human-readable."
+        ]
+      ],
+      "related": [
+        "freejsonformatter",
+        "freeregextester",
+        "freecodebeautify",
+        "freepasswordgenerator"
+      ]
+    },
+    {
+      "slug": "freeregextester",
+      "name": "Freeregextester",
+      "title": "Regex Tester",
+      "domain": "freeregextester.app",
+      "category": "developer",
+      "seoTitle": "Free Regex Tester — Live Match Highlighting, Capture Groups",
+      "metaDesc": "Test regular expressions with live match highlighting, capture groups, and flags. JavaScript regex. Free, no signup.",
+      "h1": "Free Regex Tester — live match highlighting and capture groups",
+      "hero": "Test JavaScript regex patterns with live match highlighting as you type. See capture groups, toggle flags, get match count. No signup.",
+      "features": [
+        "Live match highlighting",
+        "Capture group display",
+        "Flag toggles (g, i, m, s, u, y)",
+        "Match count",
+        "Replace preview with substitution",
+        "JavaScript regex syntax (ECMAScript)",
+        "Ad-free, works offline"
+      ],
+      "howItWorks": [
+        "Open freeregextester.app",
+        "Type a regex pattern in the input",
+        "Paste test text in the text area",
+        "Watch matches highlight live, see capture groups"
+      ],
+      "useCases": [
+        "Building validation patterns for forms",
+        "Extracting data from text with capture groups",
+        "Testing log-parsing patterns",
+        "Debugging regex from existing code",
+        "Learning regex with instant feedback"
+      ],
+      "comparison": "RegExr is the gold standard with community-shared patterns and a massive cheatsheet. Regex101 supports multiple flavors (Python, PHP, Go, PCRE). Freeregextester is simpler — ad-free JavaScript regex testing on one page.",
+      "privacyNote": "Patterns and test text stay in your browser. Safe to test against sensitive data.",
+      "faqs": [
+        [
+          "Which regex flavor does Freeregextester use?",
+          "JavaScript regex (ECMAScript). Same as what runs in browsers and Node.js."
+        ],
+        [
+          "Can I test Python or PCRE regex?",
+          "Not directly. For Python or PCRE, use Regex101 which supports multiple flavors."
+        ],
+        [
+          "Does it support named capture groups?",
+          "Yes. ECMAScript named capture groups (?<name>...) work."
+        ],
+        [
+          "Can I test substitution?",
+          "Yes. Enter a replacement pattern and see the transformed output live."
+        ],
+        [
+          "Is there a regex cheatsheet?",
+          "A basic reference is included inline. For deeper reference, consult MDN's regex documentation."
+        ],
+        [
+          "Is my test data sent anywhere?",
+          "No. Testing happens entirely in your browser."
+        ]
+      ],
+      "related": [
+        "freejsonformatter",
+        "freebase64",
+        "freediffchecker",
+        "freecodebeautify"
+      ]
+    },
+    {
+      "slug": "freediffchecker",
+      "name": "Freediffchecker",
+      "title": "Diff Checker",
+      "domain": "freediffchecker.app",
+      "category": "developer",
+      "seoTitle": "Free Online Diff Checker — Side-by-Side Text Comparison",
+      "metaDesc": "Compare two texts side-by-side with added and removed lines highlighted. Free, ad-free, works in your browser.",
+      "h1": "Free Diff Checker — compare two texts side by side",
+      "hero": "Paste two texts and see a side-by-side diff with added lines green and removed lines red. Useful for code review, config comparison, and document revisions.",
+      "features": [
+        "Side-by-side text comparison",
+        "Line-by-line additions (green) and removals (red)",
+        "Word-level diff for changes within lines",
+        "Ignore whitespace option",
+        "No signup, no upload",
+        "Ad-free",
+        "Works offline after first load"
+      ],
+      "howItWorks": [
+        "Open freediffchecker.app",
+        "Paste original text in the left input",
+        "Paste new text in the right input",
+        "Differences highlight automatically"
+      ],
+      "useCases": [
+        "Comparing two versions of a config file",
+        "Manual code review without git",
+        "Legal document revision tracking",
+        "Log file comparison for debugging",
+        "Checking edits to a written draft"
+      ],
+      "comparison": "DiffChecker.com is the most common result but has ads and an upsell to a paid tier. Freediffchecker is the same core functionality, ad-free and unlimited.",
+      "privacyNote": "Both texts stay in your browser. Safe for sensitive content comparison.",
+      "faqs": [
+        [
+          "Is Freediffchecker free?",
+          "Yes. Ad-free, no signup, no usage limits."
+        ],
+        [
+          "Does it diff code with syntax highlighting?",
+          "Diffs are line-based. For language-specific syntax-aware diffs, use git diff or IDE diff tools."
+        ],
+        [
+          "Can I ignore whitespace differences?",
+          "Yes. Toggle \"ignore whitespace\" to focus on substantive changes."
+        ],
+        [
+          "Is there a file-size limit?",
+          "Bounded by browser memory. Typical diffs up to thousands of lines perform well."
+        ],
+        [
+          "Are my texts uploaded?",
+          "No. Everything happens in your browser."
+        ],
+        [
+          "Can I diff three-way (like git merge)?",
+          "Not yet. This tool is two-way diff only."
+        ]
+      ],
+      "related": [
+        "freejsonformatter",
+        "freeregextester",
+        "freecodebeautify",
+        "freesqlformatter"
+      ]
+    },
+    {
+      "slug": "freesqlformatter",
+      "name": "Freesqlformatter",
+      "title": "SQL Formatter",
+      "domain": "freesqlformatter.app",
+      "category": "developer",
+      "seoTitle": "Free SQL Formatter — Beautify Queries, No Signup",
+      "metaDesc": "Free SQL formatter and beautifier. Dialect-aware for PostgreSQL, MySQL, T-SQL, SQLite. No signup, no upload to servers.",
+      "h1": "Free SQL Formatter — beautify queries in your browser",
+      "hero": "Paste minified SQL and get clean indented output. Dialect-aware for PostgreSQL, MySQL, T-SQL, SQLite, Oracle. No signup, no server upload.",
+      "features": [
+        "Pretty-print SQL with proper indentation",
+        "Dialect-aware (PostgreSQL, MySQL, T-SQL, SQLite, Oracle)",
+        "Minify option for embedding in code",
+        "Configurable indentation (2 or 4 spaces, tabs)",
+        "Keyword casing options",
+        "No upload — private for sensitive queries",
+        "Ad-free"
+      ],
+      "howItWorks": [
+        "Open freesqlformatter.app",
+        "Paste SQL into the input",
+        "Choose dialect and formatting options",
+        "Copy formatted output"
+      ],
+      "useCases": [
+        "Cleaning up dynamically generated SQL from ORMs",
+        "Making code review of SQL easier",
+        "Preparing SQL for documentation",
+        "Minifying for embedding in application code",
+        "Standardizing SQL style across a team"
+      ],
+      "comparison": "SQLFormat.org is the most common result but ad-supported. IDE-based formatters (DataGrip, pgAdmin) are more integrated but require install. Freesqlformatter is ad-free browser-based and supports multiple dialects.",
+      "privacyNote": "SQL stays in your browser — important when formatting queries that contain sensitive schema names or business logic.",
+      "faqs": [
+        [
+          "Is Freesqlformatter free?",
+          "Yes. Ad-free, no signup, no limits."
+        ],
+        [
+          "Which SQL dialects are supported?",
+          "PostgreSQL, MySQL, MariaDB, SQLite, T-SQL (SQL Server), Oracle, and standard ANSI SQL."
+        ],
+        [
+          "Are my queries sent to a server?",
+          "No. Formatting happens in your browser."
+        ],
+        [
+          "Does it validate SQL?",
+          "It validates basic syntax for formatting purposes. For query validation, run against your actual database."
+        ],
+        [
+          "Can I minify SQL for embedding in code?",
+          "Yes. Minify option produces single-line output."
+        ],
+        [
+          "Does it preserve comments?",
+          "Yes. Single-line (--) and multi-line (/* */) comments are preserved."
+        ]
+      ],
+      "related": [
+        "freejsonformatter",
+        "freecodebeautify",
+        "freediffchecker",
+        "freeregextester"
+      ]
+    },
+    {
+      "slug": "freecodebeautify",
+      "name": "Freecodebeautify",
+      "title": "Code Beautifier",
+      "domain": "freecodebeautify.app",
+      "category": "developer",
+      "seoTitle": "Free Code Beautifier — HTML, CSS, JavaScript, JSON Formatting",
+      "metaDesc": "Format HTML, CSS, JavaScript, TypeScript, JSON, XML with one click. Browser-based, ad-free, no signup.",
+      "h1": "Free Code Beautifier — HTML, CSS, JS, JSON, and more",
+      "hero": "Paste minified or messy code and get clean, indented output. Supports HTML, CSS, JavaScript, TypeScript, JSON, XML, SCSS, LESS. No signup.",
+      "features": [
+        "Format HTML, CSS, JavaScript, TypeScript, JSON, XML",
+        "Auto-detects language or accepts explicit choice",
+        "Configurable indentation (tabs, 2 spaces, 4 spaces)",
+        "Works on minified or concatenated source",
+        "Ad-free, client-side",
+        "Works offline as a PWA",
+        "No signup"
+      ],
+      "howItWorks": [
+        "Open freecodebeautify.app",
+        "Paste code into the input",
+        "Optionally select language explicitly",
+        "Copy formatted output"
+      ],
+      "useCases": [
+        "Reading third-party minified JavaScript",
+        "Cleaning up minified HTML from an export",
+        "Making CSS bundle files editable",
+        "Understanding JSON responses that lack formatting",
+        "Preparing code for documentation or blog posts"
+      ],
+      "comparison": "Prettier is the gold standard as a local tool or IDE plugin but requires setup. Beautifier.io is similar online but ad-supported. Freecodebeautify is ad-free browser-based formatting for quick use without installation.",
+      "privacyNote": "All formatting happens in your browser. Safe for proprietary code.",
+      "faqs": [
+        [
+          "Is Freecodebeautify free?",
+          "Yes. Free, ad-free, no signup."
+        ],
+        [
+          "Which languages are supported?",
+          "HTML, CSS, SCSS, LESS, JavaScript, TypeScript, JSX, JSON, XML, and Markdown."
+        ],
+        [
+          "Does it minify as well?",
+          "For minifying specifically, use a dedicated minifier. Freecodebeautify focuses on beautification."
+        ],
+        [
+          "Is my code sent to a server?",
+          "No. Everything is client-side."
+        ],
+        [
+          "Can I use this for production formatting in CI?",
+          "For CI/CD pipelines, use Prettier locally. Freecodebeautify is for ad-hoc manual formatting."
+        ],
+        [
+          "What indentation does it default to?",
+          "Defaults to the convention for each language (2 spaces for HTML/CSS/JS, tabs for some others). Configurable."
+        ]
+      ],
+      "related": [
+        "freejsonformatter",
+        "freesqlformatter",
+        "freeregextester",
+        "freebase64"
+      ]
+    },
+    {
+      "slug": "freegradientgen",
+      "name": "Freegradientgen",
+      "title": "CSS Gradient Generator",
+      "domain": "freegradientgen.app",
+      "category": "developer",
+      "seoTitle": "Free CSS Gradient Generator — Linear, Radial, Conic",
+      "metaDesc": "Visual CSS gradient generator for linear, radial, and conic gradients. Live preview, copy-paste CSS. Free, ad-free.",
+      "h1": "Free CSS Gradient Generator — linear, radial, and conic",
+      "hero": "Build CSS gradients visually. Linear, radial, and conic. Multiple color stops, angle control, live preview. Copy production-ready CSS.",
+      "features": [
+        "Linear, radial, and conic gradient types",
+        "Multiple color stops with position control",
+        "Angle and direction controls",
+        "Live preview on real backgrounds",
+        "Copy CSS with one click",
+        "Ad-free",
+        "Works offline after first load"
+      ],
+      "howItWorks": [
+        "Open freegradientgen.app",
+        "Pick gradient type (linear, radial, conic)",
+        "Add color stops and adjust positions",
+        "Copy generated CSS"
+      ],
+      "useCases": [
+        "Designing button backgrounds",
+        "Creating hero section backgrounds",
+        "Generating color transitions for mobile UI",
+        "Making CSS art and abstract designs",
+        "Replacing image backgrounds with CSS gradients"
+      ],
+      "comparison": "CSSGradient.io is similar but ad-supported. UIGradients shows curated gradients as inspiration but less editing. Freegradientgen focuses on the editing experience, ad-free.",
+      "privacyNote": "Everything is client-side — no gradient data is ever sent anywhere.",
+      "faqs": [
+        [
+          "Is Freegradientgen free?",
+          "Yes. Ad-free, no signup."
+        ],
+        [
+          "Does it support all modern gradient types?",
+          "Yes. Linear, radial, and conic gradients with multiple color stops."
+        ],
+        [
+          "Can I export to Sketch or Figma?",
+          "Export is CSS. Most design tools accept gradients from CSS, or you can recreate using the same color stops."
+        ],
+        [
+          "How many color stops can I add?",
+          "No fixed limit. Typical gradients use 2-5 stops for clean results."
+        ],
+        [
+          "Does the output work in all browsers?",
+          "Standard CSS gradient syntax works in all modern browsers (last 5 years). Older browsers may need vendor prefixes."
+        ],
+        [
+          "Is there a gradient gallery?",
+          "Not currently. Focus is on the editor for creating custom gradients."
+        ]
+      ],
+      "related": [
+        "freeboxshadow",
+        "freecolorconvert",
+        "freecodebeautify",
+        "freememegen"
+      ]
+    },
+    {
+      "slug": "freeboxshadow",
+      "name": "Freeboxshadow",
+      "title": "Box Shadow Generator",
+      "domain": "freeboxshadow.app",
+      "category": "developer",
+      "seoTitle": "Free CSS Box Shadow Generator — Visual Editor with Live Preview",
+      "metaDesc": "Design CSS box-shadow visually with live preview. Stack multiple shadows. Copy clean CSS. Free, ad-free.",
+      "h1": "Free CSS Box Shadow Generator — visual design with live preview",
+      "hero": "Design box shadows with visual controls and live preview. Adjust offset, blur, spread, color, inset. Stack multiple shadows for realistic effects.",
+      "features": [
+        "X-offset, Y-offset, blur, and spread controls",
+        "Color picker with alpha channel",
+        "Inset toggle for inner shadows",
+        "Stack multiple shadows",
+        "Live preview on adjustable background",
+        "Copy CSS with one click",
+        "Works offline"
+      ],
+      "howItWorks": [
+        "Open freeboxshadow.app",
+        "Adjust shadow parameters with sliders",
+        "Add more shadow layers if needed",
+        "Copy the generated CSS"
+      ],
+      "useCases": [
+        "Designing card elevation for UI",
+        "Creating realistic depth effects",
+        "Matching Material Design or iOS shadow styles",
+        "Debugging shadow values from other designs",
+        "Teaching CSS box-shadow with hands-on examples"
+      ],
+      "comparison": "CSSMatic has multiple CSS generators but is ad-heavy. html-css-js.com's shadow generator is similar but dated UI. Freeboxshadow is modern and ad-free.",
+      "privacyNote": "Client-side only. No data collection.",
+      "faqs": [
+        [
+          "Is Freeboxshadow free?",
+          "Yes. Ad-free, no signup."
+        ],
+        [
+          "Can I preview on different backgrounds?",
+          "Yes. Light, dark, or custom background to evaluate the shadow in context."
+        ],
+        [
+          "Does it support stacked shadows?",
+          "Yes. Add multiple shadow layers to create realistic depth."
+        ],
+        [
+          "What is the \"inset\" option?",
+          "Inset shadows appear inside the element, creating the effect of a depression rather than elevation."
+        ],
+        [
+          "Does it include text-shadow?",
+          "This tool is for box-shadow. For text-shadow, use a dedicated text-shadow generator."
+        ],
+        [
+          "Can I save my shadows?",
+          "Save CSS output to your project. The tool doesn't store history."
+        ]
+      ],
+      "related": [
+        "freegradientgen",
+        "freecolorconvert",
+        "freecodebeautify",
+        "freejsonformatter"
+      ]
+    },
+    {
+      "slug": "freecolorconvert",
+      "name": "Freecolorconvert",
+      "title": "Color Converter",
+      "domain": "freecolorconvert.app",
+      "category": "developer",
+      "seoTitle": "Free Color Converter — HEX, RGB, HSL, HSV, CMYK",
+      "metaDesc": "Convert colors between HEX, RGB, HSL, HSV, and CMYK formats. Visual color picker and named CSS colors. Free, ad-free.",
+      "h1": "Free Color Converter — HEX, RGB, HSL, HSV, CMYK",
+      "hero": "Convert colors between all major formats: HEX, RGB, HSL, HSV, CMYK. Visual color picker. Named CSS color lookup. Copy any format with one click.",
+      "features": [
+        "HEX, RGB, HSL, HSV, CMYK conversion",
+        "Visual color picker",
+        "Named CSS color lookup (e.g., \"lightseagreen\")",
+        "Alpha/opacity support",
+        "Contrast ratio checker",
+        "Copy any format with one click",
+        "Ad-free, works offline"
+      ],
+      "howItWorks": [
+        "Open freecolorconvert.app",
+        "Enter a color in any supported format",
+        "See converted values across all formats",
+        "Copy the value you need"
+      ],
+      "useCases": [
+        "Converting design specs between formats",
+        "Checking print CMYK values from screen HEX",
+        "Finding the HSL of a HEX for tweaking hue",
+        "Looking up named CSS colors",
+        "Validating accessibility contrast ratios"
+      ],
+      "comparison": "RGB.to is the most common result but sparse. Colorhexa is comprehensive but ad-heavy. Freecolorconvert covers all common formats on one clean page.",
+      "privacyNote": "Everything is client-side.",
+      "faqs": [
+        [
+          "Is Freecolorconvert free?",
+          "Yes. Ad-free, no signup."
+        ],
+        [
+          "Which formats are supported?",
+          "HEX (with or without hash), RGB, RGBA, HSL, HSLA, HSV, CMYK, and named CSS colors."
+        ],
+        [
+          "Can I check WCAG contrast ratios?",
+          "Yes. Enter two colors to see contrast ratio and whether it passes AA/AAA accessibility standards."
+        ],
+        [
+          "Does it handle alpha/transparency?",
+          "Yes. RGBA, HSLA, and HEX8 (with alpha) formats are supported."
+        ],
+        [
+          "Is there a color palette generator?",
+          "This tool is for conversion. For palette generation, a dedicated palette tool is on the roadmap."
+        ],
+        [
+          "Can I save favorite colors?",
+          "Not currently. Copy values to your own design file."
+        ]
+      ],
+      "related": [
+        "freegradientgen",
+        "freeboxshadow",
+        "freecodebeautify",
+        "freememegen"
+      ]
+    },
+    {
+      "slug": "freetypingtest",
+      "name": "Freetypingtest",
+      "title": "Typing Speed Test",
+      "domain": "freetypingtest.app",
+      "category": "productivity",
+      "seoTitle": "Free Online Typing Test — Measure WPM and Accuracy",
+      "metaDesc": "Free typing speed test. Measure words per minute (WPM) and accuracy. Varied practice passages. No signup, ad-free.",
+      "h1": "Free Typing Speed Test — measure your WPM and accuracy",
+      "hero": "Practice typing with varied passages and see your words-per-minute and accuracy live. 30-second and 60-second modes. No signup.",
+      "features": [
+        "30-second and 60-second test modes",
+        "Live WPM and accuracy tracking",
+        "Varied passages from literature and common phrases",
+        "Mistake tracking",
+        "Personal best saved locally",
+        "Ad-free",
+        "Works with any keyboard layout"
+      ],
+      "howItWorks": [
+        "Open freetypingtest.app",
+        "Click start or begin typing the shown text",
+        "See WPM and accuracy live",
+        "Results saved locally so you can track progress"
+      ],
+      "useCases": [
+        "Measuring typing speed for job applications",
+        "Daily typing practice to improve speed",
+        "Testing keyboard layouts (QWERTY vs Dvorak vs Colemak)",
+        "Benchmarking after keyboard hardware changes",
+        "Casual typing game for breaks"
+      ],
+      "comparison": "Monkeytype is the developer favorite with extensive customization. 10fastfingers has competitive ranking. Typing.com offers structured lessons. Freetypingtest is simpler for casual speed checks without signup.",
+      "privacyNote": "Scores are saved only in your browser.",
+      "faqs": [
+        [
+          "Is Freetypingtest free?",
+          "Yes. Ad-free with no signup."
+        ],
+        [
+          "Which keyboard layouts are supported?",
+          "All layouts (QWERTY, Dvorak, Colemak, international). The test accepts any character you type correctly."
+        ],
+        [
+          "Is there a leaderboard?",
+          "Not currently. Personal best is saved locally."
+        ],
+        [
+          "Can I compare against global typing speeds?",
+          "Average typing speed is around 40 WPM. 60+ WPM is above average. Above 100 WPM is professional level."
+        ],
+        [
+          "Does it count punctuation?",
+          "Yes. Capitalization and punctuation are required to be typed correctly for accuracy tracking."
+        ],
+        [
+          "What passages does it use?",
+          "A mix of classic literature excerpts, common English phrases, and varied vocabulary for realistic practice."
+        ]
+      ],
+      "related": [
+        "freepomodoro",
+        "freehabittracker",
+        "freeemojipicker",
+        "freenotepad"
+      ]
+    },
+    {
+      "slug": "freehabittracker",
+      "name": "Freehabittracker",
+      "title": "Habit Tracker",
+      "domain": "freehabittracker.app",
+      "category": "productivity",
+      "seoTitle": "Free Habit Tracker — Daily Streaks, No Signup",
+      "metaDesc": "Free daily habit tracker with streak counting. No signup, no ads. Data saved locally in your browser.",
+      "h1": "Free Daily Habit Tracker — build streaks without creating an account",
+      "hero": "Track daily habits, check them off each day, watch your streaks grow. No account. No ads. Data stays on your device.",
+      "features": [
+        "Add unlimited habits",
+        "Daily check-off with streak counting",
+        "Weekly and monthly completion grids",
+        "No signup required",
+        "Data saved locally (per device)",
+        "Works offline as a PWA",
+        "Dark mode support"
+      ],
+      "howItWorks": [
+        "Open freehabittracker.app",
+        "Add habits you want to track",
+        "Check off each habit daily",
+        "Watch streaks grow and review progress"
+      ],
+      "useCases": [
+        "Daily workout or meditation tracking",
+        "Reading habit building",
+        "Language practice streaks",
+        "Water intake tracking",
+        "Any personal habit you want to establish"
+      ],
+      "comparison": "Streaks, Habitica, and Habitify are dedicated apps with gamification and cross-device sync. Freehabittracker is simpler and requires no signup. For cross-device tracking, dedicated apps are better. For private, no-signup personal tracking, Freehabittracker is faster.",
+      "privacyNote": "All habit data lives in your browser's local storage. Nothing is synced anywhere.",
+      "faqs": [
+        [
+          "Is Freehabittracker free?",
+          "Yes. No ads, no signup, no paid tier."
+        ],
+        [
+          "Is there cross-device sync?",
+          "No. Data is per-device for privacy. For cross-device, dedicated habit apps are better."
+        ],
+        [
+          "How many habits can I track?",
+          "No limit. Add as many as you want."
+        ],
+        [
+          "What happens if I miss a day?",
+          "The streak resets. You can review past weeks/months in the grid view."
+        ],
+        [
+          "Can I export my data?",
+          "Yes. Export as JSON or CSV to back up or migrate."
+        ],
+        [
+          "Does it work offline?",
+          "Yes. PWA-installable and fully offline after first load."
+        ]
+      ],
+      "related": [
+        "freepomodoro",
+        "freetypingtest",
+        "freenotepad",
+        "freechatroom"
+      ]
+    },
+    {
+      "slug": "freepomodoro",
+      "name": "Freepomodoro",
+      "title": "Pomodoro Timer",
+      "domain": "freepomodoro.app",
+      "category": "productivity",
+      "seoTitle": "Free Online Pomodoro Timer — 25/5 Focus Sessions, No Signup",
+      "metaDesc": "Free browser pomodoro timer with 25-minute focus sessions and 5-minute breaks. Session stats, browser notifications. No signup.",
+      "h1": "Free Online Pomodoro Timer — focus sessions in your browser",
+      "hero": "Classic pomodoro: 25-minute focus sessions followed by 5-minute breaks. Browser notifications at session end. Session counter tracks your daily work.",
+      "features": [
+        "Classic 25/5 pomodoro cycle",
+        "Customizable work and break durations",
+        "Browser notifications at session end",
+        "Session counter (pomodoros completed today)",
+        "Optional end-of-session sound",
+        "Ad-free",
+        "Works offline as a PWA"
+      ],
+      "howItWorks": [
+        "Open freepomodoro.app",
+        "Click start to begin a 25-minute focus session",
+        "Take a 5-minute break when the timer ends",
+        "After 4 pomodoros, take a longer 15-30 minute break"
+      ],
+      "useCases": [
+        "Deep work sessions for creative projects",
+        "Studying for exams",
+        "Coding sprints with enforced breaks",
+        "Writing drafts in timed chunks",
+        "Any task that benefits from focused + break cycles"
+      ],
+      "comparison": "Forest gamifies pomodoro with plant growing (paid). Focus To-Do integrates with task lists. Freepomodoro is simpler — just the timer, immediate use, no account.",
+      "privacyNote": "Session data is local only.",
+      "faqs": [
+        [
+          "Is Freepomodoro really free?",
+          "Yes. Ad-free with no signup."
+        ],
+        [
+          "Can I customize the 25/5 durations?",
+          "Yes. Adjust work and break durations to any values that suit your style."
+        ],
+        [
+          "Does it notify me when a session ends?",
+          "Yes. Browser notifications (if granted) and optional sound."
+        ],
+        [
+          "Does it track my daily session count?",
+          "Yes. Session counter shows how many pomodoros you've completed today."
+        ],
+        [
+          "Is there cross-device sync?",
+          "No. Data is per-device. For cross-device tracking, use a dedicated pomodoro app."
+        ],
+        [
+          "Will the timer keep running in a background tab?",
+          "Yes. Browsers throttle background tabs but the timer will notify you at the correct elapsed time."
+        ]
+      ],
+      "related": [
+        "freehabittracker",
+        "freetypingtest",
+        "freenotepad",
+        "freepage"
+      ]
+    },
+    {
+      "slug": "freeemojipicker",
+      "name": "Freeemojipicker",
+      "title": "Emoji Picker",
+      "domain": "freeemojipicker.app",
+      "category": "productivity",
+      "seoTitle": "Free Online Emoji Picker — Search and Copy Any Emoji",
+      "metaDesc": "Search any emoji by name, category, or keyword. One-click copy to clipboard. Free, ad-free. Works in any browser.",
+      "h1": "Free Online Emoji Picker — search and copy any emoji",
+      "hero": "Search the entire Unicode emoji set by name, category, or keyword. Click to copy. Faster than your system emoji picker when you know what you want.",
+      "features": [
+        "Full Unicode emoji catalog",
+        "Search by name or keyword",
+        "Category browsing",
+        "One-click copy to clipboard",
+        "Recently used tracking (local)",
+        "Ad-free, works offline",
+        "No signup"
+      ],
+      "howItWorks": [
+        "Open freeemojipicker.app",
+        "Type to search or browse categories",
+        "Click any emoji to copy",
+        "Paste into any application"
+      ],
+      "useCases": [
+        "Finding specific emojis for messages",
+        "Copying emojis to documents",
+        "Embedding emojis in spreadsheets",
+        "Quick emoji lookups during typing",
+        "Discovering emojis you didn't know existed"
+      ],
+      "comparison": "Native OS emoji pickers (Mac, Windows, iOS, Android) have different UIs and sometimes slow searches. Emojipedia is comprehensive reference but more for learning. Freeemojipicker optimizes for \"I know what I want, let me copy it fast.\"",
+      "privacyNote": "Recently-used tracking is local only.",
+      "faqs": [
+        [
+          "Is Freeemojipicker free?",
+          "Yes. Ad-free, no signup."
+        ],
+        [
+          "Does it include all Unicode emojis?",
+          "Yes. Full emoji catalog up to latest Unicode version."
+        ],
+        [
+          "Can I search by keyword?",
+          "Yes. Search matches official names and common keywords (e.g., \"thumb\" finds 👍)."
+        ],
+        [
+          "Does it remember recently-used emojis?",
+          "Yes, saved locally in your browser."
+        ],
+        [
+          "Will emojis look the same on the recipient's device?",
+          "Emoji appearance depends on the recipient's system font (Apple, Google, Microsoft, etc.). The code point is the same."
+        ],
+        [
+          "Is there a skin-tone selector?",
+          "Yes. For emojis that support skin tones, pick the variant before copying."
+        ]
+      ],
+      "related": [
+        "freememegen",
+        "freecaseconverter",
+        "freenotepad",
+        "freepasswordgenerator"
+      ]
+    },
+    {
+      "slug": "freechatroom",
+      "name": "Freechatroom",
+      "title": "Chat Room",
+      "domain": "freechatroom.app",
+      "category": "productivity",
+      "seoTitle": "Free Online Chat Room — Password-Protected, No Signup",
+      "metaDesc": "Instant password-protected chat rooms. Strong auto-generated passwords. Optional self-destruct timer (1h or 24h). No signup, messages never stored.",
+      "h1": "Free Online Chat Room — instant, password-protected, self-destructing",
+      "hero": "Start a chat room in one click. Get an auto-generated strong password. Optional self-destruct timer (1 hour or 24 hours). Messages never stored on any server.",
+      "features": [
+        "Auto-generated strong passwords (e.g., \"blue-otter-42-moon\")",
+        "Anyone with the password joins the same room",
+        "Optional self-destruct timer (1 hour or 24 hours)",
+        "Real-time messaging via Supabase Broadcast (no database)",
+        "Refresh-safe message history (per device)",
+        "Password never transmitted to any server",
+        "Emoji reactions, typing indicators, presence"
+      ],
+      "howItWorks": [
+        "Open freechatroom.app",
+        "Click \"Create Room\" to get a password",
+        "Share the password with anyone you want to chat with",
+        "They join by entering the password — no signup for them either"
+      ],
+      "useCases": [
+        "Quick team discussions without Slack channel setup",
+        "Classroom backchannel for Q&A during lectures",
+        "Event chat for attendees",
+        "Anonymous discussions with throwaway rooms",
+        "Confidential quick chats without persistent logs"
+      ],
+      "comparison": "Slack and Discord are for ongoing team channels. Jitsi Meet has built-in chat in video calls. Freechatroom fills the throwaway-room gap — instant, password-protected, no signup, truly ephemeral. For ongoing team communication, use Slack/Discord.",
+      "privacyNote": "Messages are relayed through Supabase Realtime but never written to a database. The password is mixed into the channel derivation via SHA-256 so it never touches any server.",
+      "faqs": [
+        [
+          "Is Freechatroom really free?",
+          "Yes. Free forever with no signup."
+        ],
+        [
+          "Are messages stored on a server?",
+          "No. Supabase Realtime relays messages but doesn't store them. Server-side message count: zero."
+        ],
+        [
+          "What does self-destruct do?",
+          "For 1-hour or 24-hour rooms, all messages wipe from every participant's device when the timer hits zero."
+        ],
+        [
+          "What if someone loses the password?",
+          "Without the password, they can't rejoin. No password recovery because there's no account system."
+        ],
+        [
+          "How many people can join a room?",
+          "Up to 25 simultaneously."
+        ],
+        [
+          "Can I create rooms for ongoing use?",
+          "Yes. Ephemeral rooms stay active as long as your tab is open. For truly long-term team channels, use Slack or Discord."
+        ]
+      ],
+      "related": [
+        "freepomodoro",
+        "freehabittracker",
+        "freepasswordgenerator",
+        "freeemojipicker"
+      ]
+    },
+    {
+      "slug": "freeqrcodegen",
+      "name": "Freeqrcodegen",
+      "title": "QR Code Generator",
+      "domain": "freeqrcodegen.app",
+      "category": "utilities",
+      "seoTitle": "Free QR Code Generator — URL, Wi-Fi, vCard, Text",
+      "metaDesc": "Free QR code generator for URLs, text, Wi-Fi credentials, vCards, emails, phone. Download as PNG or SVG. No signup.",
+      "h1": "Free QR Code Generator — URL, Wi-Fi, vCard, text",
+      "hero": "Generate scannable QR codes for URLs, plain text, Wi-Fi credentials, vCards, emails, phone numbers, and SMS. Download as PNG or SVG. No signup.",
+      "features": [
+        "QR codes for URLs, text, Wi-Fi, vCards, emails, phones, SMS",
+        "PNG output for prints and slides",
+        "SVG output for infinite-quality scaling",
+        "Configurable size and error correction",
+        "Client-side generation",
+        "Ad-free",
+        "Works offline after first load"
+      ],
+      "howItWorks": [
+        "Open freeqrcodegen.app",
+        "Pick QR type and enter your data",
+        "Preview the QR code",
+        "Download as PNG or SVG"
+      ],
+      "useCases": [
+        "Restaurant menu QR codes",
+        "Wi-Fi sharing without retyping the password",
+        "Business card vCard QR for easy contact save",
+        "Event check-in QR codes",
+        "Print material that links to online content"
+      ],
+      "comparison": "QRCode Monkey has more branding options but ads. QR-Code-Generator.com offers logo overlays but requires signup. Freeqrcodegen covers the standard types cleanly and ad-free.",
+      "privacyNote": "QR generation is client-side. The text you encode never leaves your browser.",
+      "faqs": [
+        [
+          "Is Freeqrcodegen free?",
+          "Yes. Ad-free, no signup."
+        ],
+        [
+          "Does it support Wi-Fi QR codes?",
+          "Yes. Enter SSID, password, and security type. Scanning auto-joins the network on most phones."
+        ],
+        [
+          "Can I add a logo to the QR code?",
+          "Not currently. For logo overlays, use a dedicated tool with that feature."
+        ],
+        [
+          "What error correction level does it use?",
+          "Default M (medium). Configurable to L (low), Q (quartile), or H (high) for damaged-surface scanning."
+        ],
+        [
+          "Is SVG better than PNG?",
+          "SVG scales infinitely without pixelation — ideal for print. PNG is easier for web and social media."
+        ],
+        [
+          "Is my data sent to a server?",
+          "No. Everything is client-side."
+        ]
+      ],
+      "related": [
+        "freepasswordgenerator",
+        "freechatroom",
+        "freeunitconvert",
+        "freememegen"
+      ]
+    },
+    {
+      "slug": "freepasswordgenerator",
+      "name": "Freepasswordgenerator",
+      "title": "Password Generator",
+      "domain": "freepasswordgenerator.app",
+      "category": "utilities",
+      "seoTitle": "Free Strong Password Generator — Customizable, Cryptographically Secure",
+      "metaDesc": "Generate cryptographically strong random passwords. Customize length, character sets, exclude ambiguous characters. Free, private.",
+      "h1": "Free Strong Password Generator — cryptographically secure randomness",
+      "hero": "Generate strong random passwords using the browser's Web Crypto API. Customize length, character sets, and exclude ambiguous characters. Passwords never transmitted.",
+      "features": [
+        "Cryptographically secure (crypto.getRandomValues)",
+        "Length from 8 to 128 characters",
+        "Customize uppercase, lowercase, digits, symbols",
+        "Exclude ambiguous characters (0/O, l/1, etc.)",
+        "Copy with one click",
+        "Passwords never leave your browser",
+        "Ad-free"
+      ],
+      "howItWorks": [
+        "Open freepasswordgenerator.app",
+        "Set desired length and character sets",
+        "Generate — the password appears only on your screen",
+        "Copy and paste into your password manager or the service's signup field"
+      ],
+      "useCases": [
+        "Creating strong passwords for new accounts",
+        "Generating random API keys",
+        "Making passphrases for encrypted files",
+        "Replacing weak passwords during security audits",
+        "Generating random identifiers for development"
+      ],
+      "comparison": "Password managers (1Password, Bitwarden, LastPass) include built-in generators but require the app. Random-password-generator.com and similar have ads. Freepasswordgenerator is the clean ad-free no-install option.",
+      "privacyNote": "Passwords are generated in your browser using the Web Crypto API. The generated password appears only on your screen and is never transmitted or logged.",
+      "faqs": [
+        [
+          "Is Freepasswordgenerator free?",
+          "Yes. Ad-free, no signup."
+        ],
+        [
+          "Are the passwords truly random?",
+          "Yes. Uses crypto.getRandomValues() which the browser backs with a cryptographically secure random number generator."
+        ],
+        [
+          "Are passwords sent anywhere?",
+          "No. Everything is client-side. The password is generated in your browser and displayed only to you."
+        ],
+        [
+          "What length should I pick?",
+          "12-16 characters with mixed case, digits, and symbols is sufficient for most uses. 20+ for critical accounts."
+        ],
+        [
+          "Should I use this instead of a password manager?",
+          "Password managers store and autofill passwords across devices. Freepasswordgenerator is for one-off generation. Use both together: generate here, store in your manager."
+        ],
+        [
+          "What are \"ambiguous characters\"?",
+          "Characters that look alike in some fonts: 0 (zero) vs O (letter), l (lowercase L) vs 1 (one), I vs l. Excluding them makes passwords easier to type from a printed copy."
+        ]
+      ],
+      "related": [
+        "freeqrcodegen",
+        "freebase64",
+        "freechatroom",
+        "freeunitconvert"
+      ]
+    },
+    {
+      "slug": "freeunitconvert",
+      "name": "Freeunitconvert",
+      "title": "Unit Converter",
+      "domain": "freeunitconvert.app",
+      "category": "utilities",
+      "seoTitle": "Free Unit Converter — Length, Weight, Temperature, Volume",
+      "metaDesc": "Convert between length, weight, temperature, volume, area, speed, data size, and more. Free, ad-free, works offline.",
+      "h1": "Free Unit Converter — length, weight, temperature, and more",
+      "hero": "Convert between any common units: length, weight, temperature, volume, area, speed, data size, time. All in one browser app. Ad-free.",
+      "features": [
+        "Length (meters, feet, inches, miles, km, yards)",
+        "Weight (kg, lb, oz, g, tonnes)",
+        "Temperature (C, F, K)",
+        "Volume (liter, gallon, cup, mL, fluid oz)",
+        "Area, speed, data size, time, pressure, energy",
+        "Instant conversion as you type",
+        "Ad-free, works offline"
+      ],
+      "howItWorks": [
+        "Open freeunitconvert.app",
+        "Pick a category (length, weight, etc.)",
+        "Enter a value and source unit",
+        "See conversion to all target units instantly"
+      ],
+      "useCases": [
+        "Recipe conversions between metric and imperial",
+        "Travel distance calculations",
+        "Temperature conversions for cooking or weather",
+        "Data size calculations (MB vs MiB)",
+        "Scientific work mixing unit systems"
+      ],
+      "comparison": "UnitConverters.net covers many specialized units but has ads. ConvertUnits.com similar. Google's built-in converter works for simple cases. Freeunitconvert covers the common 95% without ads.",
+      "privacyNote": "Conversions are arithmetic — no network calls.",
+      "faqs": [
+        [
+          "Is Freeunitconvert free?",
+          "Yes. Ad-free, no signup."
+        ],
+        [
+          "Which categories are supported?",
+          "Length, weight/mass, temperature, volume, area, speed, data size, time, pressure, energy, and more."
+        ],
+        [
+          "Does it handle temperature conversion correctly?",
+          "Yes. Temperature uses additive offset (not just multiplication), so Celsius to Fahrenheit converts correctly (e.g., 0°C = 32°F)."
+        ],
+        [
+          "Does it support historical or niche units?",
+          "Common units are covered. For very specialized units, dedicated scientific tools may be better."
+        ],
+        [
+          "Does it work offline?",
+          "Yes. PWA-installable and fully offline after first load."
+        ],
+        [
+          "Can I convert currency?",
+          "Not currently. Currency conversion requires real-time rate data and is out of scope for a client-side tool."
+        ]
+      ],
+      "related": [
+        "freeqrcodegen",
+        "freepasswordgenerator",
+        "freesheets",
+        "freejsonformatter"
+      ]
+    },
+    {
+      "slug": "freememegen",
+      "name": "Freememegen",
+      "title": "Meme Generator",
+      "domain": "freememegen.app",
+      "category": "utilities",
+      "seoTitle": "Free Meme Generator — Top/Bottom Captions on Images",
+      "metaDesc": "Create memes with top and bottom captions. Upload your own image or use classic templates. Free, no watermarks.",
+      "h1": "Free Meme Generator — create memes with captions",
+      "hero": "Add classic top and bottom captions in Impact font. Upload your own image or pick a classic meme template. Download as PNG. No watermarks.",
+      "features": [
+        "Top and bottom captions in classic Impact font",
+        "Upload any image or use built-in templates",
+        "Adjustable text size and position",
+        "Download as PNG",
+        "No watermarks",
+        "Fully client-side",
+        "Ad-free"
+      ],
+      "howItWorks": [
+        "Open freememegen.app",
+        "Upload an image or pick a template",
+        "Add top and bottom text",
+        "Download the meme"
+      ],
+      "useCases": [
+        "Quick reaction memes for chat",
+        "Social media humor posts",
+        "Team meeting comic relief",
+        "Blog post illustrations",
+        "Friends-group private jokes"
+      ],
+      "comparison": "Imgflip has more templates and AI features but signup-gated and ad-heavy. Kapwing is feature-rich but subscription-based. Freememegen is minimalist — upload, caption, download.",
+      "privacyNote": "Images are processed in your browser. Nothing is uploaded.",
+      "faqs": [
+        [
+          "Is Freememegen free?",
+          "Yes. Ad-free, no watermarks, no signup."
+        ],
+        [
+          "What image formats can I upload?",
+          "JPG, PNG, WebP, GIF (static only)."
+        ],
+        [
+          "Does it have meme templates?",
+          "Yes. Classic templates (Drake, Distracted Boyfriend, Galaxy Brain, Expanding Brain, Change My Mind) are built in."
+        ],
+        [
+          "Can I use any font?",
+          "The default is Impact (classic meme font). System-safe font alternatives available for special cases."
+        ],
+        [
+          "Is the image uploaded?",
+          "No. Fully client-side."
+        ],
+        [
+          "Can I make animated GIF memes?",
+          "Output is PNG only. For GIF memes, dedicated tools are better."
+        ]
+      ],
+      "related": [
+        "freecropimage",
+        "freeimagecompressor",
+        "freeemojipicker",
+        "freegradientgen"
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'freesuite-v5';
+const CACHE_NAME = 'freesuite-v6';
 const ASSETS = [
   '/',
   '/index.html',
@@ -8,6 +8,13 @@ const ASSETS = [
   '/apple-touch-icon.png',
   '/og-image.svg',
   '/404.html',
+  '/pages/about.html',
+  '/pages/privacy.html',
+  '/pages/terms.html',
+  '/pages/google-docs-alternative.html',
+  '/pages/notion-alternative.html',
+  '/pages/smallpdf-alternative.html',
+  '/pages/tools/index.html',
   '/pages/free-document-tools.html',
   '/pages/free-pdf-tools.html',
   '/pages/free-image-tools.html',
@@ -15,13 +22,6 @@ const ASSETS = [
   '/pages/free-developer-tools.html',
   '/pages/free-productivity-tools.html',
   '/pages/free-utility-tools.html',
-  '/pages/google-docs-alternative.html',
-  '/pages/notion-alternative.html',
-  '/pages/smallpdf-alternative.html',
-  '/pages/about.html',
-  '/pages/privacy.html',
-  '/pages/terms.html',
-  '/pages/tools/index.html',
   '/pages/tools/freenotepad.html',
   '/pages/tools/freepage.html',
   '/pages/tools/freesheets.html',

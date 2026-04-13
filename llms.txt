@@ -18,48 +18,49 @@ Freesuite is a family of single-purpose web apps. Each tool does exactly one tas
 ## Categories and tools
 
 ### Documents (4)
-- [Freenotepad](https://freenotepad.app/) — Distraction-free writing, markdown support, autosave
-- [Freepage](https://freepage.app/) — Rich-text document editor, exports DOCX and PDF
-- [Freesheets](https://freesheets.app/) — Lightweight spreadsheet with formulas
-- [Freeslides](https://freeslides.app/) — Slide deck builder, exports to PDF
+- [Freenotepad](https://freenotepad.app/) — Free online notepad that works in your browser
+- [Freepage](https://freepage.app/) — Free browser document writer with rich-text formatting
+- [Freesheets](https://freesheets.app/) — Free browser spreadsheet with formulas like SUM, AVG, VLOOKUP
+- [Freeslides](https://freeslides.app/) — Free in-browser presentation builder
 
 ### PDF (3)
-- [Freemergepdf](https://freemergepdf.app/) — Merge multiple PDFs with drag-to-reorder
-- [Freeimagetopdf](https://freeimagetopdf.app/) — Convert JPG/PNG/WebP images to PDF
-- [Freepdftoimage](https://freepdftoimage.app/) — Extract PDF pages as PNG or JPG
+- [Freemergepdf](https://freemergepdf.app/) — Free online PDF merger
+- [Freeimagetopdf](https://freeimagetopdf.app/) — Convert JPG, PNG, or WebP images to a single PDF in your browser
+- [Freepdftoimage](https://freepdftoimage.app/) — Convert PDF pages to PNG or JPG images in your browser
 
 ### Images (2)
-- [Freeimagecompressor](https://freeimagecompressor.app/) — Compress JPG/PNG up to 80% with live quality preview
-- [Freecropimage](https://freecropimage.app/) — Crop to any aspect ratio with social-media presets
+- [Freeimagecompressor](https://freeimagecompressor.app/) — Compress JPG and PNG images up to 80% with live quality preview
+- [Freecropimage](https://freecropimage.app/) — Free browser image cropper with presets for Instagram, Twitter, YouTube, LinkedIn
 
 ### Text (3)
-- [Freewordcounter](https://freewordcounter.app/) — Live word, character, sentence, reading-time counts
-- [Freecaseconverter](https://freecaseconverter.app/) — UPPER, lower, Title, snake_case, kebab-case, camelCase, more
-- [Freeloremipsum](https://freeloremipsum.app/) — Classic lorem ipsum generator by paragraphs, words, characters
+- [Freewordcounter](https://freewordcounter.app/) — Live word and character counter in your browser
+- [Freecaseconverter](https://freecaseconverter.app/) — Convert text between UPPER, lower, Title, Sentence, snake_case, kebab-case, camelCase, PascalCase, and more
+- [Freeloremipsum](https://freeloremipsum.app/) — Generate lorem ipsum placeholder text by paragraph, sentence, word, or exact character count
 
 ### Developer (9)
-- [Freejsonformatter](https://freejsonformatter.app/) — Format, validate, minify JSON with syntax highlighting
-- [Freeregextester](https://freeregextester.app/) — Live regex testing with capture groups and flags
-- [Freediffchecker](https://freediffchecker.app/) — Side-by-side text comparison
-- [Freesqlformatter](https://freesqlformatter.app/) — Beautify SQL queries with dialect awareness
-- [Freecodebeautify](https://freecodebeautify.app/) — Format HTML, CSS, JavaScript, JSON, XML
-- [Freebase64](https://freebase64.app/) — Base64 encode and decode text and files
-- [Freegradientgen](https://freegradientgen.app/) — Visual CSS gradient generator (linear, radial, conic)
-- [Freeboxshadow](https://freeboxshadow.app/) — CSS box-shadow designer with live preview
-- [Freecolorconvert](https://freecolorconvert.app/) — HEX, RGB, HSL, HSV, CMYK color conversion
+- [Freejsonformatter](https://freejsonformatter.app/) — Free JSON formatter in your browser
+- [Freebase64](https://freebase64.app/) — Encode and decode Base64 for text and files
+- [Freeregextester](https://freeregextester.app/) — Test regular expressions with live match highlighting, capture groups, and flags
+- [Freediffchecker](https://freediffchecker.app/) — Compare two texts side-by-side with added and removed lines highlighted
+- [Freesqlformatter](https://freesqlformatter.app/) — Free SQL formatter and beautifier
+- [Freecodebeautify](https://freecodebeautify.app/) — Format HTML, CSS, JavaScript, TypeScript, JSON, XML with one click
+- [Freegradientgen](https://freegradientgen.app/) — Visual CSS gradient generator for linear, radial, and conic gradients
+- [Freeboxshadow](https://freeboxshadow.app/) — Design CSS box-shadow visually with live preview
+- [Freecolorconvert](https://freecolorconvert.app/) — Convert colors between HEX, RGB, HSL, HSV, and CMYK formats
 
 ### Productivity (5)
-- [Freepomodoro](https://freepomodoro.app/) — Pomodoro focus timer with session stats
-- [Freehabittracker](https://freehabittracker.app/) — Daily habit tracking with streaks
-- [Freetypingtest](https://freetypingtest.app/) — Measure WPM and typing accuracy
-- [Freeemojipicker](https://freeemojipicker.app/) — Search and copy any emoji
-- [Freechatroom](https://freechatroom.app/) — Password-protected chat rooms with self-destruct timer
+- [Freetypingtest](https://freetypingtest.app/) — Free typing speed test
+- [Freehabittracker](https://freehabittracker.app/) — Free daily habit tracker with streak counting
+- [Freepomodoro](https://freepomodoro.app/) — Free browser pomodoro timer with 25-minute focus sessions and 5-minute breaks
+- [Freeemojipicker](https://freeemojipicker.app/) — Search any emoji by name, category, or keyword
+- [Freechatroom](https://freechatroom.app/) — Instant password-protected chat rooms
 
 ### Utilities (4)
-- [Freeqrcodegen](https://freeqrcodegen.app/) — Generate QR codes for URLs, text, Wi-Fi, vCards
-- [Freepasswordgenerator](https://freepasswordgenerator.app/) — Cryptographically strong random passwords
-- [Freeunitconvert](https://freeunitconvert.app/) — Length, weight, temperature, volume, data unit conversion
-- [Freememegen](https://freememegen.app/) — Meme maker with captions on images
+- [Freeqrcodegen](https://freeqrcodegen.app/) — Free QR code generator for URLs, text, Wi-Fi credentials, vCards, emails, phone
+- [Freepasswordgenerator](https://freepasswordgenerator.app/) — Generate cryptographically strong random passwords
+- [Freeunitconvert](https://freeunitconvert.app/) — Convert between length, weight, temperature, volume, area, speed, data size, and more
+- [Freememegen](https://freememegen.app/) — Create memes with top and bottom captions
+
 
 ## Category landing pages
 
@@ -117,6 +118,7 @@ Every tool has a dedicated page with features, use cases, FAQ, and comparisons t
 - [/tools/freepasswordgenerator](https://freesuite.app/tools/freepasswordgenerator)
 - [/tools/freeunitconvert](https://freesuite.app/tools/freeunitconvert)
 - [/tools/freememegen](https://freesuite.app/tools/freememegen)
+
 
 ## Why Freesuite exists
 
