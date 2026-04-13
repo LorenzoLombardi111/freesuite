@@ -1,15 +1,8 @@
 {
   "buildCommand": null,
   "outputDirectory": ".",
-  "cleanUrls": true,
   "trailingSlash": false,
-  "redirects": [
-    {
-      "source": "/www",
-      "destination": "/",
-      "permanent": true
-    }
-  ],
+  "redirects": [],
   "headers": [
     {
       "source": "/(.*)",
