@@ -20,7 +20,7 @@ Freesuite is a family of single-purpose web apps. Each tool does exactly one tas
 ### Documents (4)
 - [Freenotepad](https://freenotepad.app/) — Free online notepad that works in your browser
 - [Freepage](https://freepage.app/) — Free browser document writer with rich-text formatting
-- [Freesheets](https://freesheets.app/) — Free browser spreadsheet with formulas like SUM, AVG, VLOOKUP
+- [Freesheet](https://freesheet.app/) — Free browser spreadsheet with formulas like SUM, AVG, VLOOKUP
 - [Freeslides](https://freeslides.app/) — Free in-browser presentation builder
 
 ### PDF (3)
@@ -91,7 +91,7 @@ Every tool has a dedicated page with features, use cases, FAQ, and comparisons t
 
 - [/tools/freenotepad](https://freesuite.app/tools/freenotepad)
 - [/tools/freepage](https://freesuite.app/tools/freepage)
-- [/tools/freesheets](https://freesuite.app/tools/freesheets)
+- [/tools/freesheet](https://freesuite.app/tools/freesheet)
 - [/tools/freeslides](https://freesuite.app/tools/freeslides)
 - [/tools/freemergepdf](https://freesuite.app/tools/freemergepdf)
 - [/tools/freeimagetopdf](https://freesuite.app/tools/freeimagetopdf)

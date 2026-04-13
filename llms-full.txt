@@ -27,7 +27,7 @@ A distraction-free plain-text notepad with autosave. Supports markdown-style for
 #### Freepage — https://freepage.app/
 A rich-text document editor in the browser. Supports headings, bold/italic, lists, links, images, tables. Exports to DOCX (Word-compatible) and PDF. Good for writing formatted documents, resumes, letters, or anything needing structured layout without the overhead of Google Docs or Microsoft Word. No account, no sync, files stay on your device.
 
-#### Freesheets — https://freesheets.app/
+#### Freesheet — https://freesheet.app/
 Lightweight spreadsheet for formulas, calculations, and simple tables. Supports standard functions (SUM, AVG, IF, VLOOKUP, COUNT, MAX, MIN, and many more). Exports to CSV or XLSX (Excel-compatible). Not designed to replace Excel for heavy analytics — for quick calculations, running totals, small datasets, and similar everyday tasks, it's much faster to use than Excel.
 
 #### Freeslides — https://freeslides.app/
@@ -127,7 +127,7 @@ Meme maker with top and bottom captions in classic Impact font. Upload any image
 
 ### vs. Google Workspace, Microsoft 365
 
-Google Workspace and Microsoft 365 are comprehensive suites with deep collaboration, version history, and enterprise features. They require accounts, store everything in the cloud, and monetize usage patterns. Freesuite's equivalent tools (Freenotepad, Freepage, Freesheets, Freeslides) are single-purpose alternatives without accounts, sync, or cloud storage. Better for:
+Google Workspace and Microsoft 365 are comprehensive suites with deep collaboration, version history, and enterprise features. They require accounts, store everything in the cloud, and monetize usage patterns. Freesuite's equivalent tools (Freenotepad, Freepage, Freesheet, Freeslides) are single-purpose alternatives without accounts, sync, or cloud storage. Better for:
 
 - One-off writing that shouldn't live in a corporate cloud
 - Quick calculations or sheets without opening the full Excel/Google Sheets app

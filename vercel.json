@@ -175,8 +175,8 @@
       "destination": "/pages/tools/freepage.html"
     },
     {
-      "source": "/tools/freesheets",
-      "destination": "/pages/tools/freesheets.html"
+      "source": "/tools/freesheet",
+      "destination": "/pages/tools/freesheet.html"
     },
     {
       "source": "/tools/freeslides",

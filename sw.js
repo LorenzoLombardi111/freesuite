@@ -1,4 +1,4 @@
-const CACHE_NAME = 'freesuite-v8';
+const CACHE_NAME = 'freesuite-v9';
 const ASSETS = [
   '/',
   '/index.html',
@@ -24,7 +24,7 @@ const ASSETS = [
   '/pages/free-utility-tools.html',
   '/pages/tools/freenotepad.html',
   '/pages/tools/freepage.html',
-  '/pages/tools/freesheets.html',
+  '/pages/tools/freesheet.html',
   '/pages/tools/freeslides.html',
   '/pages/tools/freemergepdf.html',
   '/pages/tools/freeimagetopdf.html',

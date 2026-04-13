@@ -159,16 +159,16 @@
       ],
       "related": [
         "freenotepad",
-        "freesheets",
+        "freesheet",
         "freeslides",
         "freewordcounter"
       ]
     },
     {
-      "slug": "freesheets",
-      "name": "Freesheets",
+      "slug": "freesheet",
+      "name": "Freesheet",
       "title": "Spreadsheets",
-      "domain": "freesheets.app",
+      "domain": "freesheet.app",
       "category": "documents",
       "seoTitle": "Free Online Spreadsheet — No Account, Formulas, CSV Export",
       "metaDesc": "Free browser spreadsheet with formulas like SUM, AVG, VLOOKUP. No signup. Export to CSV or XLSX. Works offline after first load.",
@@ -184,7 +184,7 @@
         "No signup, no account"
       ],
       "howItWorks": [
-        "Open freesheets.app",
+        "Open freesheet.app",
         "Type data into cells like any spreadsheet",
         "Use formulas starting with = (e.g., =SUM(A1:A10))",
         "Export to CSV or XLSX when ready"
@@ -196,11 +196,11 @@
         "Summing expenses for a report",
         "Simple pivot-like aggregations"
       ],
-      "comparison": "Compared to Google Sheets, Freesheets is lighter weight and doesn't require a Google account. It's not designed for heavy analytics or multi-user collaboration — for those, Sheets or Excel are better. For everyday \"I need to add up some numbers\" work, Freesheets is faster.",
+      "comparison": "Compared to Google Sheets, Freesheet is lighter weight and doesn't require a Google account. It's not designed for heavy analytics or multi-user collaboration — for those, Sheets or Excel are better. For everyday \"I need to add up some numbers\" work, Freesheet is faster.",
       "privacyNote": "Spreadsheet data stays in your browser. Export to CSV or XLSX to save externally.",
       "faqs": [
         [
-          "Is Freesheets free?",
+          "Is Freesheet free?",
           "Yes. 100% free with no signup and no usage limits."
         ],
         [
@@ -212,7 +212,7 @@
           "Yes. Open .xlsx files directly, or copy-paste a range from Excel or Google Sheets."
         ],
         [
-          "How large a sheet can Freesheets handle?",
+          "How large a sheet can Freesheet handle?",
           "Up to a few thousand rows comfortably. For larger datasets, use Excel or Google Sheets."
         ],
         [
@@ -1968,7 +1968,7 @@
       "related": [
         "freeqrcodegen",
         "freepasswordgenerator",
-        "freesheets",
+        "freesheet",
         "freejsonformatter"
       ]
     },
