@@ -1,4 +1,4 @@
-const CACHE_NAME = 'freesuite-v7';
+const CACHE_NAME = 'freesuite-v8';
 const ASSETS = [
   '/',
   '/index.html',
