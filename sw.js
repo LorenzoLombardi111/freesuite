@@ -1,4 +1,4 @@
-const CACHE_NAME = 'freesuite-v2';
+const CACHE_NAME = 'freesuite-v3';
 const ASSETS = [
   '/',
   '/index.html',
@@ -19,7 +19,38 @@ const ASSETS = [
   '/pages/smallpdf-alternative.html',
   '/pages/about.html',
   '/pages/privacy.html',
-  '/pages/terms.html'
+  '/pages/terms.html',
+  '/pages/tools/index.html',
+  '/pages/tools/freenotepad.html',
+  '/pages/tools/freepage.html',
+  '/pages/tools/freesheets.html',
+  '/pages/tools/freeslides.html',
+  '/pages/tools/freemergepdf.html',
+  '/pages/tools/freeimagetopdf.html',
+  '/pages/tools/freepdftoimage.html',
+  '/pages/tools/freeimagecompressor.html',
+  '/pages/tools/freecropimage.html',
+  '/pages/tools/freewordcounter.html',
+  '/pages/tools/freecaseconverter.html',
+  '/pages/tools/freeloremipsum.html',
+  '/pages/tools/freejsonformatter.html',
+  '/pages/tools/freebase64.html',
+  '/pages/tools/freeregextester.html',
+  '/pages/tools/freediffchecker.html',
+  '/pages/tools/freesqlformatter.html',
+  '/pages/tools/freecodebeautify.html',
+  '/pages/tools/freegradientgen.html',
+  '/pages/tools/freeboxshadow.html',
+  '/pages/tools/freecolorconvert.html',
+  '/pages/tools/freetypingtest.html',
+  '/pages/tools/freehabittracker.html',
+  '/pages/tools/freepomodoro.html',
+  '/pages/tools/freeemojipicker.html',
+  '/pages/tools/freechatroom.html',
+  '/pages/tools/freeqrcodegen.html',
+  '/pages/tools/freepasswordgenerator.html',
+  '/pages/tools/freeunitconvert.html',
+  '/pages/tools/freememegen.html'
 ];
 
 self.addEventListener('install', (event) => {

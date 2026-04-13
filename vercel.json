@@ -4,78 +4,294 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
-    { "source": "/www", "destination": "/", "permanent": true }
+    {
+      "source": "/www",
+      "destination": "/",
+      "permanent": true
+    }
   ],
   "headers": [
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "DENY" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" },
-        { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload" },
-        { "key": "Content-Security-Policy", "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.vercel-insights.com https://va.vercel-scripts.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://vitals.vercel-insights.com https://va.vercel-scripts.com; img-src 'self' data: blob:; manifest-src 'self'; worker-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.vercel-insights.com https://va.vercel-scripts.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://vitals.vercel-insights.com https://va.vercel-scripts.com; img-src 'self' data: blob:; manifest-src 'self'; worker-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+        }
       ]
     },
     {
       "source": "/sw.js",
       "headers": [
-        { "key": "Cache-Control", "value": "no-cache" }
+        {
+          "key": "Cache-Control",
+          "value": "no-cache"
+        }
       ]
     },
     {
       "source": "/(.*).html",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=3600" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
       ]
     },
     {
       "source": "/favicon.(svg|png)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=604800" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800"
+        }
       ]
     },
     {
       "source": "/og-image.svg",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=604800" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800"
+        }
       ]
     },
     {
       "source": "/llms(.*).txt",
       "headers": [
-        { "key": "Content-Type", "value": "text/plain; charset=utf-8" },
-        { "key": "Cache-Control", "value": "public, max-age=86400" }
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
       ]
     },
     {
       "source": "/robots.txt",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=86400" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
       ]
     },
     {
       "source": "/sitemap.xml",
       "headers": [
-        { "key": "Content-Type", "value": "application/xml; charset=utf-8" },
-        { "key": "Cache-Control", "value": "public, max-age=86400" }
+        {
+          "key": "Content-Type",
+          "value": "application/xml; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
       ]
     }
   ],
   "rewrites": [
-    { "source": "/free-pdf-tools", "destination": "/pages/free-pdf-tools.html" },
-    { "source": "/free-image-tools", "destination": "/pages/free-image-tools.html" },
-    { "source": "/free-text-tools", "destination": "/pages/free-text-tools.html" },
-    { "source": "/free-developer-tools", "destination": "/pages/free-developer-tools.html" },
-    { "source": "/free-document-tools", "destination": "/pages/free-document-tools.html" },
-    { "source": "/free-productivity-tools", "destination": "/pages/free-productivity-tools.html" },
-    { "source": "/free-utility-tools", "destination": "/pages/free-utility-tools.html" },
-    { "source": "/google-docs-alternative", "destination": "/pages/google-docs-alternative.html" },
-    { "source": "/notion-alternative", "destination": "/pages/notion-alternative.html" },
-    { "source": "/smallpdf-alternative", "destination": "/pages/smallpdf-alternative.html" },
-    { "source": "/about", "destination": "/pages/about.html" },
-    { "source": "/privacy", "destination": "/pages/privacy.html" },
-    { "source": "/terms", "destination": "/pages/terms.html" }
+    {
+      "source": "/free-pdf-tools",
+      "destination": "/pages/free-pdf-tools.html"
+    },
+    {
+      "source": "/free-image-tools",
+      "destination": "/pages/free-image-tools.html"
+    },
+    {
+      "source": "/free-text-tools",
+      "destination": "/pages/free-text-tools.html"
+    },
+    {
+      "source": "/free-developer-tools",
+      "destination": "/pages/free-developer-tools.html"
+    },
+    {
+      "source": "/free-document-tools",
+      "destination": "/pages/free-document-tools.html"
+    },
+    {
+      "source": "/free-productivity-tools",
+      "destination": "/pages/free-productivity-tools.html"
+    },
+    {
+      "source": "/free-utility-tools",
+      "destination": "/pages/free-utility-tools.html"
+    },
+    {
+      "source": "/google-docs-alternative",
+      "destination": "/pages/google-docs-alternative.html"
+    },
+    {
+      "source": "/notion-alternative",
+      "destination": "/pages/notion-alternative.html"
+    },
+    {
+      "source": "/smallpdf-alternative",
+      "destination": "/pages/smallpdf-alternative.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/pages/about.html"
+    },
+    {
+      "source": "/privacy",
+      "destination": "/pages/privacy.html"
+    },
+    {
+      "source": "/terms",
+      "destination": "/pages/terms.html"
+    },
+    {
+      "source": "/tools",
+      "destination": "/pages/tools/index.html"
+    },
+    {
+      "source": "/tools/",
+      "destination": "/pages/tools/index.html"
+    },
+    {
+      "source": "/tools/freenotepad",
+      "destination": "/pages/tools/freenotepad.html"
+    },
+    {
+      "source": "/tools/freepage",
+      "destination": "/pages/tools/freepage.html"
+    },
+    {
+      "source": "/tools/freesheets",
+      "destination": "/pages/tools/freesheets.html"
+    },
+    {
+      "source": "/tools/freeslides",
+      "destination": "/pages/tools/freeslides.html"
+    },
+    {
+      "source": "/tools/freemergepdf",
+      "destination": "/pages/tools/freemergepdf.html"
+    },
+    {
+      "source": "/tools/freeimagetopdf",
+      "destination": "/pages/tools/freeimagetopdf.html"
+    },
+    {
+      "source": "/tools/freepdftoimage",
+      "destination": "/pages/tools/freepdftoimage.html"
+    },
+    {
+      "source": "/tools/freeimagecompressor",
+      "destination": "/pages/tools/freeimagecompressor.html"
+    },
+    {
+      "source": "/tools/freecropimage",
+      "destination": "/pages/tools/freecropimage.html"
+    },
+    {
+      "source": "/tools/freewordcounter",
+      "destination": "/pages/tools/freewordcounter.html"
+    },
+    {
+      "source": "/tools/freecaseconverter",
+      "destination": "/pages/tools/freecaseconverter.html"
+    },
+    {
+      "source": "/tools/freeloremipsum",
+      "destination": "/pages/tools/freeloremipsum.html"
+    },
+    {
+      "source": "/tools/freejsonformatter",
+      "destination": "/pages/tools/freejsonformatter.html"
+    },
+    {
+      "source": "/tools/freebase64",
+      "destination": "/pages/tools/freebase64.html"
+    },
+    {
+      "source": "/tools/freeregextester",
+      "destination": "/pages/tools/freeregextester.html"
+    },
+    {
+      "source": "/tools/freediffchecker",
+      "destination": "/pages/tools/freediffchecker.html"
+    },
+    {
+      "source": "/tools/freesqlformatter",
+      "destination": "/pages/tools/freesqlformatter.html"
+    },
+    {
+      "source": "/tools/freecodebeautify",
+      "destination": "/pages/tools/freecodebeautify.html"
+    },
+    {
+      "source": "/tools/freegradientgen",
+      "destination": "/pages/tools/freegradientgen.html"
+    },
+    {
+      "source": "/tools/freeboxshadow",
+      "destination": "/pages/tools/freeboxshadow.html"
+    },
+    {
+      "source": "/tools/freecolorconvert",
+      "destination": "/pages/tools/freecolorconvert.html"
+    },
+    {
+      "source": "/tools/freetypingtest",
+      "destination": "/pages/tools/freetypingtest.html"
+    },
+    {
+      "source": "/tools/freehabittracker",
+      "destination": "/pages/tools/freehabittracker.html"
+    },
+    {
+      "source": "/tools/freepomodoro",
+      "destination": "/pages/tools/freepomodoro.html"
+    },
+    {
+      "source": "/tools/freeemojipicker",
+      "destination": "/pages/tools/freeemojipicker.html"
+    },
+    {
+      "source": "/tools/freechatroom",
+      "destination": "/pages/tools/freechatroom.html"
+    },
+    {
+      "source": "/tools/freeqrcodegen",
+      "destination": "/pages/tools/freeqrcodegen.html"
+    },
+    {
+      "source": "/tools/freepasswordgenerator",
+      "destination": "/pages/tools/freepasswordgenerator.html"
+    },
+    {
+      "source": "/tools/freeunitconvert",
+      "destination": "/pages/tools/freeunitconvert.html"
+    },
+    {
+      "source": "/tools/freememegen",
+      "destination": "/pages/tools/freememegen.html"
+    }
   ]
 }

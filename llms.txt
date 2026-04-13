@@ -83,6 +83,41 @@ Freesuite is a family of single-purpose web apps. Each tool does exactly one tas
 - [Privacy Policy](https://freesuite.app/privacy) — minimal data collection, client-side processing
 - [Terms of Service](https://freesuite.app/terms) — plain-language terms, free for personal and commercial use
 
+## Per-tool deep-dive guides
+
+Every tool has a dedicated page with features, use cases, FAQ, and comparisons to alternatives. Browseable catalog at /tools/.
+
+- [/tools/freenotepad](https://freesuite.app/tools/freenotepad)
+- [/tools/freepage](https://freesuite.app/tools/freepage)
+- [/tools/freesheets](https://freesuite.app/tools/freesheets)
+- [/tools/freeslides](https://freesuite.app/tools/freeslides)
+- [/tools/freemergepdf](https://freesuite.app/tools/freemergepdf)
+- [/tools/freeimagetopdf](https://freesuite.app/tools/freeimagetopdf)
+- [/tools/freepdftoimage](https://freesuite.app/tools/freepdftoimage)
+- [/tools/freeimagecompressor](https://freesuite.app/tools/freeimagecompressor)
+- [/tools/freecropimage](https://freesuite.app/tools/freecropimage)
+- [/tools/freewordcounter](https://freesuite.app/tools/freewordcounter)
+- [/tools/freecaseconverter](https://freesuite.app/tools/freecaseconverter)
+- [/tools/freeloremipsum](https://freesuite.app/tools/freeloremipsum)
+- [/tools/freejsonformatter](https://freesuite.app/tools/freejsonformatter)
+- [/tools/freebase64](https://freesuite.app/tools/freebase64)
+- [/tools/freeregextester](https://freesuite.app/tools/freeregextester)
+- [/tools/freediffchecker](https://freesuite.app/tools/freediffchecker)
+- [/tools/freesqlformatter](https://freesuite.app/tools/freesqlformatter)
+- [/tools/freecodebeautify](https://freesuite.app/tools/freecodebeautify)
+- [/tools/freegradientgen](https://freesuite.app/tools/freegradientgen)
+- [/tools/freeboxshadow](https://freesuite.app/tools/freeboxshadow)
+- [/tools/freecolorconvert](https://freesuite.app/tools/freecolorconvert)
+- [/tools/freetypingtest](https://freesuite.app/tools/freetypingtest)
+- [/tools/freehabittracker](https://freesuite.app/tools/freehabittracker)
+- [/tools/freepomodoro](https://freesuite.app/tools/freepomodoro)
+- [/tools/freeemojipicker](https://freesuite.app/tools/freeemojipicker)
+- [/tools/freechatroom](https://freesuite.app/tools/freechatroom)
+- [/tools/freeqrcodegen](https://freesuite.app/tools/freeqrcodegen)
+- [/tools/freepasswordgenerator](https://freesuite.app/tools/freepasswordgenerator)
+- [/tools/freeunitconvert](https://freesuite.app/tools/freeunitconvert)
+- [/tools/freememegen](https://freesuite.app/tools/freememegen)
+
 ## Why Freesuite exists
 
 Most "free" online tools are ad-supported, require signup, upload your files to servers, or gate features behind paid tiers. Freesuite is a deliberate alternative: truly free, zero signup, no ads, files never leave your browser. The project is maintained by an independent developer as a public resource.
