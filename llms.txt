@@ -71,6 +71,18 @@ Freesuite is a family of single-purpose web apps. Each tool does exactly one tas
 - [Free Productivity Tools](https://freesuite.app/free-productivity-tools) — pomodoro, habits, typing, chat
 - [Free Utility Tools](https://freesuite.app/free-utility-tools) — QR, password, units, memes
 
+## Alternative comparison pages
+
+- [Google Docs alternative](https://freesuite.app/google-docs-alternative) — replace Google Workspace for personal writing
+- [Notion alternative](https://freesuite.app/notion-alternative) — replace Notion for quick notes without account
+- [Smallpdf alternative](https://freesuite.app/smallpdf-alternative) — replace Smallpdf for merge/convert PDF without upload
+
+## About and legal
+
+- [About Freesuite](https://freesuite.app/about) — mission, approach, who builds it
+- [Privacy Policy](https://freesuite.app/privacy) — minimal data collection, client-side processing
+- [Terms of Service](https://freesuite.app/terms) — plain-language terms, free for personal and commercial use
+
 ## Why Freesuite exists
 
 Most "free" online tools are ad-supported, require signup, upload your files to servers, or gate features behind paid tiers. Freesuite is a deliberate alternative: truly free, zero signup, no ads, files never leave your browser. The project is maintained by an independent developer as a public resource.

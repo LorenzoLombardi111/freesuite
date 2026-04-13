@@ -1,4 +1,4 @@
-const CACHE_NAME = 'freesuite-v1';
+const CACHE_NAME = 'freesuite-v2';
 const ASSETS = [
   '/',
   '/index.html',
@@ -13,7 +13,13 @@ const ASSETS = [
   '/pages/free-text-tools.html',
   '/pages/free-developer-tools.html',
   '/pages/free-productivity-tools.html',
-  '/pages/free-utility-tools.html'
+  '/pages/free-utility-tools.html',
+  '/pages/google-docs-alternative.html',
+  '/pages/notion-alternative.html',
+  '/pages/smallpdf-alternative.html',
+  '/pages/about.html',
+  '/pages/privacy.html',
+  '/pages/terms.html'
 ];
 
 self.addEventListener('install', (event) => {

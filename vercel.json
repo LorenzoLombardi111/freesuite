@@ -70,6 +70,12 @@
     { "source": "/free-developer-tools", "destination": "/pages/free-developer-tools.html" },
     { "source": "/free-document-tools", "destination": "/pages/free-document-tools.html" },
     { "source": "/free-productivity-tools", "destination": "/pages/free-productivity-tools.html" },
-    { "source": "/free-utility-tools", "destination": "/pages/free-utility-tools.html" }
+    { "source": "/free-utility-tools", "destination": "/pages/free-utility-tools.html" },
+    { "source": "/google-docs-alternative", "destination": "/pages/google-docs-alternative.html" },
+    { "source": "/notion-alternative", "destination": "/pages/notion-alternative.html" },
+    { "source": "/smallpdf-alternative", "destination": "/pages/smallpdf-alternative.html" },
+    { "source": "/about", "destination": "/pages/about.html" },
+    { "source": "/privacy", "destination": "/pages/privacy.html" },
+    { "source": "/terms", "destination": "/pages/terms.html" }
   ]
 }
