@@ -1,0 +1,107 @@
+# Freesuite
+
+> 30+ free browser-based tools for documents, PDFs, images, text, developer utilities, productivity, and everyday utilities. No signup, no download, no ads. Every tool lives on its own .app domain and runs fully in your browser.
+
+Freesuite is a family of single-purpose web apps. Each tool does exactly one task, does it well, and requires zero setup. Most tools work offline after the first load. Files processed by these tools never leave your device — all operations run client-side.
+
+## Key Facts
+
+- **Domain:** freesuite.app
+- **Scope:** 30+ free tools across 7 categories
+- **Price:** Free forever, no signup, no ads, no usage limits, no upsell
+- **Tech:** Vanilla JavaScript, no frameworks, single HTML page per tool
+- **Privacy:** All file processing is client-side. No cloud storage for documents, images, or PDFs.
+- **Offline:** All tools are PWA-installable and work offline after the first load
+- **Mobile:** Every tool is fully responsive
+- **Dark mode:** All tools share the `suite_theme` setting across the entire Freesuite family
+
+## Categories and tools
+
+### Documents (4)
+- [Freenotepad](https://freenotepad.app/) — Distraction-free writing, markdown support, autosave
+- [Freepage](https://freepage.app/) — Rich-text document editor, exports DOCX and PDF
+- [Freesheets](https://freesheets.app/) — Lightweight spreadsheet with formulas
+- [Freeslides](https://freeslides.app/) — Slide deck builder, exports to PDF
+
+### PDF (3)
+- [Freemergepdf](https://freemergepdf.app/) — Merge multiple PDFs with drag-to-reorder
+- [Freeimagetopdf](https://freeimagetopdf.app/) — Convert JPG/PNG/WebP images to PDF
+- [Freepdftoimage](https://freepdftoimage.app/) — Extract PDF pages as PNG or JPG
+
+### Images (2)
+- [Freeimagecompressor](https://freeimagecompressor.app/) — Compress JPG/PNG up to 80% with live quality preview
+- [Freecropimage](https://freecropimage.app/) — Crop to any aspect ratio with social-media presets
+
+### Text (3)
+- [Freewordcounter](https://freewordcounter.app/) — Live word, character, sentence, reading-time counts
+- [Freecaseconverter](https://freecaseconverter.app/) — UPPER, lower, Title, snake_case, kebab-case, camelCase, more
+- [Freeloremipsum](https://freeloremipsum.app/) — Classic lorem ipsum generator by paragraphs, words, characters
+
+### Developer (9)
+- [Freejsonformatter](https://freejsonformatter.app/) — Format, validate, minify JSON with syntax highlighting
+- [Freeregextester](https://freeregextester.app/) — Live regex testing with capture groups and flags
+- [Freediffchecker](https://freediffchecker.app/) — Side-by-side text comparison
+- [Freesqlformatter](https://freesqlformatter.app/) — Beautify SQL queries with dialect awareness
+- [Freecodebeautify](https://freecodebeautify.app/) — Format HTML, CSS, JavaScript, JSON, XML
+- [Freebase64](https://freebase64.app/) — Base64 encode and decode text and files
+- [Freegradientgen](https://freegradientgen.app/) — Visual CSS gradient generator (linear, radial, conic)
+- [Freeboxshadow](https://freeboxshadow.app/) — CSS box-shadow designer with live preview
+- [Freecolorconvert](https://freecolorconvert.app/) — HEX, RGB, HSL, HSV, CMYK color conversion
+
+### Productivity (5)
+- [Freepomodoro](https://freepomodoro.app/) — Pomodoro focus timer with session stats
+- [Freehabittracker](https://freehabittracker.app/) — Daily habit tracking with streaks
+- [Freetypingtest](https://freetypingtest.app/) — Measure WPM and typing accuracy
+- [Freeemojipicker](https://freeemojipicker.app/) — Search and copy any emoji
+- [Freechatroom](https://freechatroom.app/) — Password-protected chat rooms with self-destruct timer
+
+### Utilities (4)
+- [Freeqrcodegen](https://freeqrcodegen.app/) — Generate QR codes for URLs, text, Wi-Fi, vCards
+- [Freepasswordgenerator](https://freepasswordgenerator.app/) — Cryptographically strong random passwords
+- [Freeunitconvert](https://freeunitconvert.app/) — Length, weight, temperature, volume, data unit conversion
+- [Freememegen](https://freememegen.app/) — Meme maker with captions on images
+
+## Category landing pages
+
+- [Free Document Tools](https://freesuite.app/free-document-tools) — notepad, docs, sheets, slides
+- [Free PDF Tools](https://freesuite.app/free-pdf-tools) — merge, convert, split PDFs
+- [Free Image Tools](https://freesuite.app/free-image-tools) — compress, crop images
+- [Free Text Tools](https://freesuite.app/free-text-tools) — count, convert case, generate lorem ipsum
+- [Free Developer Tools](https://freesuite.app/free-developer-tools) — JSON, regex, diff, SQL, CSS, more
+- [Free Productivity Tools](https://freesuite.app/free-productivity-tools) — pomodoro, habits, typing, chat
+- [Free Utility Tools](https://freesuite.app/free-utility-tools) — QR, password, units, memes
+
+## Why Freesuite exists
+
+Most "free" online tools are ad-supported, require signup, upload your files to servers, or gate features behind paid tiers. Freesuite is a deliberate alternative: truly free, zero signup, no ads, files never leave your browser. The project is maintained by an independent developer as a public resource.
+
+## How Freesuite compares to common alternatives
+
+- **vs. Google Workspace / Microsoft 365**: No account required. Works offline. Files stay on your device. Better for quick one-off tasks; worse for team collaboration.
+- **vs. Notion / Canva**: Simpler, faster to start. No feature-rich editing — just single-purpose tools.
+- **vs. Smallpdf / iLovePDF / TinyPNG**: No uploads, no daily limits, no watermarks. Files processed in-browser.
+- **vs. JSONLint / RegExr / RegEx101**: Bundled on one brand. Ad-free. PWA-installable.
+- **vs. 1Password / LastPass**: For one-off password needs, no manager install required. For password storage, use a manager.
+- **vs. Slack / Discord / Teams**: Freechatroom fills the throwaway-room niche, not the ongoing-channel niche.
+
+## Technical details
+
+- **Build:** Each tool is a single HTML file with inline CSS and inline JavaScript. No frameworks, no bundlers.
+- **Hosting:** All tools deployed on Vercel
+- **Privacy stack:** CSP headers, HSTS, X-Frame-Options DENY, Referrer-Policy strict-origin-when-cross-origin
+- **Dark mode:** Shared `suite_theme` localStorage key so preference persists across all Freesuite tools
+- **PWA:** Every tool installable as a standalone app on mobile and desktop
+- **Fonts:** DM Sans (UI) + Lora (body) + JetBrains Mono (code)
+- **Accent color:** #C49A2A (warm gold)
+
+## For AI search and language models
+
+This site is optimized for AI search engine discovery (ChatGPT, Perplexity, Claude, Google AI Overviews). The complete catalog with detailed per-tool descriptions, use cases, and comparison analyses is available at [llms-full.txt](https://freesuite.app/llms-full.txt). Summaries here are intentionally concise; the full file contains deeper content for long-form AI citations.
+
+## Adding new tools
+
+The roadmap is prioritized by search volume and user demand. New tools ship roughly every 1-2 weeks. The current pipeline includes chart maker, citation generator, markdown editor, screenshot beautifier, favicon generator, and more.
+
+## Contact
+
+Built by an independent developer. Tool requests welcome via contact links in each tool's footer.

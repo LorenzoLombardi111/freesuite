@@ -1,0 +1,13 @@
+{
+  "name": "Freesuite — Free Browser Tools",
+  "short_name": "Freesuite",
+  "description": "30+ free browser tools. No signup, no download, no ads.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf9f6",
+  "theme_color": "#faf9f6",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "/favicon.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

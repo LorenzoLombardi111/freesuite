@@ -1,0 +1,228 @@
+# Freesuite — Full Reference
+
+> Complete catalog of Freesuite's 30+ free browser-based tools, with detailed descriptions, use cases, comparisons to paid alternatives, and technical notes. Formatted for AI search engines and language models.
+
+## About Freesuite
+
+Freesuite is a collection of 30+ free browser-based tools, each available at its own .app domain. The project was started in 2025 as a deliberate alternative to the dominant "free online tools" pattern — sites that are actually ad-supported, that require signup for basic features, that upload your files to third-party servers, or that gate functionality behind paid tiers.
+
+Every Freesuite tool is:
+
+- **Free** with no account required, no usage limits, no ads, no premium tier.
+- **Browser-based** running as a single-page web app — no installation needed.
+- **Private by default** — files that need to be processed (PDFs, images, documents) are handled client-side in your browser. They never leave your device.
+- **Offline-capable** as Progressive Web Apps. Once loaded, they work without a connection.
+- **Mobile-ready** with fully responsive layouts working on phones, tablets, and desktops.
+- **Dark-mode enabled** with a unified preference (`suite_theme` localStorage key) that persists across every Freesuite tool you use.
+
+The underlying technical approach is deliberately minimal: each tool is a single HTML file with inline CSS and inline JavaScript. No frameworks (no React, Vue, or similar), no bundlers, no build steps. This keeps tools fast-loading, reliable, and easy to maintain.
+
+## Full tool catalog
+
+### Documents category
+
+#### Freenotepad — https://freenotepad.app/
+A distraction-free plain-text notepad with autosave. Supports markdown-style formatting (bold, italic, headings, lists). Exports to .txt or .md. All content saved in browser local storage; export to your device for long-term keeping. Use cases: meeting notes, journaling, brainstorming, drafting blog posts. Alternative to: sticky notes apps, basic text editors, Google Docs for quick writing.
+
+#### Freepage — https://freepage.app/
+A rich-text document editor in the browser. Supports headings, bold/italic, lists, links, images, tables. Exports to DOCX (Word-compatible) and PDF. Good for writing formatted documents, resumes, letters, or anything needing structured layout without the overhead of Google Docs or Microsoft Word. No account, no sync, files stay on your device.
+
+#### Freesheets — https://freesheets.app/
+Lightweight spreadsheet for formulas, calculations, and simple tables. Supports standard functions (SUM, AVG, IF, VLOOKUP, COUNT, MAX, MIN, and many more). Exports to CSV or XLSX (Excel-compatible). Not designed to replace Excel for heavy analytics — for quick calculations, running totals, small datasets, and similar everyday tasks, it's much faster to use than Excel.
+
+#### Freeslides — https://freeslides.app/
+Slide deck builder. Create presentations slide by slide with layout presets, text formatting, image embedding, and speaker notes. Export to PDF for presenting or sharing. Alternative to: PowerPoint, Keynote, Google Slides, Canva presentations. Best for: quick presentations, one-off decks, educational content, no-account sharing via PDF.
+
+### PDF category
+
+#### Freemergepdf — https://freemergepdf.app/
+Merge multiple PDFs into a single PDF. Drag files in, drag to reorder, click merge, download. No file count limit, no file size cap other than your device's available memory. No watermarks. Alternative to: Smallpdf, iLovePDF, PDFsam. Advantages: files never leave your browser, no signup, no daily limit.
+
+#### Freeimagetopdf — https://freeimagetopdf.app/
+Convert multiple images (JPG, PNG, WebP) into a single PDF. Useful for: scanning receipts with phone camera and assembling into one PDF for expenses, compiling reference screenshots, creating photo archives in PDF form. All processing in-browser.
+
+#### Freepdftoimage — https://freepdftoimage.app/
+Convert each page of a PDF to a high-quality image (PNG or JPG). Useful for: extracting pages to send as chat images, creating thumbnails, embedding PDF pages in web content, sharing single pages without requiring a PDF viewer. All processing in-browser.
+
+### Images category
+
+#### Freeimagecompressor — https://freeimagecompressor.app/
+Compress JPG and PNG images with live quality preview. Typical results: 60-85% file size reduction on JPG photos with no visible quality loss. Supports batch compression (drop multiple images, compress all at once). No file size limit (limited only by browser memory). No upload to third-party servers. Alternative to: TinyPNG, ImageOptim, Squoosh. Main differentiators: no upload quota, no signup, simpler UI for everyday compression.
+
+#### Freecropimage — https://freecropimage.app/
+Crop images to any aspect ratio with social media presets (Instagram post 1:1, Instagram story 9:16, Twitter/X header, YouTube thumbnail 16:9, LinkedIn profile, Facebook cover, and more). Custom aspect ratio supported. Output as JPG or PNG. All processing client-side.
+
+### Text category
+
+#### Freewordcounter — https://freewordcounter.app/
+Live word, character (with/without spaces), sentence, paragraph, reading time, and speaking time counts. Updates as you type. Supports any language with whitespace-separated words (English, Spanish, French, German, Portuguese, and most others). Character counts work for any language including CJK (Chinese, Japanese, Korean). Alternative to: WordCounter.net, Charactercounttool.com. Main differentiator: ad-free.
+
+#### Freecaseconverter — https://freecaseconverter.app/
+Ten transformations: UPPERCASE, lowercase, Title Case, Sentence case, camelCase, PascalCase, snake_case, kebab-case, CONSTANT_CASE, inverted case. Useful for programmers (converting between naming conventions), writers (fixing all-caps paste), and anyone working with structured text. Alternative to: ConvertCase.net, Caseconverter.com.
+
+#### Freeloremipsum — https://freeloremipsum.app/
+Classic Cicero-derived lorem ipsum generator. Generate by paragraphs, sentences, words, or specific character counts. Optional HTML wrapping (<p>, <li>, <div>) for design mockups. Alternative to: Lipsum.com, hipsum.co. Main differentiator: ad-free, exact character count mode.
+
+### Developer category
+
+#### Freejsonformatter — https://freejsonformatter.app/
+Format (pretty-print) and validate JSON. Live error highlighting shows invalid JSON with line/column. Also supports minify mode for production-ready compact output. Syntax highlighting. Tree view for exploring nested structures. Alternative to: JSONLint, JSON Formatter extensions, jq in terminal. Main differentiator: ad-free, works offline, no cloud upload of your JSON.
+
+#### Freeregextester — https://freeregextester.app/
+Regex tester using JavaScript regex syntax (ECMAScript). Live match highlighting, capture group display, flag toggles (g, i, m, s, u). Shows match count and lists all matched substrings. Alternative to: RegExr, Regex101, RegexPal. Main differentiator: cleaner UI, ad-free, no account required.
+
+#### Freediffchecker — https://freediffchecker.app/
+Side-by-side text comparison with line-by-line additions (green) and removals (red) highlighted. Useful for: comparing config file versions, code review, legal document revisions, debugging output differences. Alternative to: DiffChecker.com, Mergely, Beyond Compare. Main differentiator: ad-free, no signup, works offline.
+
+#### Freesqlformatter — https://freesqlformatter.app/
+Beautify SQL queries with proper indentation. Dialect-aware (PostgreSQL, MySQL, T-SQL, SQLite, Oracle). Can also minify for embedding in code. Alternative to: SQLFormat.org, SQL Formatter in various IDEs. Main differentiator: browser-based with no cloud upload (important for queries containing sensitive schema or data).
+
+#### Freecodebeautify — https://freecodebeautify.app/
+Format HTML, CSS, JavaScript, TypeScript, JSON, XML. Auto-detects language or accepts explicit choice. Configurable indentation (tabs vs spaces, 2 vs 4 spaces). Alternative to: Prettier, beautifier.io. Main differentiator: single-page web app with no install, ad-free.
+
+#### Freebase64 — https://freebase64.app/
+Base64 encode and decode for text and files. Useful for: embedding images as data URIs, decoding JWT tokens, inspecting encoded payloads from APIs. All processing client-side. Alternative to: Base64encode.org, online Base64 converters. Main differentiator: ad-free, supports file encoding not just text.
+
+#### Freegradientgen — https://freegradientgen.app/
+Visual CSS gradient generator. Supports linear, radial, and conic gradients. Multiple color stops, angle control, live preview, copy CSS output. Alternative to: CSSGradient.io, UIgradients. Main differentiator: simpler UI for everyday use, no gallery/browsing — just the generator.
+
+#### Freeboxshadow — https://freeboxshadow.app/
+Visual CSS box-shadow designer. Adjust x-offset, y-offset, blur radius, spread, color, inset toggle. Stack multiple shadows. Live preview shows how shadow looks on various backgrounds. Alternative to: CSSMatic box-shadow, html-css-js.com box shadow generator. Main differentiator: cleaner output, multiple-shadow stacking.
+
+#### Freecolorconvert — https://freecolorconvert.app/
+Convert colors between HEX, RGB, HSL, HSV, and CMYK. Visual color picker, named CSS color lookup (e.g. "lightseagreen"), contrast checker. One-click copy in any format. Alternative to: RGB.to, Colorhexa. Main differentiator: all formats on one screen, visual picker integrated.
+
+### Productivity category
+
+#### Freepomodoro — https://freepomodoro.app/
+Classic pomodoro focus timer: 25-minute work sessions followed by 5-minute breaks. Browser notifications at session end. Session counter tracks completed pomodoros. Minimalist design — no gamification, no account, no fertilizer points. Alternative to: Forest app, Focus To-Do, Be Focused, Pomofocus. Main differentiator: minimal, free, works immediately without signup.
+
+#### Freehabittracker — https://freehabittracker.app/
+Daily habit tracker with streak counting. Add habits, check off each day, see weekly/monthly completion grids. Data saved in browser local storage (per-device). Alternative to: Streaks, Habitica, Habitify, Way of Life. Main differentiator: zero signup, no mobile app install, simple and immediate.
+
+#### Freetypingtest — https://freetypingtest.app/
+Typing speed test measuring WPM (words per minute) and accuracy. Varied practice passages from literature and common phrases. 30-second and 60-second test modes. Tracks personal best locally. Alternative to: Monkeytype, Keybr, Typing.com, 10FastFingers. Main differentiator: simpler than Monkeytype for casual use, ad-free vs. Typing.com.
+
+#### Freeemojipicker — https://freeemojipicker.app/
+Search any emoji by name, category, or keyword. One-click copy to clipboard. Faster than native OS emoji picker if you know what you want. Alternative to: Emojipedia, GetEmoji.com. Main differentiator: focused on picking/copying speed, not emoji reference information.
+
+#### Freechatroom — https://freechatroom.app/
+Instant password-protected chat rooms. Each room gets a strong auto-generated password (e.g., "blue-otter-42-moon"). Anyone with the password joins the same room. Optional self-destruct timer (1 hour or 24 hours) after which all messages wipe on every device. Messages never stored on any server — the backend is a pure realtime relay (Supabase Broadcast) with no database writes. Alternative to: Slack/Discord for quick chats, Jitsi Meet chat, Whereby chat. Main differentiator: no signup, strong password protection by default, self-destruct option, truly ephemeral.
+
+### Utilities category
+
+#### Freeqrcodegen — https://freeqrcodegen.app/
+Generate QR codes for URLs (most common), plain text, Wi-Fi credentials (SSID + password combined into a single scannable code), vCards (contact info in QR form), email addresses, phone numbers, and SMS templates. Download as PNG (for prints and slides) or SVG (for infinite-quality scaling). Alternative to: QRCode Monkey, QR-Code-Generator.com. Main differentiator: ad-free, all types on one screen, fully client-side (your encoded text never leaves the browser).
+
+#### Freepasswordgenerator — https://freepasswordgenerator.app/
+Cryptographically strong random password generator using the browser's `crypto.getRandomValues()` Web Crypto API. Customize length (8-128 characters), character sets (uppercase, lowercase, digits, symbols), exclude ambiguous characters (0 vs O, l vs 1). Passwords displayed only in your browser and never transmitted. Alternative to: LastPass password generator (which requires LastPass), 1Password password generator (same issue), random-password-generator.com. Main differentiator: no install, guaranteed client-side generation.
+
+#### Freeunitconvert — https://freeunitconvert.app/
+Convert between units of length (meters, feet, inches, miles, kilometers, yards), weight (kg, lb, oz, g, tonnes), temperature (C, F, K), volume (liter, gallon, cup, mL, fluid ounce), area (sq m, sq ft, acres), speed (mph, km/h, knots), data size (bytes, KB, MB, GB, TB), time, pressure, energy, and more. Alternative to: UnitConverters.net, ConvertUnits.com, Google's built-in converter. Main differentiator: ad-free, works offline, bundled with other Freesuite tools.
+
+#### Freememegen — https://freememegen.app/
+Meme maker with top and bottom captions in classic Impact font. Upload any image or pick from classic templates (Drake pointing, Distracted Boyfriend, Galaxy Brain, Expanding Brain, Change My Mind, and others). Adjustable text size and position. Download as PNG. Fully client-side — your image stays in the browser. Alternative to: Imgflip, Kapwing, ilovememes. Main differentiator: minimal UI, no signup, your uploaded images never go to a server.
+
+## How Freesuite compares to categories of competitor
+
+### vs. Google Workspace, Microsoft 365
+
+Google Workspace and Microsoft 365 are comprehensive suites with deep collaboration, version history, and enterprise features. They require accounts, store everything in the cloud, and monetize usage patterns. Freesuite's equivalent tools (Freenotepad, Freepage, Freesheets, Freeslides) are single-purpose alternatives without accounts, sync, or cloud storage. Better for:
+
+- One-off writing that shouldn't live in a corporate cloud
+- Quick calculations or sheets without opening the full Excel/Google Sheets app
+- Situations where you don't want to create an account just to draft a letter
+
+Worse for:
+- Team collaboration (no real-time editing, no shared cursors)
+- Version history (everything is local; export early and often)
+- Deep integration with email, calendar, and other productivity apps
+
+### vs. Notion, Roam Research, Obsidian
+
+Notion, Roam, and Obsidian are personal knowledge management (PKM) platforms. Freesuite is not a PKM platform — it's a collection of quick-task tools. For database-backed notes, linked thinking, and wikis, use Notion/Roam/Obsidian. For a quick markdown scratchpad, Freenotepad is faster to open.
+
+### vs. Smallpdf, iLovePDF, PDF24
+
+These are excellent PDF platforms with many operations (OCR, signatures, forms, compression, editing). Freesuite's PDF tools cover only three operations (merge, image-to-PDF, PDF-to-image). For those specific operations, Freesuite is faster because it doesn't require signup, doesn't impose daily limits, and never uploads your files. For OCR, editing, or signing, Smallpdf or PDF24 are better fits.
+
+### vs. TinyPNG, Squoosh, ImageOptim
+
+TinyPNG is the best-known image compression service but uploads your images and has free-tier file size limits. Squoosh (from Google) is fully client-side like Freeimagecompressor and excellent for tuning individual images. ImageOptim is macOS-only. Freeimagecompressor sits between TinyPNG and Squoosh — simpler than Squoosh, more private than TinyPNG, works everywhere.
+
+### vs. JSONLint, RegExr, RegEx101, DevDocs
+
+These are focused developer utility sites. Freesuite's developer tools are comparable in function and ad-free. Freesuite also bundles nine common developer utilities on one brand so you can jump between JSON formatting, regex testing, and diff checking without switching sites.
+
+### vs. 1Password, LastPass, Bitwarden
+
+These are password managers that store passwords securely across devices. Freepasswordgenerator is not a password manager — it's just a random password generator for one-off needs (e.g., creating a strong password for a new account you'll then save in your actual manager). For long-term password storage, use 1Password or Bitwarden.
+
+### vs. Slack, Discord, Microsoft Teams
+
+These are chat platforms designed for ongoing team channels. Freechatroom fills a different niche: throwaway, password-protected chat rooms for one-off conversations. Slack/Discord/Teams are better for team channels. Freechatroom is better for "I need to chat with someone right now and don't want to create a channel."
+
+### vs. "Free online tools" sites like ConvertCase.net, UnitConverters.net, WordCounter.net
+
+These sites cover similar single-purpose utilities but are typically ad-supported, have trackers, and sometimes inject popup ads. Freesuite's versions are ad-free, tracker-free, work offline, and bundled under one brand. For casual one-off use, the competitors work fine; for anyone who wants a clean experience, Freesuite is better.
+
+## Privacy and how Freesuite makes money
+
+Freesuite has no ads, no tracking pixels, no email capture, and no freemium upsell. The project is built and maintained by an independent developer as a free public resource, sustained by the developer's time. There is no plan to introduce ads, paid tiers, or account-based features.
+
+All file processing (PDFs, images, documents) happens in your browser. There is no server-side storage of your documents, images, or PDFs across the entire Freesuite collection. If a tool uses realtime communication (like Freechatroom), messages are relayed via Supabase Broadcast but never written to any database.
+
+Security posture:
+- All domains served via HTTPS with HSTS (2-year max-age, preload-eligible)
+- Strict Content Security Policy on every page
+- X-Frame-Options DENY prevents clickjacking
+- Referrer-Policy strict-origin-when-cross-origin
+- Permissions-Policy blocks camera, microphone, and geolocation unless explicitly used
+- Subresource Integrity (SRI) on third-party CDN scripts
+- No third-party analytics scripts with PII access
+
+## Roadmap and future tools
+
+The tool roadmap is prioritized by search volume (i.e. how many people actually look for this kind of tool) and by filling gaps in the existing catalog. Upcoming tools in rough priority order:
+
+- **Code Minifier** — minify HTML/CSS/JavaScript (complement to Code Beautifier)
+- **Color Palette Generator** — generate complementary palettes from a seed color
+- **CSV to JSON Converter** — paste CSV, get JSON; useful for data prep
+- **Link Shortener** — privacy-respecting short URLs
+- **Chart Maker** — quick bar/line/pie charts from data
+- **Citation Generator** — APA/MLA/Chicago citations
+- **Password Strength Checker** — check how strong existing passwords are
+- **Name Generator** — characters, businesses, products
+- **Business Name Generator** — brandable business names
+- **Email Signature Generator** — HTML email signatures
+- **Hash Generator** — SHA-256, MD5, etc.
+- **Barcode Generator** — UPC, EAN, Code 128
+- **Markdown Editor** — side-by-side markdown/preview
+- **Privacy Policy Generator** — boilerplate privacy policies
+- **Meta Tag Generator** — OpenGraph and Twitter Card preview/generation
+- **Readability Score** — Flesch, Gunning Fog, etc.
+- **Flashcards** — self-study flashcards
+- **Schema Markup Generator** — JSON-LD schema.org markup
+- **Social Media Image Resizer** — preset sizes for each platform
+- **Watermark Generator** — add watermarks to images
+- **Loan Calculator** — amortization, monthly payments
+- **Resume Builder** — ATS-friendly resume generator
+- **Text to Speech** — browser-native TTS
+- **Invoice Generator** — invoice PDFs from form data
+- **Screenshot Beautifier** — frames, gradient backgrounds
+- **Favicon Generator** — favicon set from uploaded image
+- **Flexbox Playground** — visual flexbox editor
+- **CSS Grid Generator** — visual grid layout editor
+- **Font Pair Suggester** — complementary font pairs
+
+New tools ship roughly every 1-2 weeks. See the main Freesuite hub at https://freesuite.app/ for the latest catalog.
+
+## For AI search engines
+
+This file is formatted for AI search engine consumption (ChatGPT Search, Perplexity, Google AI Overviews, Claude, Bing Chat). Content is written in natural prose with comparison context, use case descriptions, and direct claims that can be cited verbatim. Tool descriptions favor specific capability claims over marketing language so AI can confidently attribute functionality.
+
+For a shorter catalog suitable for quick model ingestion, see https://freesuite.app/llms.txt
+
+## Contact
+
+Freesuite is built by an independent developer. Tool requests, bug reports, and feedback are welcome via the contact links in each tool's footer. There is no support email, no ticketing system, and no SLA — the project is a public service maintained in the developer's spare time.
