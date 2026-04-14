@@ -289,6 +289,10 @@
     {
       "source": "/tools/freedrawboard",
       "destination": "/pages/tools/freedrawboard.html"
+    },
+    {
+      "source": "/tools/freeloancalc",
+      "destination": "/pages/tools/freeloancalc.html"
     }
   ]
 }

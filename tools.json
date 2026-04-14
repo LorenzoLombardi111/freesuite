@@ -2090,6 +2090,55 @@
         "freegradientgen",
         "freeboxshadow"
       ]
+    },
+    {
+      "slug": "freeloancalc",
+      "title": "Loan Calculator",
+      "name": "Freeloancalc",
+      "domain": "freeloancalc.app",
+      "category": "utilities",
+      "cardDesc": "Calculate loan payments, amortization schedules, and interest breakdowns for free.",
+      "seoTitle": "Free Loan Calculator Online — Payments, Interest & Amortization",
+      "metaDesc": "Calculate loan payments, total interest, and amortization schedules for free. No signup required.",
+      "h1": "Free Loan Calculator — Calculate Payments and Amortization Instantly",
+      "hero": "Enter your loan amount, interest rate, and term to see your monthly payment, total interest, and full amortization schedule. Supports 15 currencies, extra payment modeling, and CSV export. No signup, no ads.",
+      "features": [
+        "Real-time monthly payment calculation as you type",
+        "Full month-by-month amortization schedule",
+        "Total interest and total paid breakdown",
+        "Donut chart showing principal vs interest split",
+        "Extra monthly payment analysis with savings display",
+        "15 international currencies with locale formatting",
+        "Loan presets: mortgage, auto, personal, student",
+        "CSV export of amortization schedule",
+        "Works offline as PWA",
+        "Dark mode support"
+      ],
+      "howItWorks": [
+        "Enter your loan amount, interest rate, and term",
+        "See your monthly payment and total cost instantly",
+        "Add extra monthly payments to see interest savings",
+        "View the full amortization schedule month by month",
+        "Export the schedule as CSV for your records"
+      ],
+      "useCases": [
+        "Calculate mortgage payments before buying a home",
+        "Compare auto loan terms at the dealership",
+        "Plan student loan repayment strategies",
+        "Model the impact of extra payments on any loan",
+        "Compare 15-year vs 30-year mortgage costs"
+      ],
+      "comparison": "Unlike Bankrate or NerdWallet calculators, freeloancalc.app has zero ads, zero affiliate offers, and zero data collection. Your numbers stay on your device. It updates in real time as you type, supports 15 international currencies, and includes a full exportable amortization schedule with extra payment modeling.",
+      "privacyNote": "All calculations happen locally in your browser using JavaScript. No financial data is sent to any server, stored in any database, or shared with anyone. Your numbers never leave your device.",
+      "faqs": [
+        ["How is my monthly loan payment calculated?", "Your monthly payment is calculated using the standard amortization formula: M = P[r(1+r)^n]/[(1+r)^n-1], where P is the loan amount, r is the monthly interest rate, and n is the total number of payments. freeloancalc.app computes this instantly when you enter your loan details."],
+        ["What is an amortization schedule?", "An amortization schedule is a table showing each monthly payment broken down into principal and interest portions over the life of the loan. Early payments are mostly interest, while later payments go mostly toward principal."],
+        ["How does the interest rate affect my total payment?", "Even small changes in interest rate significantly affect total cost. For example, on a $300,000 30-year mortgage, a 1% rate increase adds roughly $60,000 in total interest."],
+        ["Can I calculate extra payments to pay off my loan faster?", "Yes. freeloancalc.app includes an extra payment field that shows how additional monthly payments reduce your total interest and shorten your loan term."],
+        ["Is my financial data safe with freeloancalc.app?", "Absolutely. Everything is processed locally in your browser. No data is sent to any server or shared with anyone."],
+        ["What types of loans can I calculate?", "freeloancalc.app works for any fixed-rate loan: mortgages, auto loans, personal loans, student loans, and business loans."]
+      ],
+      "related": ["freeunitconvert", "freesheets", "freehabittracker", "freepasswordgenerator"]
     }
   ]
 }

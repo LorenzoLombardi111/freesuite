@@ -1,4 +1,4 @@
-const CACHE_NAME = 'freesuite-v9';
+const CACHE_NAME = 'freesuite-v10';
 const ASSETS = [
   '/',
   '/index.html',
@@ -52,7 +52,8 @@ const ASSETS = [
   '/pages/tools/freepasswordgenerator.html',
   '/pages/tools/freeunitconvert.html',
   '/pages/tools/freememegen.html',
-  '/pages/tools/freedrawboard.html'
+  '/pages/tools/freedrawboard.html',
+  '/pages/tools/freeloancalc.html'
 ];
 
 self.addEventListener('install', (event) => {
