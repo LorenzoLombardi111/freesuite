@@ -293,6 +293,10 @@
     {
       "source": "/tools/freeloancalc",
       "destination": "/pages/tools/freeloancalc.html"
+    },
+    {
+      "source": "/tools/freehtmltopdf",
+      "destination": "/pages/tools/freehtmltopdf.html"
     }
   ]
 }

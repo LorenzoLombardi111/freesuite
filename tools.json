@@ -2139,6 +2139,55 @@
         ["What types of loans can I calculate?", "freeloancalc.app works for any fixed-rate loan: mortgages, auto loans, personal loans, student loans, and business loans."]
       ],
       "related": ["freeunitconvert", "freesheets", "freehabittracker", "freepasswordgenerator"]
+    },
+    {
+      "slug": "freehtmltopdf",
+      "name": "Freehtmltopdf",
+      "title": "HTML to PDF",
+      "domain": "freehtmltopdf.app",
+      "category": "developer",
+      "cardDesc": "Convert HTML code to PDF files instantly in your browser — free, private, no upload.",
+      "seoTitle": "Free HTML to PDF Converter Online — freehtmltopdf.app",
+      "metaDesc": "Convert HTML to PDF for free in your browser. Paste code or upload files, preview live, download PDF. No signup.",
+      "h1": "Free HTML to PDF Converter — Turn Code into PDF Instantly",
+      "hero": "Paste HTML code or upload an .html file, preview the rendered output live, configure page size and margins, and download a high-quality PDF. All conversion runs in your browser — your code never leaves your device.",
+      "features": [
+        "Paste HTML or upload .html files with drag-and-drop",
+        "Live preview updates as you type",
+        "6 page sizes: A4, Letter, Legal, A3, A5, Tabloid",
+        "Portrait and landscape orientation",
+        "Adjustable margins and quality settings",
+        "5 built-in templates: resume, invoice, report, letter, blank",
+        "Ctrl+Enter keyboard shortcut for PDF generation",
+        "Resizable split-panel editor and preview",
+        "Works offline as PWA",
+        "Dark mode support"
+      ],
+      "howItWorks": [
+        "Paste HTML code or upload an .html file",
+        "Preview the rendered output in the right panel",
+        "Choose page size, orientation, margins, and quality",
+        "Click Download PDF or press Ctrl+Enter",
+        "PDF downloads with filename from your HTML title tag"
+      ],
+      "useCases": [
+        "Convert HTML invoices to professional PDF documents",
+        "Generate PDF resumes from HTML templates",
+        "Create print-ready reports from HTML source",
+        "Preview and export HTML email designs as PDF",
+        "Convert HTML documentation to downloadable PDFs"
+      ],
+      "comparison": "Unlike wkhtmltopdf, freehtmltopdf.app requires zero installation and runs in any browser. Unlike PDFShift and other paid APIs, it is completely free with no signup, no usage limits, and no server uploads. Your HTML stays on your device for maximum privacy.",
+      "privacyNote": "All conversion happens locally in your browser using JavaScript. Your HTML code and generated PDFs never leave your device. No data is sent to any server.",
+      "faqs": [
+        ["How do I convert HTML to PDF for free?", "Paste your HTML code into the editor on freehtmltopdf.app, preview the rendered output, choose your page size and orientation, then click Download PDF. Everything runs in your browser with no server uploads."],
+        ["Is freehtmltopdf.app safe and private?", "Yes. All conversion happens locally in your browser using JavaScript. Your HTML code and generated PDFs never leave your device. No data is sent to any server."],
+        ["Can I upload an HTML file instead of pasting code?", "Yes. Click the Upload button or drag and drop any .html file directly onto the editor panel. The file contents will load into the editor and the preview updates automatically."],
+        ["What page sizes does freehtmltopdf.app support?", "freehtmltopdf.app supports A4, Letter, Legal, A3, A5, and Tabloid page sizes in both portrait and landscape orientation, with adjustable margins from none to 30mm."],
+        ["Does the converter support CSS styling?", "Yes. Inline CSS, internal stylesheets, and most CSS properties are supported. The converter renders your HTML with full CSS styling before converting to PDF. Flexbox layouts work well; CSS Grid has limited support."],
+        ["Do I need to sign up or install anything?", "No. freehtmltopdf.app works instantly in any modern browser with no signup, no installation, and no account required. It also works offline after the first visit."]
+      ],
+      "related": ["freejsonformatter", "freebase64", "freemergepdf", "freeimagetopdf"]
     }
   ]
 }
