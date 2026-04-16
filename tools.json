@@ -2188,6 +2188,57 @@
         ["Do I need to sign up or install anything?", "No. freehtmltopdf.app works instantly in any modern browser with no signup, no installation, and no account required. It also works offline after the first visit."]
       ],
       "related": ["freejsonformatter", "freebase64", "freemergepdf", "freeimagetopdf"]
+    },
+    {
+      "slug": "freetexttospeech",
+      "name": "Freetexttospeech",
+      "title": "Text to Speech",
+      "domain": "freetexttospeech.app",
+      "category": "utilities",
+      "cardDesc": "Convert any text to natural speech instantly in your browser — 50+ voices, free, no sign-up.",
+      "seoTitle": "Free Text to Speech Online — freetexttospeech.app",
+      "metaDesc": "Convert text to natural speech free in your browser. 50+ voices, adjustable rate and pitch, download audio. No sign-up, no uploads.",
+      "h1": "Free Text to Speech Online — Listen to Any Text Instantly",
+      "hero": "Paste any text, pick a voice, and hear it read aloud. freetexttospeech.app runs entirely in your browser using the Web Speech API — no sign-up, no uploads, no character limits.",
+      "features": [
+        "30–100 voices from your OS and browser, grouped by language",
+        "Adjustable rate (0.5× to 2×), pitch, and volume sliders",
+        "Play, pause, resume, and stop controls",
+        "Current-word highlighting as the reader speaks",
+        "Download synthesised audio as a .webm file (Chrome/Edge)",
+        "Read selection only, or the whole textarea",
+        "Keyboard shortcuts: Space to play/pause, Esc to stop",
+        "Works offline as an installable PWA",
+        "Dark mode shared across Freesuite",
+        "Zero uploads — all synthesis runs client-side"
+      ],
+      "howItWorks": [
+        "Open freetexttospeech.app in any modern browser",
+        "Paste or type the text you want to hear",
+        "Pick a voice from the dropdown (grouped by language)",
+        "Adjust rate, pitch, and volume to taste",
+        "Click Play — the current word is highlighted as it's read",
+        "Optionally click Download audio to save a .webm file"
+      ],
+      "useCases": [
+        "Listen to long articles or essays while doing chores",
+        "Revise lecture notes on the go during commutes",
+        "Proofread your own writing by hearing it read back",
+        "Give low-vision or dyslexic readers an audio companion",
+        "Practice pronunciation in a language you're learning",
+        "Generate quick voice-overs for personal videos or slides"
+      ],
+      "comparison": "Unlike NaturalReader, freetexttospeech.app has no daily minute cap and no sign-up. Unlike TTSMP3, it has no ads, no character limit, and runs entirely in your browser instead of on a server. For studio-quality neural voices, the Pro upgrade on freesuite.app matches paid tools like ElevenLabs at a fraction of the cost.",
+      "privacyNote": "Every piece of text you paste stays on your device. freetexttospeech.app has no backend — synthesis happens in your browser using the Web Speech API. No text, audio, or settings are ever uploaded.",
+      "faqs": [
+        ["Is freetexttospeech.app really free?", "Yes. freetexttospeech.app is completely free with no sign-up, no watermarks, and no character limits. It runs in your browser using the built-in Web Speech API, so there are no server costs to pass on to you."],
+        ["Does my text get uploaded anywhere?", "No. All speech synthesis happens locally in your browser. Your text never leaves your device. freetexttospeech.app has no backend and collects no data."],
+        ["How many voices are available?", "The voices come from your operating system and browser. Most modern setups offer 30 to 100 voices across dozens of languages. macOS and iOS have the highest-quality voices out of the box. Chrome on any platform also loads extra Google voices."],
+        ["Can I download the audio as an MP3?", "freetexttospeech.app can record the speech output to a .webm audio file in browsers that support MediaRecorder on synthesised audio. Support varies — if your browser does not expose the synth stream, the download button will tell you."],
+        ["What languages are supported?", "Every language your operating system ships voices for — typically English, Spanish, French, German, Italian, Portuguese, Chinese, Japanese, Korean, Arabic, Hindi, and many more."],
+        ["Does it work offline?", "Yes. After your first visit, freetexttospeech.app caches itself via a service worker. The browser's built-in voices work offline on most platforms."]
+      ],
+      "related": ["freenotepad", "freewordcounter", "freecaseconverter", "freeloremipsum"]
     }
   ]
 }

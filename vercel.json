@@ -297,6 +297,10 @@
     {
       "source": "/tools/freehtmltopdf",
       "destination": "/pages/tools/freehtmltopdf.html"
+    },
+    {
+      "source": "/tools/freetexttospeech",
+      "destination": "/pages/tools/freetexttospeech.html"
     }
   ]
 }

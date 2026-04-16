@@ -57,12 +57,13 @@ Freesuite is a family of single-purpose web apps. Each tool does exactly one tas
 - [Freechatroom](https://freechatroom.app/) — Instant password-protected chat rooms
 - [Freedrawboard](https://freedrawboard.app/) — Free real-time collaborative whiteboard
 
-### Utilities (5)
+### Utilities (6)
 - [Freeqrcodegen](https://freeqrcodegen.app/) — Free QR code generator for URLs, text, Wi-Fi credentials, vCards, emails, phone
 - [Freepasswordgenerator](https://freepasswordgenerator.app/) — Generate cryptographically strong random passwords
 - [Freeunitconvert](https://freeunitconvert.app/) — Convert between length, weight, temperature, volume, area, speed, data size, and more
 - [Freememegen](https://freememegen.app/) — Create memes with top and bottom captions
 - [Freeloancalc](https://freeloancalc.app/) — Calculate loan payments, total interest, and amortization schedules for free
+- [Freetexttospeech](https://freetexttospeech.app/) — Convert text to natural speech free in your browser
 
 
 ## Category landing pages
@@ -124,6 +125,7 @@ Every tool has a dedicated page with features, use cases, FAQ, and comparisons t
 - [/tools/freedrawboard](https://freesuite.app/tools/freedrawboard)
 - [/tools/freeloancalc](https://freesuite.app/tools/freeloancalc)
 - [/tools/freehtmltopdf](https://freesuite.app/tools/freehtmltopdf)
+- [/tools/freetexttospeech](https://freesuite.app/tools/freetexttospeech)
 
 
 ## Why Freesuite exists
