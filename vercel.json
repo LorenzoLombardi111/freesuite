@@ -301,6 +301,10 @@
     {
       "source": "/tools/freetexttospeech",
       "destination": "/pages/tools/freetexttospeech.html"
+    },
+    {
+      "source": "/tools/freecsv2json",
+      "destination": "/pages/tools/freecsv2json.html"
     }
   ]
 }

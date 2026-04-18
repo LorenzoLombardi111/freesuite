@@ -37,7 +37,7 @@ Freesuite is a family of single-purpose web apps. Each tool does exactly one tas
 - [Freecaseconverter](https://freecaseconverter.app/) — Convert text between UPPER, lower, Title, Sentence, snake_case, kebab-case, camelCase, PascalCase, and more
 - [Freeloremipsum](https://freeloremipsum.app/) — Generate lorem ipsum placeholder text by paragraph, sentence, word, or exact character count
 
-### Developer (10)
+### Developer (11)
 - [Freejsonformatter](https://freejsonformatter.app/) — Free JSON formatter in your browser
 - [Freebase64](https://freebase64.app/) — Encode and decode Base64 for text and files
 - [Freeregextester](https://freeregextester.app/) — Test regular expressions with live match highlighting, capture groups, and flags
@@ -48,6 +48,7 @@ Freesuite is a family of single-purpose web apps. Each tool does exactly one tas
 - [Freeboxshadow](https://freeboxshadow.app/) — Design CSS box-shadow visually with live preview
 - [Freecolorconvert](https://freecolorconvert.app/) — Convert colors between HEX, RGB, HSL, HSV, and CMYK formats
 - [Freehtmltopdf](https://freehtmltopdf.app/) — Convert HTML to PDF for free in your browser
+- [Freecsv2json](https://freecsv2json.app/) — Convert CSV to JSON and JSON to CSV in your browser
 
 ### Productivity (6)
 - [Freetypingtest](https://freetypingtest.app/) — Free typing speed test
@@ -126,6 +127,7 @@ Every tool has a dedicated page with features, use cases, FAQ, and comparisons t
 - [/tools/freeloancalc](https://freesuite.app/tools/freeloancalc)
 - [/tools/freehtmltopdf](https://freesuite.app/tools/freehtmltopdf)
 - [/tools/freetexttospeech](https://freesuite.app/tools/freetexttospeech)
+- [/tools/freecsv2json](https://freesuite.app/tools/freecsv2json)
 
 
 ## Why Freesuite exists

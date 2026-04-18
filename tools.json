@@ -2077,12 +2077,30 @@
       "comparison": "Compared to Miro and Mural — those are heavyweight enterprise tools with persistent boards, infinite features, and account requirements. Freedrawboard is instant: no signup, password-protected rooms. For ongoing team workspaces use Miro; for quick collaborative sketches use freedrawboard. Compared to Excalidraw, freedrawboard's real-time sync works without an Excalidraw+ subscription. Compared to Google Jamboard (discontinued in 2024), freedrawboard fills the no-account quick-collab gap.",
       "privacyNote": "Drawings are relayed through Supabase Realtime but never stored on any database. The password is the room identity — without it, the URL leads to a different empty channel. Local board copies live in your browser and persist across refreshes; export to PNG to keep a permanent copy.",
       "faqs": [
-        ["Is freedrawboard.app really free?", "Yes. 100% free with no signup, no ads, and no usage limits. Create as many boards as you want."],
-        ["How does collaboration work?", "Create a board to get a strong auto-generated password. Anyone with that password can join the same board from any device. Drawings sync in real-time."],
-        ["Are my drawings stored on a server?", "No. Drawings are relayed through Supabase Realtime but never written to any database. Your local copy lives in your browser's localStorage."],
-        ["Can I keep my drawings permanently?", "Yes. Click Export to save the canvas as a PNG to your device. The browser-stored copy persists across refreshes for the same device, but for cross-device or long-term keeping, export is the way."],
-        ["How is freedrawboard different from Miro or Excalidraw?", "Miro requires accounts and is heavyweight. Excalidraw is excellent for solo drawing but real-time collaboration requires a paid subscription. Freedrawboard is instant — no account, password-protected rooms."],
-        ["Does it work on mobile?", "Yes. Touch drawing works on phones and tablets. Installable as a Progressive Web App for offline use of single-user mode."]
+        [
+          "Is freedrawboard.app really free?",
+          "Yes. 100% free with no signup, no ads, and no usage limits. Create as many boards as you want."
+        ],
+        [
+          "How does collaboration work?",
+          "Create a board to get a strong auto-generated password. Anyone with that password can join the same board from any device. Drawings sync in real-time."
+        ],
+        [
+          "Are my drawings stored on a server?",
+          "No. Drawings are relayed through Supabase Realtime but never written to any database. Your local copy lives in your browser's localStorage."
+        ],
+        [
+          "Can I keep my drawings permanently?",
+          "Yes. Click Export to save the canvas as a PNG to your device. The browser-stored copy persists across refreshes for the same device, but for cross-device or long-term keeping, export is the way."
+        ],
+        [
+          "How is freedrawboard different from Miro or Excalidraw?",
+          "Miro requires accounts and is heavyweight. Excalidraw is excellent for solo drawing but real-time collaboration requires a paid subscription. Freedrawboard is instant — no account, password-protected rooms."
+        ],
+        [
+          "Does it work on mobile?",
+          "Yes. Touch drawing works on phones and tablets. Installable as a Progressive Web App for offline use of single-user mode."
+        ]
       ],
       "related": [
         "freechatroom",
@@ -2131,14 +2149,37 @@
       "comparison": "Unlike Bankrate or NerdWallet calculators, freeloancalc.app has zero ads, zero affiliate offers, and zero data collection. Your numbers stay on your device. It updates in real time as you type, supports 15 international currencies, and includes a full exportable amortization schedule with extra payment modeling.",
       "privacyNote": "All calculations happen locally in your browser using JavaScript. No financial data is sent to any server, stored in any database, or shared with anyone. Your numbers never leave your device.",
       "faqs": [
-        ["How is my monthly loan payment calculated?", "Your monthly payment is calculated using the standard amortization formula: M = P[r(1+r)^n]/[(1+r)^n-1], where P is the loan amount, r is the monthly interest rate, and n is the total number of payments. freeloancalc.app computes this instantly when you enter your loan details."],
-        ["What is an amortization schedule?", "An amortization schedule is a table showing each monthly payment broken down into principal and interest portions over the life of the loan. Early payments are mostly interest, while later payments go mostly toward principal."],
-        ["How does the interest rate affect my total payment?", "Even small changes in interest rate significantly affect total cost. For example, on a $300,000 30-year mortgage, a 1% rate increase adds roughly $60,000 in total interest."],
-        ["Can I calculate extra payments to pay off my loan faster?", "Yes. freeloancalc.app includes an extra payment field that shows how additional monthly payments reduce your total interest and shorten your loan term."],
-        ["Is my financial data safe with freeloancalc.app?", "Absolutely. Everything is processed locally in your browser. No data is sent to any server or shared with anyone."],
-        ["What types of loans can I calculate?", "freeloancalc.app works for any fixed-rate loan: mortgages, auto loans, personal loans, student loans, and business loans."]
+        [
+          "How is my monthly loan payment calculated?",
+          "Your monthly payment is calculated using the standard amortization formula: M = P[r(1+r)^n]/[(1+r)^n-1], where P is the loan amount, r is the monthly interest rate, and n is the total number of payments. freeloancalc.app computes this instantly when you enter your loan details."
+        ],
+        [
+          "What is an amortization schedule?",
+          "An amortization schedule is a table showing each monthly payment broken down into principal and interest portions over the life of the loan. Early payments are mostly interest, while later payments go mostly toward principal."
+        ],
+        [
+          "How does the interest rate affect my total payment?",
+          "Even small changes in interest rate significantly affect total cost. For example, on a $300,000 30-year mortgage, a 1% rate increase adds roughly $60,000 in total interest."
+        ],
+        [
+          "Can I calculate extra payments to pay off my loan faster?",
+          "Yes. freeloancalc.app includes an extra payment field that shows how additional monthly payments reduce your total interest and shorten your loan term."
+        ],
+        [
+          "Is my financial data safe with freeloancalc.app?",
+          "Absolutely. Everything is processed locally in your browser. No data is sent to any server or shared with anyone."
+        ],
+        [
+          "What types of loans can I calculate?",
+          "freeloancalc.app works for any fixed-rate loan: mortgages, auto loans, personal loans, student loans, and business loans."
+        ]
       ],
-      "related": ["freeunitconvert", "freesheets", "freehabittracker", "freepasswordgenerator"]
+      "related": [
+        "freeunitconvert",
+        "freesheets",
+        "freehabittracker",
+        "freepasswordgenerator"
+      ]
     },
     {
       "slug": "freehtmltopdf",
@@ -2180,14 +2221,37 @@
       "comparison": "Unlike wkhtmltopdf, freehtmltopdf.app requires zero installation and runs in any browser. Unlike PDFShift and other paid APIs, it is completely free with no signup, no usage limits, and no server uploads. Your HTML stays on your device for maximum privacy.",
       "privacyNote": "All conversion happens locally in your browser using JavaScript. Your HTML code and generated PDFs never leave your device. No data is sent to any server.",
       "faqs": [
-        ["How do I convert HTML to PDF for free?", "Paste your HTML code into the editor on freehtmltopdf.app, preview the rendered output, choose your page size and orientation, then click Download PDF. Everything runs in your browser with no server uploads."],
-        ["Is freehtmltopdf.app safe and private?", "Yes. All conversion happens locally in your browser using JavaScript. Your HTML code and generated PDFs never leave your device. No data is sent to any server."],
-        ["Can I upload an HTML file instead of pasting code?", "Yes. Click the Upload button or drag and drop any .html file directly onto the editor panel. The file contents will load into the editor and the preview updates automatically."],
-        ["What page sizes does freehtmltopdf.app support?", "freehtmltopdf.app supports A4, Letter, Legal, A3, A5, and Tabloid page sizes in both portrait and landscape orientation, with adjustable margins from none to 30mm."],
-        ["Does the converter support CSS styling?", "Yes. Inline CSS, internal stylesheets, and most CSS properties are supported. The converter renders your HTML with full CSS styling before converting to PDF. Flexbox layouts work well; CSS Grid has limited support."],
-        ["Do I need to sign up or install anything?", "No. freehtmltopdf.app works instantly in any modern browser with no signup, no installation, and no account required. It also works offline after the first visit."]
+        [
+          "How do I convert HTML to PDF for free?",
+          "Paste your HTML code into the editor on freehtmltopdf.app, preview the rendered output, choose your page size and orientation, then click Download PDF. Everything runs in your browser with no server uploads."
+        ],
+        [
+          "Is freehtmltopdf.app safe and private?",
+          "Yes. All conversion happens locally in your browser using JavaScript. Your HTML code and generated PDFs never leave your device. No data is sent to any server."
+        ],
+        [
+          "Can I upload an HTML file instead of pasting code?",
+          "Yes. Click the Upload button or drag and drop any .html file directly onto the editor panel. The file contents will load into the editor and the preview updates automatically."
+        ],
+        [
+          "What page sizes does freehtmltopdf.app support?",
+          "freehtmltopdf.app supports A4, Letter, Legal, A3, A5, and Tabloid page sizes in both portrait and landscape orientation, with adjustable margins from none to 30mm."
+        ],
+        [
+          "Does the converter support CSS styling?",
+          "Yes. Inline CSS, internal stylesheets, and most CSS properties are supported. The converter renders your HTML with full CSS styling before converting to PDF. Flexbox layouts work well; CSS Grid has limited support."
+        ],
+        [
+          "Do I need to sign up or install anything?",
+          "No. freehtmltopdf.app works instantly in any modern browser with no signup, no installation, and no account required. It also works offline after the first visit."
+        ]
       ],
-      "related": ["freejsonformatter", "freebase64", "freemergepdf", "freeimagetopdf"]
+      "related": [
+        "freejsonformatter",
+        "freebase64",
+        "freemergepdf",
+        "freeimagetopdf"
+      ]
     },
     {
       "slug": "freetexttospeech",
@@ -2231,14 +2295,107 @@
       "comparison": "Unlike NaturalReader, freetexttospeech.app has no daily minute cap and no sign-up. Unlike TTSMP3, it has no ads, no character limit, and runs entirely in your browser instead of on a server. For studio-quality neural voices, the Pro upgrade on freesuite.app matches paid tools like ElevenLabs at a fraction of the cost.",
       "privacyNote": "Every piece of text you paste stays on your device. freetexttospeech.app has no backend — synthesis happens in your browser using the Web Speech API. No text, audio, or settings are ever uploaded.",
       "faqs": [
-        ["Is freetexttospeech.app really free?", "Yes. freetexttospeech.app is completely free with no sign-up, no watermarks, and no character limits. It runs in your browser using the built-in Web Speech API, so there are no server costs to pass on to you."],
-        ["Does my text get uploaded anywhere?", "No. All speech synthesis happens locally in your browser. Your text never leaves your device. freetexttospeech.app has no backend and collects no data."],
-        ["How many voices are available?", "The voices come from your operating system and browser. Most modern setups offer 30 to 100 voices across dozens of languages. macOS and iOS have the highest-quality voices out of the box. Chrome on any platform also loads extra Google voices."],
-        ["Can I download the audio as an MP3?", "freetexttospeech.app can record the speech output to a .webm audio file in browsers that support MediaRecorder on synthesised audio. Support varies — if your browser does not expose the synth stream, the download button will tell you."],
-        ["What languages are supported?", "Every language your operating system ships voices for — typically English, Spanish, French, German, Italian, Portuguese, Chinese, Japanese, Korean, Arabic, Hindi, and many more."],
-        ["Does it work offline?", "Yes. After your first visit, freetexttospeech.app caches itself via a service worker. The browser's built-in voices work offline on most platforms."]
+        [
+          "Is freetexttospeech.app really free?",
+          "Yes. freetexttospeech.app is completely free with no sign-up, no watermarks, and no character limits. It runs in your browser using the built-in Web Speech API, so there are no server costs to pass on to you."
+        ],
+        [
+          "Does my text get uploaded anywhere?",
+          "No. All speech synthesis happens locally in your browser. Your text never leaves your device. freetexttospeech.app has no backend and collects no data."
+        ],
+        [
+          "How many voices are available?",
+          "The voices come from your operating system and browser. Most modern setups offer 30 to 100 voices across dozens of languages. macOS and iOS have the highest-quality voices out of the box. Chrome on any platform also loads extra Google voices."
+        ],
+        [
+          "Can I download the audio as an MP3?",
+          "freetexttospeech.app can record the speech output to a .webm audio file in browsers that support MediaRecorder on synthesised audio. Support varies — if your browser does not expose the synth stream, the download button will tell you."
+        ],
+        [
+          "What languages are supported?",
+          "Every language your operating system ships voices for — typically English, Spanish, French, German, Italian, Portuguese, Chinese, Japanese, Korean, Arabic, Hindi, and many more."
+        ],
+        [
+          "Does it work offline?",
+          "Yes. After your first visit, freetexttospeech.app caches itself via a service worker. The browser's built-in voices work offline on most platforms."
+        ]
       ],
-      "related": ["freenotepad", "freewordcounter", "freecaseconverter", "freeloremipsum"]
+      "related": [
+        "freenotepad",
+        "freewordcounter",
+        "freecaseconverter",
+        "freeloremipsum"
+      ]
+    },
+    {
+      "slug": "freecsv2json",
+      "name": "Freecsv2json",
+      "title": "CSV to JSON",
+      "domain": "freecsv2json.app",
+      "category": "developer",
+      "seoTitle": "Free CSV to JSON Converter Online — freecsv2json.app",
+      "metaDesc": "Convert CSV to JSON and JSON to CSV in your browser. Bidirectional, handles quoted fields, custom delimiters. Free, no uploads, no sign-up.",
+      "h1": "Free CSV to JSON Converter — Online, Bidirectional",
+      "hero": "Convert CSV to JSON and JSON to CSV instantly in your browser. Bidirectional, RFC 4180 compliant (handles quoted fields, escaped quotes, multi-line values), supports custom delimiters, and runs 100% client-side — nothing uploaded.",
+      "features": [
+        "Bidirectional: CSV → JSON and JSON → CSV with auto-detection",
+        "RFC 4180 parser: handles quoted fields, embedded delimiters, escaped quotes, multi-line values",
+        "Delimiter picker: comma, semicolon, tab, pipe, or custom character",
+        "JSON output as array of objects or array of arrays, pretty or minified",
+        "CSV output: quote all or only when needed, LF or CRLF line endings",
+        "Drag-and-drop .csv or .json file loading",
+        "Copy to clipboard, download as file, swap input ↔ output",
+        "Live debounced conversion with parse-error panel",
+        "Dark mode, offline PWA, crash-recovery local save"
+      ],
+      "howItWorks": [
+        "Open freecsv2json.app in any browser",
+        "Paste CSV or JSON into the left pane (or drop a file)",
+        "Pick delimiter, header row, and output format options",
+        "See converted result live in the right pane",
+        "Click Copy or Download, or use ⇄ Swap to round-trip"
+      ],
+      "useCases": [
+        "Turning spreadsheet exports into API-ready JSON payloads",
+        "Converting JSON API responses into CSV for Excel or Google Sheets",
+        "Generating test fixtures and seed data from CSV dumps",
+        "Inspecting unfamiliar CSV files to see column names and row counts",
+        "Round-tripping data between BI tools and developer workflows"
+      ],
+      "comparison": "Most free CSV-to-JSON converters break on quoted fields with commas, escaped quotes, and multi-line values. freecsv2json.app follows RFC 4180 strictly so those edge cases parse correctly. It also runs 100% client-side (unlike ConvertCSV.com's server-side upload model), offers a first-class bidirectional workflow, and works offline as a progressive web app.",
+      "privacyNote": "Every line of CSV and JSON you paste stays on your device. freecsv2json.app makes zero network calls after page load, stores no data server-side, and uses no third-party analytics. Safe for CSV exports containing customer data, credentials, or PII.",
+      "faqs": [
+        [
+          "How do I convert CSV to JSON?",
+          "Paste your CSV into the left pane on freecsv2json.app. The tool detects the delimiter, treats the first row as headers, and outputs valid JSON in the right pane in real time. Copy the result or download it as a .json file."
+        ],
+        [
+          "Can it also convert JSON back to CSV?",
+          "Yes. Switch the mode toggle to JSON to CSV, or paste JSON that starts with [ or { and freecsv2json.app auto-detects the direction. Arrays of flat objects convert cleanly; nested values are stringified."
+        ],
+        [
+          "Does it handle quoted fields with commas?",
+          "Yes. The parser follows RFC 4180, so quoted fields with embedded commas, escaped quotes as double quotes, and multi-line values inside quotes all parse correctly. Most free converters break on these — freecsv2json.app does not."
+        ],
+        [
+          "What delimiters are supported?",
+          "Comma, semicolon, tab, pipe, or any single custom character you type. European CSV files usually use semicolons, tab-separated values use tabs. freecsv2json.app supports them all via the delimiter picker."
+        ],
+        [
+          "Is my data uploaded anywhere?",
+          "No. All parsing and conversion happens locally in your browser using JavaScript. Nothing is uploaded, logged, or sent to a server. freecsv2json.app is safe for CSV files containing customer data, credentials, or other private content."
+        ],
+        [
+          "How large a file can I convert?",
+          "Up to about 10 MB of CSV runs smoothly in most browsers. Beyond that, the tab may slow down since everything processes in memory. For server-side batch or API conversion, the Pro tier is planned."
+        ]
+      ],
+      "related": [
+        "freejsonformatter",
+        "freesheet",
+        "freesqlformatter",
+        "freebase64"
+      ]
     }
   ]
 }

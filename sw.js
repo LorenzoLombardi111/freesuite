@@ -1,4 +1,4 @@
-const CACHE_NAME = 'freesuite-v12';
+const CACHE_NAME = 'freesuite-v13';
 const ASSETS = [
   '/',
   '/index.html',
@@ -55,7 +55,8 @@ const ASSETS = [
   '/pages/tools/freedrawboard.html',
   '/pages/tools/freeloancalc.html',
   '/pages/tools/freehtmltopdf.html',
-  '/pages/tools/freetexttospeech.html'
+  '/pages/tools/freetexttospeech.html',
+  '/pages/tools/freecsv2json.html'
 ];
 
 self.addEventListener('install', (event) => {
