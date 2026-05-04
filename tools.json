@@ -2475,6 +2475,85 @@
         "freecsv2json",
         "freebase64"
       ]
+    },
+    {
+      "slug": "freeprompttester",
+      "name": "Freeprompttester",
+      "title": "AI Prompt Tester",
+      "domain": "freeprompttester.app",
+      "category": "developer",
+      "cardDesc": "Run one prompt across GPT, Claude, Gemini, Grok and more — side by side, with your own API keys.",
+      "seoTitle": "Free AI Prompt Tester Online — freeprompttester.app",
+      "metaDesc": "Run one prompt across GPT, Claude, Gemini, Grok, DeepSeek and more — side by side, in your browser, with your own API keys. Free.",
+      "h1": "AI Prompt Tester — Compare GPT, Claude, Gemini and More Side by Side",
+      "hero": "Bring your own API keys, write a prompt, pick up to six models from any combination of OpenAI (via OpenRouter), Anthropic, Google, xAI, Mistral, DeepSeek, Cohere and Groq, and watch every response stream into its own card with TTFT, latency, token usage and per-call cost shown live. Runs entirely in your browser.",
+      "features": [
+        "Side-by-side parallel runs across 25+ models from 8 providers",
+        "BYO API keys — stored only in localStorage, never on a server",
+        "OpenAI access via OpenRouter (since OpenAI blocks direct browser calls)",
+        "Streamed output with time-to-first-token, total latency and per-call cost",
+        "Up to 6 models per run, responsive grid (2 cols desktop, 1 col mobile)",
+        "Stop / regenerate / copy buttons per card",
+        "Parameters panel: temperature, max tokens, top-p, streaming on/off",
+        "Crash-recovery local save for prompt + system prompt",
+        "Dark mode and offline PWA shell"
+      ],
+      "howItWorks": [
+        "Open freeprompttester.app in any browser",
+        "Click \"API keys\" in the header and paste a key for each provider you want to test",
+        "Write a system prompt (optional) and your user prompt",
+        "Pick up to six models in the model picker",
+        "Click Run — every model streams in parallel into its own card with cost shown live"
+      ],
+      "useCases": [
+        "Picking a model for a new project by running representative prompts side by side",
+        "Cost-benchmarking the same prompt across providers before committing to one",
+        "Prompt-engineering iterations that need to work across providers",
+        "Quick sanity check when a model behaves oddly in production",
+        "Vendor-swap evaluation (already on OpenAI? compare Claude / Gemini in one click)"
+      ],
+      "comparison": "Single-vendor playgrounds (OpenAI Playground, Anthropic Workbench, Google AI Studio) are stuck with one provider, and most multi-model playgrounds run a server-side proxy that sees your keys and prompts. freeprompttester.app is the only fully client-side multi-provider playground: 8 providers, 25+ models, parallel runs, live cost — and the only \"server\" is the AI provider you already pay.",
+      "privacyNote": "freeprompttester.app is a static page. Your keys live in localStorage and are sent only directly to each provider you select. No Freesuite server is in the request path. No analytics on input. You can verify by inspecting the Network tab while running a prompt.",
+      "faqs": [
+        [
+          "What is freeprompttester.app?",
+          "freeprompttester.app is a free, browser-based playground that runs the same prompt across multiple AI models in parallel. You paste your own API keys, write a prompt, pick which models to test, and watch each provider stream its response into its own card with latency, token usage and cost shown live. Everything runs client-side — keys and prompts never leave your browser."
+        ],
+        [
+          "Which models does freeprompttester.app support?",
+          "freeprompttester.app supports Anthropic (Claude Opus 4.7, Sonnet 4.6, Haiku 4.5), Google (Gemini 2.5 Pro, 2.5 Flash, 2.0 Flash), xAI (Grok 4, Grok 4 Fast, Grok 3), Mistral (Large 2, Medium 3, Small 3.1), DeepSeek (V3.1, R1), Groq-hosted Llama (Llama 4 Scout, 3.3 70B, 3.1 8B) and Cohere (Command A, R+, R) via direct browser calls, plus OpenAI's GPT-5, GPT-5 mini, GPT-4.1, o4-mini and any other model via OpenRouter."
+        ],
+        [
+          "Why does freeprompttester.app use OpenRouter for OpenAI?",
+          "OpenAI's API blocks direct browser calls (no CORS headers) so a static page like freeprompttester.app cannot call it without a proxy server. OpenRouter is a paid relay that does support browser calls and gives you access to OpenAI's models with a single key. Using OpenRouter keeps freeprompttester.app fully serverless while still letting you compare GPT-5 against everything else."
+        ],
+        [
+          "Where are my API keys stored?",
+          "API keys you paste into freeprompttester.app are saved in your browser's localStorage and used only to make requests directly from your browser to each provider. They never touch a Freesuite server. Anyone with access to your browser can read localStorage, so do not enter keys on a shared or public computer. Use the Clear all keys button to wipe them at any time."
+        ],
+        [
+          "Is my prompt sent to Freesuite?",
+          "No. freeprompttester.app is a static page. Your prompt is sent only to the AI providers you select, directly from your browser. There is no Freesuite server in the request path, no logging, and no analytics on input. You can verify this by watching the Network tab in your browser's developer tools while running a prompt."
+        ],
+        [
+          "How does freeprompttester.app calculate cost?",
+          "After each response finishes, freeprompttester.app reads the input and output token counts returned by the provider and multiplies them by the model's published per-million input and output rates. The cost shown per card is the cost of that single call. The run bar adds them up across all selected models so you can see total spend per run."
+        ],
+        [
+          "Can I compare more than two models at once?",
+          "Yes. freeprompttester.app lets you select up to six models per run. They stream in parallel into a responsive grid (two columns on desktop, one on mobile). Six is the soft cap to keep the UI scannable; for larger sweeps, run two batches and compare the saved JSON exports."
+        ],
+        [
+          "Does freeprompttester.app support streaming?",
+          "Yes. Every supported provider streams responses as they generate, and freeprompttester.app renders tokens as they arrive. Time-to-first-token is shown next to each card so you can see how fast each model starts producing output, not just total latency. Streaming can be disabled in settings if you prefer one-shot responses."
+        ]
+      ],
+      "related": [
+        "freetokencounter",
+        "freejsonformatter",
+        "freeregextester",
+        "freediffchecker"
+      ]
     }
   ]
 }

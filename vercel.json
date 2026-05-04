@@ -309,6 +309,10 @@
     {
       "source": "/tools/freetokencounter",
       "destination": "/pages/tools/freetokencounter.html"
+    },
+    {
+      "source": "/tools/freeprompttester",
+      "destination": "/pages/tools/freeprompttester.html"
     }
   ]
 }
