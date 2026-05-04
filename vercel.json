@@ -313,6 +313,10 @@
     {
       "source": "/tools/freeprompttester",
       "destination": "/pages/tools/freeprompttester.html"
+    },
+    {
+      "source": "/tools/freeaicostcalculator",
+      "destination": "/pages/tools/freeaicostcalculator.html"
     }
   ]
 }

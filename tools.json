@@ -2556,6 +2556,86 @@
         "freeregextester",
         "freediffchecker"
       ]
+    },
+    {
+      "slug": "freeaicostcalculator",
+      "name": "Freeaicostcalculator",
+      "title": "AI Cost Calculator",
+      "domain": "freeaicostcalculator.app",
+      "category": "developer",
+      "cardDesc": "Estimate monthly LLM API spend across GPT, Claude, Gemini, Grok and 370+ models — workload-driven, with flat-plan break-even check.",
+      "seoTitle": "Free AI Cost Calculator Online — freeaicostcalculator.app",
+      "metaDesc": "Estimate monthly LLM API spend across GPT, Claude, Gemini, Grok and 370+ models. Workload-driven, with flat-plan break-even check. Free.",
+      "h1": "AI Cost Calculator — Estimate Monthly LLM API Spend Across GPT, Claude, Gemini and 370+ Models",
+      "hero": "Enter three numbers — requests per month, average input tokens per request, average output tokens per request — pick which models to compare from a curated catalog of 24 models across 8 providers (plus the entire OpenRouter live catalog of 370+ more), and immediately see per-model monthly cost as a sorted bar chart with a flat-plan break-even check. Pure arithmetic in your browser, no API keys required.",
+      "features": [
+        "Workload-driven: 3 sliders (req/mo, avg input tokens, avg output tokens) define the calculation",
+        "24 curated models across 8 providers + entire live OpenRouter catalog (370+ models)",
+        "Provider sub-filter dropdown on OpenRouter tab + search box",
+        "Sorted horizontal bar chart with cost-per-request and monthly totals",
+        "Flat-plan break-even card: ChatGPT Plus, Pro, Claude Pro/Max, Cursor, GitHub Copilot",
+        "Optional 50% prompt-cache discount toggle on input portion",
+        "Preset workloads: Side project, Indie SaaS, Production, RAG/long-context",
+        "Copy results as Markdown table or download as CSV",
+        "No API keys required — pure arithmetic on baked-in pricing",
+        "Dark mode and offline PWA shell"
+      ],
+      "howItWorks": [
+        "Open freeaicostcalculator.app in any browser",
+        "Set requests per month, average input tokens, average output tokens (or click a preset)",
+        "Pick 1-12 models from the picker (curated tabs or full OpenRouter catalog)",
+        "Read the sorted bar chart and table — cheapest model floats to the top",
+        "Check the flat-plan break-even card to see if a $20-200/mo subscription beats your API spend"
+      ],
+      "useCases": [
+        "Sizing API spend before committing to a model for a new product",
+        "Comparing Claude vs GPT vs Gemini cost at your specific workload",
+        "Deciding between paying API rates and a flat plan (ChatGPT Pro, Claude Max, etc.)",
+        "Budgeting RAG / long-context workloads where input dominates cost",
+        "Quarterly cost reviews — re-run with current usage to spot savings"
+      ],
+      "comparison": "OpenAI's pricing page covers OpenAI only; Anthropic's, Google's, and others each cover one provider. freeaicostcalculator.app is the only free, browser-based calculator that compares 370+ models across 8 providers in one workload, with a flat-plan break-even check built in. Distinct from freetokencounter.app (which answers \"how much does this specific text cost?\") — this calculator answers the workload/budgeting question: \"at N requests/month with M tokens average, what is my monthly bill across these models?\"",
+      "privacyNote": "freeaicostcalculator.app does not call any AI provider. The only network request is a public, unauthenticated GET to OpenRouter's models endpoint (no key required) to populate the live catalog. No personal data is sent anywhere. Pure arithmetic in your browser.",
+      "faqs": [
+        [
+          "What is freeaicostcalculator.app?",
+          "freeaicostcalculator.app is a free, browser-based calculator that estimates your monthly LLM API spend across multiple AI models. You enter three numbers — requests per month, average input tokens per request, average output tokens per request — and pick which models to compare. The calculator shows per-model monthly cost, a horizontal bar chart, and a flat-plan break-even check against ChatGPT Plus, Claude Pro, Cursor and GitHub Copilot."
+        ],
+        [
+          "How does freeaicostcalculator.app calculate cost?",
+          "Per-request cost equals (input tokens × input rate + output tokens × output rate) divided by one million, using each model's published per-million pricing. Monthly cost equals per-request cost multiplied by your requests-per-month input. The calculator does not call any AI provider — it is pure arithmetic on baked-in pricing data plus the live OpenRouter catalog fetched at page load."
+        ],
+        [
+          "How is this different from freetokencounter.app?",
+          "freetokencounter.app answers the question \"how much does this specific text cost when sent to model X?\" — you paste a prompt and see its tokens and the cost of that single call. freeaicostcalculator.app answers a different question: \"if I run a workload of N requests per month at average M tokens per request, what is my total monthly bill across these models?\" One is for a specific prompt in your hand; the other is for planning and budgeting before you have a prompt."
+        ],
+        [
+          "Which models does freeaicostcalculator.app support?",
+          "The curated catalog covers Anthropic (Claude Opus 4.7, Sonnet 4.6, Haiku 4.5), Google (Gemini 2.5 Pro, 2.5 Flash, 2.0 Flash), xAI (Grok 4, Grok 4 Fast, Grok 3), Mistral (Large 2, Medium 3, Small 3.1), DeepSeek (V3.1, R1), Groq-hosted Llama (Llama 4 Scout 17B, 3.3 70B, 3.1 8B), Cohere (Command A, R+, R) and OpenAI via OpenRouter (GPT-5, GPT-5 mini, GPT-4.1, o4-mini). On top of that, the OpenRouter tab loads the entire live catalog — 370+ models with pricing pulled directly from OpenRouter at page load."
+        ],
+        [
+          "Should I use a flat plan like ChatGPT Plus instead of paying API rates?",
+          "It depends on usage. ChatGPT Plus is $20 per month, ChatGPT Pro is $200 per month, Claude Pro is $20 per month, Claude Max is $100 or $200 per month, Cursor Pro is $20 per month, GitHub Copilot is $10 to $19 per month. freeaicostcalculator.app shows your projected API spend alongside these flat plans so you can spot break-even points. The honest caveat: flat plans are rate-limited chat products, not raw API access — they are not directly comparable when you need full programmatic access for a product or pipeline."
+        ],
+        [
+          "Are the prices accurate?",
+          "freeaicostcalculator.app uses each provider's published per-million input and output rates baked into a static pricing object, plus the live OpenRouter catalog fetched on page load. Prices change occasionally; for production budgeting always verify against the provider's current pricing page. The pricing data is dated in the status bar so you can see how fresh it is."
+        ],
+        [
+          "Does freeaicostcalculator.app need an API key?",
+          "No. freeaicostcalculator.app does not call any AI provider — it is a pure calculator. The only network request is a public, unauthenticated GET to OpenRouter's models endpoint (no key required) to populate the live catalog. No personal data is sent anywhere."
+        ],
+        [
+          "Can I model prompt caching?",
+          "Yes. freeaicostcalculator.app has an optional toggle that applies a 50% effective discount on the input portion of cost, modeling a typical cached-prompt workload. It is a simplification — actual cache savings depend on hit rate and provider (OpenAI typically 50%, Anthropic prompt cache up to 90% on cached portion). For precise modeling, run the calculation twice with different multipliers and split your traffic accordingly."
+        ]
+      ],
+      "related": [
+        "freetokencounter",
+        "freeprompttester",
+        "freejsonformatter",
+        "freecsv2json"
+      ]
     }
   ]
 }

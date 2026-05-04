@@ -37,7 +37,7 @@ Freesuite is a family of single-purpose web apps. Each tool does exactly one tas
 - [Freecaseconverter](https://freecaseconverter.app/) — Convert text between UPPER, lower, Title, Sentence, snake_case, kebab-case, camelCase, PascalCase, and more
 - [Freeloremipsum](https://freeloremipsum.app/) — Generate lorem ipsum placeholder text by paragraph, sentence, word, or exact character count
 
-### Developer (13)
+### Developer (14)
 - [Freejsonformatter](https://freejsonformatter.app/) — Free JSON formatter in your browser
 - [Freebase64](https://freebase64.app/) — Encode and decode Base64 for text and files
 - [Freeregextester](https://freeregextester.app/) — Test regular expressions with live match highlighting, capture groups, and flags
@@ -51,6 +51,7 @@ Freesuite is a family of single-purpose web apps. Each tool does exactly one tas
 - [Freecsv2json](https://freecsv2json.app/) — Convert CSV to JSON and JSON to CSV in your browser
 - [Freetokencounter](https://freetokencounter.app/) — Count tokens for GPT-5, Claude Opus 4
 - [Freeprompttester](https://freeprompttester.app/) — Compare GPT, Claude, Gemini, Grok across 370+ models — side-by-side or in chat, in your browser, with your own API keys
+- [Freeaicostcalculator](https://freeaicostcalculator.app/) — Estimate monthly LLM API spend across GPT, Claude, Gemini, Grok and 370+ models
 
 ### Productivity (6)
 - [Freetypingtest](https://freetypingtest.app/) — Free typing speed test
@@ -132,6 +133,7 @@ Every tool has a dedicated page with features, use cases, FAQ, and comparisons t
 - [/tools/freecsv2json](https://freesuite.app/tools/freecsv2json)
 - [/tools/freetokencounter](https://freesuite.app/tools/freetokencounter)
 - [/tools/freeprompttester](https://freesuite.app/tools/freeprompttester)
+- [/tools/freeaicostcalculator](https://freesuite.app/tools/freeaicostcalculator)
 
 
 ## Why Freesuite exists
