@@ -2396,6 +2396,85 @@
         "freesqlformatter",
         "freebase64"
       ]
+    },
+    {
+      "slug": "freetokencounter",
+      "name": "Freetokencounter",
+      "title": "AI Token Counter",
+      "domain": "freetokencounter.app",
+      "category": "developer",
+      "cardDesc": "Count tokens for GPT, Claude, Gemini, Llama, Grok and more — with cost and context-window estimates.",
+      "seoTitle": "Free AI Token Counter Online — freetokencounter.app",
+      "metaDesc": "Count tokens for GPT-5, Claude Opus 4.7, Gemini 2.5, Llama 4, Grok 4, DeepSeek. Live counter, cost estimates, context meter. Free, no sign-up.",
+      "h1": "AI Token Counter — Count Tokens for GPT, Claude, Gemini, Llama and More",
+      "hero": "Count tokens for any major AI model in real time — GPT-5, Claude Opus 4.7, Gemini 2.5, Llama 4, Grok 4, DeepSeek and 100+ more. See live counts, cost estimates and a context-window meter as you type. Runs entirely in your browser.",
+      "features": [
+        "Live token count for 100+ models across 12 providers (OpenAI, Anthropic, Google, Meta, xAI, Mistral, DeepSeek, Cohere, Alibaba, Moonshot, Perplexity, MiniMax)",
+        "Side-by-side comparison so you can see how the same prompt tokenizes differently per model",
+        "Cost estimate using each provider’s published per-million input/output rates",
+        "Context-window meter shows how much of the model’s limit your prompt uses",
+        "Handles code, JSON, markdown and non-Latin scripts (CJK, Arabic, Cyrillic) accurately",
+        "Per-model calibration tuned against each provider’s published tokenizer where available",
+        "Counts update as you type — no submit button, no waiting",
+        "100% client-side: prompts never leave your browser, no logging, no analytics on input",
+        "Dark mode and offline PWA — works without internet after first load"
+      ],
+      "howItWorks": [
+        "Open freetokencounter.app in any browser",
+        "Paste or type your prompt into the input box",
+        "Pick the AI model you’re targeting (or compare several side by side)",
+        "Watch the live token count, estimated cost and context-window meter update",
+        "Edit until you’re under the model’s context limit and within budget"
+      ],
+      "useCases": [
+        "Estimating API costs before sending a long prompt to GPT-5 or Claude Opus 4.7",
+        "Trimming a prompt to fit Gemini 2.5 Pro’s or Claude’s 1M context window",
+        "Comparing tokenizers across providers when porting prompts between models",
+        "Sizing system prompts and few-shot examples for a Llama 4 or Grok 4 deployment",
+        "Quick-checking whether a code blob, JSON payload or transcript fits a context window"
+      ],
+      "comparison": "OpenAI’s tokenizer page only counts tokens for OpenAI models, and most other counters are stuck on cl100k or GPT-3.5 estimates. freetokencounter.app supports 100+ models across 12 providers with per-model calibration, side-by-side comparison, live cost estimates and a context-window meter — all client-side. No sign-up, no upload, no API keys.",
+      "privacyNote": "Your prompt never leaves the browser. freetokencounter.app makes zero network calls after the page loads, runs no analytics on input, and stores nothing server-side. Safe for proprietary prompts, customer data and unreleased product copy — you can verify in the Network tab.",
+      "faqs": [
+        [
+          "What is a token in an AI model?",
+          "A token is the smallest unit of text an AI model processes. Tokens can be whole words, sub-words, or single characters depending on the tokenizer. As a rough rule, 1 token ≈ 4 characters or ¾ of an English word, but the exact count depends on the specific model. freetokencounter.app shows you the count for any major model in real time."
+        ],
+        [
+          "How accurate is freetokencounter.app?",
+          "Counts are estimates within roughly ±5% for English text on most models. The tool uses the public GPT-2 / cl100k splitting pattern combined with per-model calibration constants tuned against each provider’s published tokenizer. Some providers (Anthropic, Google, MiniMax) do not publish a fully open tokenizer, so counts for those models are clearly labeled as approximations."
+        ],
+        [
+          "Which models does freetokencounter.app support?",
+          "Over 100 models across 12 providers: OpenAI (GPT-5 family, GPT-4.1, o4-mini, o3, GPT-4o), Anthropic (Claude Opus 4.7, Sonnet 4.6/4.5, Haiku 4.5), Google (Gemini 3.1 Pro/Flash-Lite, 3 Flash, 2.5 Pro/Flash), Meta (Llama 4 Maverick/Scout/Behemoth, Llama 3.x), xAI (Grok 4, 4 Heavy, 4 Fast), Mistral (Medium 3, Small 3.1, Magistral, Pixtral, Codestral), DeepSeek (V3.1, R1), Cohere (Command A, R+, R), Alibaba (Qwen3-Max, Qwen3-Coder), Moonshot (Kimi K2), Perplexity (Sonar family), MiniMax (M1, Text-01)."
+        ],
+        [
+          "Is my prompt uploaded anywhere?",
+          "No. freetokencounter.app runs entirely in your browser. Your prompt text never leaves your device — there are no servers, no analytics on input, no logging. You can verify this by checking the Network tab in your browser’s developer tools while typing."
+        ],
+        [
+          "Why does the same text produce different token counts on different models?",
+          "Each model family uses a different tokenizer trained on different data with a different vocabulary. GPT-5 and GPT-4o use o200k_base (~200K vocab), Claude Opus 4.7 uses Anthropic’s proprietary tokenizer, Gemini 2.5 Pro uses SentencePiece, Llama 4 uses its own BPE, and Grok 4 uses xAI’s tokenizer. The same word may be one token in one model and three tokens in another. freetokencounter.app shows the difference side by side."
+        ],
+        [
+          "How is cost calculated?",
+          "The cost estimate multiplies your input token count by each model’s published per-million input rate, plus an estimated output token count by the per-million output rate. Pricing data is sourced from each provider’s official pricing page and updated periodically. Always check live pricing for production budgeting."
+        ],
+        [
+          "What is a context window?",
+          "The context window is the maximum number of tokens (input + output combined) a model can process in a single request. GPT-5 handles 400,000 tokens, Claude Opus 4.7 up to 1 million, Gemini 2.5 Pro 1 million, Llama 4 Scout up to 10 million. If your prompt plus expected output exceeds the context window, the model will reject the request or truncate. freetokencounter.app shows a live context-window meter for the selected model."
+        ],
+        [
+          "Can I count tokens for code or non-English text?",
+          "Yes. freetokencounter.app handles code, JSON, markdown, and any Unicode text including non-Latin scripts. Note that code and non-English text typically use 30–80% more tokens than equivalent English prose, because their characters fall outside the most common subword merges. The tool shows accurate counts for any text you paste."
+        ]
+      ],
+      "related": [
+        "freejsonformatter",
+        "freewordcounter",
+        "freecsv2json",
+        "freebase64"
+      ]
     }
   ]
 }

@@ -305,6 +305,10 @@
     {
       "source": "/tools/freecsv2json",
       "destination": "/pages/tools/freecsv2json.html"
+    },
+    {
+      "source": "/tools/freetokencounter",
+      "destination": "/pages/tools/freetokencounter.html"
     }
   ]
 }

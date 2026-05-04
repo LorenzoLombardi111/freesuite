@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Free AI Token Counter Online — freetokencounter.app | Freesuite</title>
+    <meta name="description" content="Count tokens for GPT-5, Claude Opus 4.7, Gemini 2.5, Llama 4, Grok 4, DeepSeek. Live counter, cost estimates, context meter. Free, no sign-up.">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#faf9f6">
+    <link rel="canonical" href="https://freesuite.app/tools/freetokencounter">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Free AI Token Counter Online — freetokencounter.app | Freesuite">
+    <meta property="og:description" content="Count tokens for GPT-5, Claude Opus 4.7, Gemini 2.5, Llama 4, Grok 4, DeepSeek. Live counter, cost estimates, context meter. Free, no sign-up.">
+    <meta property="og:url" content="https://freesuite.app/tools/freetokencounter">
+    <meta property="og:image" content="https://freesuite.app/og-image.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Free AI Token Counter Online — freetokencounter.app">
+    <meta name="twitter:description" content="Count tokens for GPT-5, Claude Opus 4.7, Gemini 2.5, Llama 4, Grok 4, DeepSeek. Live counter, cost estimates, context meter. Free, no sign-up.">
+    <meta name="twitter:image" content="https://freesuite.app/og-image.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Freesuite","item":"https://freesuite.app/"},{"@type":"ListItem","position":2,"name":"Developer","item":"https://freesuite.app/free-developer-tools"},{"@type":"ListItem","position":3,"name":"AI Token Counter","item":"https://freesuite.app/tools/freetokencounter"}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"freetokencounter.app","url":"https://freetokencounter.app/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","description":"Count tokens for GPT-5, Claude Opus 4.7, Gemini 2.5, Llama 4, Grok 4, DeepSeek. Live counter, cost estimates, context meter. Free, no sign-up.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is a token in an AI model?","acceptedAnswer":{"@type":"Answer","text":"A token is the smallest unit of text an AI model processes. Tokens can be whole words, sub-words, or single characters depending on the tokenizer. As a rough rule, 1 token ≈ 4 characters or ¾ of an English word, but the exact count depends on the specific model. freetokencounter.app shows you the count for any major model in real time."}},{"@type":"Question","name":"How accurate is freetokencounter.app?","acceptedAnswer":{"@type":"Answer","text":"Counts are estimates within roughly ±5% for English text on most models. The tool uses the public GPT-2 / cl100k splitting pattern combined with per-model calibration constants tuned against each provider’s published tokenizer. Some providers (Anthropic, Google, MiniMax) do not publish a fully open tokenizer, so counts for those models are clearly labeled as approximations."}},{"@type":"Question","name":"Which models does freetokencounter.app support?","acceptedAnswer":{"@type":"Answer","text":"Over 100 models across 12 providers: OpenAI (GPT-5 family, GPT-4.1, o4-mini, o3, GPT-4o), Anthropic (Claude Opus 4.7, Sonnet 4.6/4.5, Haiku 4.5), Google (Gemini 3.1 Pro/Flash-Lite, 3 Flash, 2.5 Pro/Flash), Meta (Llama 4 Maverick/Scout/Behemoth, Llama 3.x), xAI (Grok 4, 4 Heavy, 4 Fast), Mistral (Medium 3, Small 3.1, Magistral, Pixtral, Codestral), DeepSeek (V3.1, R1), Cohere (Command A, R+, R), Alibaba (Qwen3-Max, Qwen3-Coder), Moonshot (Kimi K2), Perplexity (Sonar family), MiniMax (M1, Text-01)."}},{"@type":"Question","name":"Is my prompt uploaded anywhere?","acceptedAnswer":{"@type":"Answer","text":"No. freetokencounter.app runs entirely in your browser. Your prompt text never leaves your device — there are no servers, no analytics on input, no logging. You can verify this by checking the Network tab in your browser’s developer tools while typing."}},{"@type":"Question","name":"Why does the same text produce different token counts on different models?","acceptedAnswer":{"@type":"Answer","text":"Each model family uses a different tokenizer trained on different data with a different vocabulary. GPT-5 and GPT-4o use o200k_base (~200K vocab), Claude Opus 4.7 uses Anthropic’s proprietary tokenizer, Gemini 2.5 Pro uses SentencePiece, Llama 4 uses its own BPE, and Grok 4 uses xAI’s tokenizer. The same word may be one token in one model and three tokens in another. freetokencounter.app shows the difference side by side."}},{"@type":"Question","name":"How is cost calculated?","acceptedAnswer":{"@type":"Answer","text":"The cost estimate multiplies your input token count by each model’s published per-million input rate, plus an estimated output token count by the per-million output rate. Pricing data is sourced from each provider’s official pricing page and updated periodically. Always check live pricing for production budgeting."}},{"@type":"Question","name":"What is a context window?","acceptedAnswer":{"@type":"Answer","text":"The context window is the maximum number of tokens (input + output combined) a model can process in a single request. GPT-5 handles 400,000 tokens, Claude Opus 4.7 up to 1 million, Gemini 2.5 Pro 1 million, Llama 4 Scout up to 10 million. If your prompt plus expected output exceeds the context window, the model will reject the request or truncate. freetokencounter.app shows a live context-window meter for the selected model."}},{"@type":"Question","name":"Can I count tokens for code or non-English text?","acceptedAnswer":{"@type":"Answer","text":"Yes. freetokencounter.app handles code, JSON, markdown, and any Unicode text including non-Latin scripts. Note that code and non-English text typically use 30–80% more tokens than equivalent English prose, because their characters fall outside the most common subword merges. The tool shows accurate counts for any text you paste."}}]}</script>
+    <style>*{box-sizing:border-box;margin:0;padding:0}:root{--bg:#faf9f6;--surface:#f4f2ee;--border:#e8e4dd;--text-primary:#1a1917;--text-secondary:#6b6760;--text-muted:#9e9b96;--accent:#C49A2A;--accent-hover:#A8831F;--shadow:0 1px 3px rgba(0,0,0,.06),0 2px 8px rgba(0,0,0,.04);--font-body:"Lora",Georgia,serif;--font-ui:"DM Sans",-apple-system,system-ui,sans-serif}html.dark{--bg:#141412;--surface:#1e1c1a;--border:#2e2b27;--text-primary:#f0ede8;--text-secondary:#9e9b96;--text-muted:#6b6760;--accent:#D4A835;--accent-hover:#C49A2A;--shadow:0 1px 3px rgba(0,0,0,.3),0 2px 8px rgba(0,0,0,.2)}html,body{background:var(--bg);color:var(--text-primary);font-family:var(--font-body);font-size:15px;line-height:1.7;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}.header{position:sticky;top:0;height:56px;display:flex;align-items:center;justify-content:space-between;padding:0 24px;border-bottom:1px solid var(--border);background:var(--bg);z-index:10}.brand{font-family:var(--font-ui);font-size:16px;font-weight:700;color:var(--accent)}.brand-mark{display:inline-block;width:18px;height:18px;margin-right:8px;vertical-align:-3px}.theme-toggle{font-family:var(--font-ui);font-size:13px;font-weight:500;background:var(--surface);color:var(--text-secondary);border:1px solid var(--border);border-radius:20px;padding:6px 14px;cursor:pointer}.theme-toggle:hover{background:var(--border);color:var(--text-primary)}.breadcrumb{max-width:880px;margin:24px auto 0;padding:0 24px;font-family:var(--font-ui);font-size:13px;color:var(--text-muted)}.breadcrumb a{color:var(--accent);font-weight:500}.breadcrumb a:hover{text-decoration:underline}.page-hero{max-width:880px;margin:0 auto;padding:24px 24px 32px}.page-hero h1{font-family:var(--font-ui);font-size:36px;font-weight:700;line-height:1.15;letter-spacing:-.02em;margin-bottom:16px}.page-hero p{font-family:var(--font-ui);font-size:18px;color:var(--text-secondary);line-height:1.5;max-width:720px}@media (max-width:640px){.page-hero h1{font-size:28px}.page-hero p{font-size:16px}}main{max-width:880px;margin:0 auto;padding:0 24px 64px}.launch-cta{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:20px 24px;background:var(--surface);border:1px solid var(--border);border-radius:12px;margin-bottom:40px}.launch-cta-text{flex:1;min-width:200px}.launch-cta-label{font-family:var(--font-ui);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--text-muted);margin-bottom:4px}.launch-cta-url{font-family:var(--font-ui);font-size:15px;font-weight:600;color:var(--text-primary)}.launch-btn{font-family:var(--font-ui);font-size:14px;font-weight:600;background:var(--accent);color:#fff;border:none;border-radius:8px;padding:10px 24px;cursor:pointer;transition:all .15s ease;text-decoration:none;display:inline-block}.launch-btn:hover{background:var(--accent-hover)}.content h2{font-family:var(--font-ui);font-size:22px;font-weight:700;margin:40px 0 14px;letter-spacing:-.01em}.content h3{font-family:var(--font-ui);font-size:17px;font-weight:600;margin:24px 0 8px}.content p{margin-bottom:16px;color:var(--text-secondary)}.content strong{color:var(--text-primary);font-weight:600}.content a{color:var(--accent);font-weight:500}.content a:hover{text-decoration:underline}.content ul,.content ol{padding-left:24px;margin-bottom:16px;color:var(--text-secondary)}.content li{margin-bottom:6px}.faq{margin-top:48px}.faq h2{font-family:var(--font-ui);font-size:22px;font-weight:700;margin-bottom:16px;letter-spacing:-.01em}.faq details{border:1px solid var(--border);border-radius:10px;margin-bottom:8px;background:var(--bg)}.faq summary{font-family:var(--font-ui);font-size:15px;font-weight:500;padding:14px 18px;cursor:pointer;color:var(--text-primary);list-style:none;position:relative;padding-right:40px}.faq summary::-webkit-details-marker{display:none}.faq summary::after{content:"+";position:absolute;right:18px;top:50%;transform:translateY(-50%);font-size:18px;color:var(--text-muted);transition:transform .15s ease}.faq details[open] summary::after{transform:translateY(-50%) rotate(45deg)}.faq details[open] summary{border-bottom:1px solid var(--border)}.faq details p{padding:14px 18px;margin:0;color:var(--text-secondary);font-family:var(--font-body);font-size:15px}.related{margin-top:48px;padding:24px;background:var(--surface);border-radius:10px}.related h2{font-family:var(--font-ui);font-size:16px;font-weight:600;margin-bottom:12px}.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:8px}.related-grid a{font-family:var(--font-ui);font-size:13px;color:var(--text-secondary);background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:10px 12px;transition:all .15s ease}.related-grid a:hover{background:var(--border);color:var(--accent)}.related-grid a .rn{font-weight:600;color:var(--text-primary);display:block;margin-bottom:2px;font-size:13px}.related-grid a:hover .rn{color:var(--accent)}.footer{border-top:1px solid var(--border);padding:32px 24px;text-align:center;font-family:var(--font-ui);font-size:12px;color:var(--text-muted)}.footer a{color:var(--accent);font-weight:500}</style>
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+
+<header class="header" role="banner"><a class="brand" href="/" aria-label="Freesuite home"><svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true"><rect x="2" y="2" width="26" height="26" rx="5" fill="#C49A2A"/><rect x="36" y="2" width="26" height="26" rx="5" fill="currentColor"/><rect x="2" y="36" width="26" height="26" rx="5" fill="currentColor"/><rect x="36" y="36" width="26" height="26" rx="5" fill="#C49A2A"/></svg>Freesuite</a><button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode"><span id="themeLabel">Dark</span></button></header>
+
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Freesuite</a> &rsaquo; <a href="/free-developer-tools">Developer</a> &rsaquo; AI Token Counter</nav>
+
+<section class="page-hero">
+    <h1>AI Token Counter — Count Tokens for GPT, Claude, Gemini, Llama and More</h1>
+    <p>Count tokens for any major AI model in real time — GPT-5, Claude Opus 4.7, Gemini 2.5, Llama 4, Grok 4, DeepSeek and 100+ more. See live counts, cost estimates and a context-window meter as you type. Runs entirely in your browser.</p>
+</section>
+
+<main>
+
+    <div class="launch-cta">
+        <div class="launch-cta-text">
+            <div class="launch-cta-label">Launch the tool</div>
+            <div class="launch-cta-url">freetokencounter.app</div>
+        </div>
+        <a class="launch-btn" href="https://freetokencounter.app/" target="_blank" rel="noopener">Open AI Token Counter &rarr;</a>
+    </div>
+
+    <article class="content">
+
+        <h2>Features</h2>
+        <ul>
+            <li>Live token count for 100+ models across 12 providers (OpenAI, Anthropic, Google, Meta, xAI, Mistral, DeepSeek, Cohere, Alibaba, Moonshot, Perplexity, MiniMax)</li>
+            <li>Side-by-side comparison so you can see how the same prompt tokenizes differently per model</li>
+            <li>Cost estimate using each provider’s published per-million input/output rates</li>
+            <li>Context-window meter shows how much of the model’s limit your prompt uses</li>
+            <li>Handles code, JSON, markdown and non-Latin scripts (CJK, Arabic, Cyrillic) accurately</li>
+            <li>Per-model calibration tuned against each provider’s published tokenizer where available</li>
+            <li>Counts update as you type — no submit button, no waiting</li>
+            <li>100% client-side: prompts never leave your browser, no logging, no analytics on input</li>
+            <li>Dark mode and offline PWA — works without internet after first load</li>
+        </ul>
+
+        <h2>How it works</h2>
+        <ol>
+            <li>Open freetokencounter.app in any browser</li>
+            <li>Paste or type your prompt into the input box</li>
+            <li>Pick the AI model you’re targeting (or compare several side by side)</li>
+            <li>Watch the live token count, estimated cost and context-window meter update</li>
+            <li>Edit until you’re under the model’s context limit and within budget</li>
+        </ol>
+
+        <h2>Common use cases</h2>
+        <ul>
+            <li>Estimating API costs before sending a long prompt to GPT-5 or Claude Opus 4.7</li>
+            <li>Trimming a prompt to fit Gemini 2.5 Pro’s or Claude’s 1M context window</li>
+            <li>Comparing tokenizers across providers when porting prompts between models</li>
+            <li>Sizing system prompts and few-shot examples for a Llama 4 or Grok 4 deployment</li>
+            <li>Quick-checking whether a code blob, JSON payload or transcript fits a context window</li>
+        </ul>
+
+        <h2>How it compares</h2>
+        <p>OpenAI’s tokenizer page only counts tokens for OpenAI models, and most other counters are stuck on cl100k or GPT-3.5 estimates. freetokencounter.app supports 100+ models across 12 providers with per-model calibration, side-by-side comparison, live cost estimates and a context-window meter — all client-side. No sign-up, no upload, no API keys.</p>
+
+        <h2>Privacy</h2>
+        <p>Your prompt never leaves the browser. freetokencounter.app makes zero network calls after the page loads, runs no analytics on input, and stores nothing server-side. Safe for proprietary prompts, customer data and unreleased product copy — you can verify in the Network tab.</p>
+
+    </article>
+
+    <section class="faq" id="faq">
+        <h2>Frequently asked questions</h2>
+        <details><summary>What is a token in an AI model?</summary><p>A token is the smallest unit of text an AI model processes. Tokens can be whole words, sub-words, or single characters depending on the tokenizer. As a rough rule, 1 token ≈ 4 characters or ¾ of an English word, but the exact count depends on the specific model. freetokencounter.app shows you the count for any major model in real time.</p></details>
+        <details><summary>How accurate is freetokencounter.app?</summary><p>Counts are estimates within roughly ±5% for English text on most models. The tool uses the public GPT-2 / cl100k splitting pattern combined with per-model calibration constants tuned against each provider’s published tokenizer. Some providers (Anthropic, Google, MiniMax) do not publish a fully open tokenizer, so counts for those models are clearly labeled as approximations.</p></details>
+        <details><summary>Which models does freetokencounter.app support?</summary><p>Over 100 models across 12 providers: OpenAI (GPT-5 family, GPT-4.1, o4-mini, o3, GPT-4o), Anthropic (Claude Opus 4.7, Sonnet 4.6/4.5, Haiku 4.5), Google (Gemini 3.1 Pro/Flash-Lite, 3 Flash, 2.5 Pro/Flash), Meta (Llama 4 Maverick/Scout/Behemoth, Llama 3.x), xAI (Grok 4, 4 Heavy, 4 Fast), Mistral (Medium 3, Small 3.1, Magistral, Pixtral, Codestral), DeepSeek (V3.1, R1), Cohere (Command A, R+, R), Alibaba (Qwen3-Max, Qwen3-Coder), Moonshot (Kimi K2), Perplexity (Sonar family), MiniMax (M1, Text-01).</p></details>
+        <details><summary>Is my prompt uploaded anywhere?</summary><p>No. freetokencounter.app runs entirely in your browser. Your prompt text never leaves your device — there are no servers, no analytics on input, no logging. You can verify this by checking the Network tab in your browser’s developer tools while typing.</p></details>
+        <details><summary>Why does the same text produce different token counts on different models?</summary><p>Each model family uses a different tokenizer trained on different data with a different vocabulary. GPT-5 and GPT-4o use o200k_base (~200K vocab), Claude Opus 4.7 uses Anthropic’s proprietary tokenizer, Gemini 2.5 Pro uses SentencePiece, Llama 4 uses its own BPE, and Grok 4 uses xAI’s tokenizer. The same word may be one token in one model and three tokens in another. freetokencounter.app shows the difference side by side.</p></details>
+        <details><summary>How is cost calculated?</summary><p>The cost estimate multiplies your input token count by each model’s published per-million input rate, plus an estimated output token count by the per-million output rate. Pricing data is sourced from each provider’s official pricing page and updated periodically. Always check live pricing for production budgeting.</p></details>
+        <details><summary>What is a context window?</summary><p>The context window is the maximum number of tokens (input + output combined) a model can process in a single request. GPT-5 handles 400,000 tokens, Claude Opus 4.7 up to 1 million, Gemini 2.5 Pro 1 million, Llama 4 Scout up to 10 million. If your prompt plus expected output exceeds the context window, the model will reject the request or truncate. freetokencounter.app shows a live context-window meter for the selected model.</p></details>
+        <details><summary>Can I count tokens for code or non-English text?</summary><p>Yes. freetokencounter.app handles code, JSON, markdown, and any Unicode text including non-Latin scripts. Note that code and non-English text typically use 30–80% more tokens than equivalent English prose, because their characters fall outside the most common subword merges. The tool shows accurate counts for any text you paste.</p></details>
+    </section>
+
+    <aside class="related">
+        <h2>Related tools</h2>
+        <div class="related-grid">
+            <a href="/tools/freejsonformatter"><span class="rn">JSON Formatter</span>freejsonformatter.app</a>
+            <a href="/tools/freewordcounter"><span class="rn">Word Counter</span>freewordcounter.app</a>
+            <a href="/tools/freecsv2json"><span class="rn">CSV to JSON</span>freecsv2json.app</a>
+            <a href="/tools/freebase64"><span class="rn">Base64 Encoder/Decoder</span>freebase64.app</a>
+            <a href="/free-developer-tools"><span class="rn">All Developer tools &rarr;</span>browse the category</a>
+        </div>
+    </aside>
+
+</main>
+
+<footer class="footer"><a href="/">&larr; Back to Freesuite</a> &middot; <a href="/free-developer-tools">Developer</a> &middot; <a href="/tools/">All tool guides</a></footer>
+<script>(function(){const r=document.documentElement,l=document.getElementById('themeLabel');function a(t){r.classList.toggle('dark',t==='dark');if(l)l.textContent=t==='dark'?'Light':'Dark'}const s=localStorage.getItem('suite_theme'),p=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;a(s||(p?'dark':'light'));document.getElementById('themeToggle').addEventListener('click',()=>{const n=r.classList.contains('dark')?'light':'dark';localStorage.setItem('suite_theme',n);a(n)})})();</script>
+</body>
+</html>
