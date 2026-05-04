@@ -50,7 +50,7 @@ Freesuite is a family of single-purpose web apps. Each tool does exactly one tas
 - [Freehtmltopdf](https://freehtmltopdf.app/) — Convert HTML to PDF for free in your browser
 - [Freecsv2json](https://freecsv2json.app/) — Convert CSV to JSON and JSON to CSV in your browser
 - [Freetokencounter](https://freetokencounter.app/) — Count tokens for GPT-5, Claude Opus 4
-- [Freeprompttester](https://freeprompttester.app/) — Run one prompt across GPT, Claude, Gemini, Grok, DeepSeek and more — side by side, in your browser, with your own API keys
+- [Freeprompttester](https://freeprompttester.app/) — Compare GPT, Claude, Gemini, Grok across 370+ models — side-by-side or in chat, in your browser, with your own API keys
 
 ### Productivity (6)
 - [Freetypingtest](https://freetypingtest.app/) — Free typing speed test
