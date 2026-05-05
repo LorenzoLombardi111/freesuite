@@ -2636,6 +2636,89 @@
         "freejsonformatter",
         "freecsv2json"
       ]
+    },
+    {
+      "slug": "freefilestoprompt",
+      "name": "Freefilestoprompt",
+      "title": "Files to Prompt",
+      "domain": "freefilestoprompt.app",
+      "category": "developer",
+      "cardDesc": "Drop files in, fit them into your model's context window, get one packed LLM prompt out. Priorities, auto-fit, XML/MD/plain output.",
+      "seoTitle": "Free Files to Prompt Online — freefilestoprompt.app",
+      "metaDesc": "Drop files in, fit them into your model's context window, get one packed prompt. Free, browser-based. Works for Claude, GPT, Gemini and more.",
+      "h1": "Files to Prompt — Pack Multiple Files into One LLM Prompt That Fits the Context Window",
+      "hero": "Drag files (or a folder) into the drop zone, the tool counts tokens per file, you pick a target model from a dropdown of 14 popular options (Claude Opus 4.7 with 1M tokens, GPT-5 with 400K, Llama 4 Scout with 10M), and the auto-fit feature drops lowest-priority files until everything fits the budget. Output is one concatenated prompt with file delimiters in your choice of format — XML-ish, Markdown, or plain — plus an optional directory tree. All client-side, files never leave your browser.",
+      "features": [
+        "Drag-and-drop or browse for files (folders supported via webkitdirectory)",
+        "Per-file token count, priority dropdown (high/med/low), pin/drop buttons",
+        "14 target models in dropdown with their context windows + Custom option",
+        "Live budget bar (used / total, color-coded green/warn/over)",
+        "Auto-fit: greedy fill by priority, keeping pinned files first",
+        "Three output formats: XML (Anthropic-recommended), Markdown, Plain",
+        "Optional directory tree at top of output",
+        "Optional line numbers",
+        "Per-file token report as CSV",
+        "Markdown / TXT downloads, copy-to-clipboard",
+        "Conservative token estimator (ASCII 4, CJK 1.5, other Unicode 2.5, ×1.05 safety margin)",
+        "No API keys, no AI calls — pure file processing in browser",
+        "Dark mode and offline PWA shell"
+      ],
+      "howItWorks": [
+        "Open freefilestoprompt.app in any browser",
+        "Drag files or a folder into the drop zone (or paste raw text)",
+        "Pick a target model from the dropdown to set the context budget",
+        "Mark priorities, pin must-keep files, drop irrelevant ones",
+        "Click Auto-fit, pick output format, copy or download"
+      ],
+      "useCases": [
+        "Convert a repo into one LLM prompt that fits the context window (Claude / GPT / Gemini)",
+        "Pack documentation into a single prompt for cross-doc Q&A",
+        "Bundle log files + config + code for a debugging prompt",
+        "Prepare context for code review, architecture analysis, migration planning",
+        "Generate input for embedding pipelines or RAG systems"
+      ],
+      "comparison": "gitingest and repomix solve the same problem but require either a server (gitingest, paid web app) or a CLI install (repomix, npm). freefilestoprompt.app is browser-only, free, no sign-up, and works on local files (including private code that should never touch a third-party server). Trade-off: you drag files in manually rather than pasting a GitHub URL — which is also the privacy advantage. Live repo ingestion is on the Pro roadmap.",
+      "privacyNote": "freefilestoprompt.app is a static page. Files are read with the browser's native FileReader API; their contents never leave your device. No upload endpoint, no Freesuite server in the request path, no third-party SDKs, no analytics on file content. Verify by inspecting the Network tab while dropping files.",
+      "faqs": [
+        [
+          "What is freefilestoprompt.app?",
+          "freefilestoprompt.app is a free, browser-based tool that takes multiple files (text, code, markdown, JSON, etc.) and packs them into one LLM prompt that fits your target model's context window. You drag files in, the tool counts tokens per file, you pick a target model, and the auto-fit feature drops lowest-priority files until everything fits the budget. Output is a single concatenated prompt with file delimiters in your choice of format (XML, Markdown, or plain)."
+        ],
+        [
+          "Why pack files into a single prompt?",
+          "Most LLM tasks involving multiple files (code review, documentation Q&A, repo analysis, multi-doc summarization) work best when you give the model all the context at once rather than splitting across multiple turns. Modern context windows are huge (Claude Opus 4.7 and Gemini 2.5 Pro both handle 1M tokens, Llama 4 Scout up to 10M) so packing many files is now practical. The challenge is fitting them under the cap — that is what freefilestoprompt.app does."
+        ],
+        [
+          "How does freefilestoprompt.app count tokens?",
+          "freefilestoprompt.app uses a calibrated heuristic: ASCII text averages 4 characters per token, CJK averages 1.5, other Unicode 2.5, multiplied by 1.05 for a conservative overestimate so packed prompts reliably fit under the model's context window. For exact per-model counts, use freetokencounter.app on the packed output."
+        ],
+        [
+          "Are my files uploaded anywhere?",
+          "No. freefilestoprompt.app is a static page. Files are read directly in your browser using the FileReader API; their contents never leave your device. There is no upload endpoint, no Freesuite server in the request path, no third-party SDKs, no analytics on file content. You can verify by inspecting the Network tab while dropping files."
+        ],
+        [
+          "What output format should I use?",
+          "XML format wraps each file in <file path=\"...\">CONTENT</file> tags. This is what Anthropic recommends for Claude and works cleanly for GPT, Gemini, and most other providers. Markdown format uses ### File: path headers with fenced code blocks. Plain format uses === FILE: path === separators with no formatting. XML is the safest default for multi-file LLM workflows."
+        ],
+        [
+          "How does priority and auto-fit work?",
+          "Each file gets a priority (high, medium, low) and optional pin/drop flags. When you click Auto-fit, freefilestoprompt.app first removes files marked Drop, then pinned files always stay. Among the rest, it greedily includes files in priority order (highs first, then mediums, then lows) until adding the next file would exceed your budget. Excluded files are visually marked but kept in the list so you can adjust priorities and re-fit."
+        ],
+        [
+          "What file types does it support?",
+          "Any text-based file: .txt, .md, .js, .ts, .py, .java, .go, .rb, .rs, .c, .cpp, .h, .css, .html, .json, .yaml, .toml, .xml, .csv, .log, source files in any language, plus any extensionless text. Binary files (images, PDFs, archives, executables) are detected and skipped with a warning. Maximum 200 files and 50 MB total combined per session."
+        ],
+        [
+          "How is this different from gitingest or repomix?",
+          "gitingest and repomix are excellent for fetching public GitHub repos. freefilestoprompt.app is browser-only, free, no sign-up, no CLI install, and works on any local files (including private code that should never touch a third-party server). Trade-off: you drag files in manually rather than pasting a repo URL — which is also the privacy advantage. Live repo ingestion is on the Pro roadmap."
+        ]
+      ],
+      "related": [
+        "freetokencounter",
+        "freeprompttester",
+        "freeaicostcalculator",
+        "freejsonformatter"
+      ]
     }
   ]
 }

@@ -317,6 +317,10 @@
     {
       "source": "/tools/freeaicostcalculator",
       "destination": "/pages/tools/freeaicostcalculator.html"
+    },
+    {
+      "source": "/tools/freefilestoprompt",
+      "destination": "/pages/tools/freefilestoprompt.html"
     }
   ]
 }

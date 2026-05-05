@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Free Files to Prompt Online — freefilestoprompt.app | Freesuite</title>
+    <meta name="description" content="Drop files in, fit them into your model&#39;s context window, get one packed prompt. Free, browser-based. Works for Claude, GPT, Gemini and more.">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#faf9f6">
+    <link rel="canonical" href="https://freesuite.app/tools/freefilestoprompt">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Free Files to Prompt Online — freefilestoprompt.app | Freesuite">
+    <meta property="og:description" content="Drop files in, fit them into your model&#39;s context window, get one packed prompt. Free, browser-based. Works for Claude, GPT, Gemini and more.">
+    <meta property="og:url" content="https://freesuite.app/tools/freefilestoprompt">
+    <meta property="og:image" content="https://freesuite.app/og-image.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Free Files to Prompt Online — freefilestoprompt.app">
+    <meta name="twitter:description" content="Drop files in, fit them into your model&#39;s context window, get one packed prompt. Free, browser-based. Works for Claude, GPT, Gemini and more.">
+    <meta name="twitter:image" content="https://freesuite.app/og-image.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Freesuite","item":"https://freesuite.app/"},{"@type":"ListItem","position":2,"name":"Developer","item":"https://freesuite.app/free-developer-tools"},{"@type":"ListItem","position":3,"name":"Files to Prompt","item":"https://freesuite.app/tools/freefilestoprompt"}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"freefilestoprompt.app","url":"https://freefilestoprompt.app/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","description":"Drop files in, fit them into your model's context window, get one packed prompt. Free, browser-based. Works for Claude, GPT, Gemini and more.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is freefilestoprompt.app?","acceptedAnswer":{"@type":"Answer","text":"freefilestoprompt.app is a free, browser-based tool that takes multiple files (text, code, markdown, JSON, etc.) and packs them into one LLM prompt that fits your target model's context window. You drag files in, the tool counts tokens per file, you pick a target model, and the auto-fit feature drops lowest-priority files until everything fits the budget. Output is a single concatenated prompt with file delimiters in your choice of format (XML, Markdown, or plain)."}},{"@type":"Question","name":"Why pack files into a single prompt?","acceptedAnswer":{"@type":"Answer","text":"Most LLM tasks involving multiple files (code review, documentation Q&A, repo analysis, multi-doc summarization) work best when you give the model all the context at once rather than splitting across multiple turns. Modern context windows are huge (Claude Opus 4.7 and Gemini 2.5 Pro both handle 1M tokens, Llama 4 Scout up to 10M) so packing many files is now practical. The challenge is fitting them under the cap — that is what freefilestoprompt.app does."}},{"@type":"Question","name":"How does freefilestoprompt.app count tokens?","acceptedAnswer":{"@type":"Answer","text":"freefilestoprompt.app uses a calibrated heuristic: ASCII text averages 4 characters per token, CJK averages 1.5, other Unicode 2.5, multiplied by 1.05 for a conservative overestimate so packed prompts reliably fit under the model's context window. For exact per-model counts, use freetokencounter.app on the packed output."}},{"@type":"Question","name":"Are my files uploaded anywhere?","acceptedAnswer":{"@type":"Answer","text":"No. freefilestoprompt.app is a static page. Files are read directly in your browser using the FileReader API; their contents never leave your device. There is no upload endpoint, no Freesuite server in the request path, no third-party SDKs, no analytics on file content. You can verify by inspecting the Network tab while dropping files."}},{"@type":"Question","name":"What output format should I use?","acceptedAnswer":{"@type":"Answer","text":"XML format wraps each file in <file path=\"...\">CONTENT</file> tags. This is what Anthropic recommends for Claude and works cleanly for GPT, Gemini, and most other providers. Markdown format uses ### File: path headers with fenced code blocks. Plain format uses === FILE: path === separators with no formatting. XML is the safest default for multi-file LLM workflows."}},{"@type":"Question","name":"How does priority and auto-fit work?","acceptedAnswer":{"@type":"Answer","text":"Each file gets a priority (high, medium, low) and optional pin/drop flags. When you click Auto-fit, freefilestoprompt.app first removes files marked Drop, then pinned files always stay. Among the rest, it greedily includes files in priority order (highs first, then mediums, then lows) until adding the next file would exceed your budget. Excluded files are visually marked but kept in the list so you can adjust priorities and re-fit."}},{"@type":"Question","name":"What file types does it support?","acceptedAnswer":{"@type":"Answer","text":"Any text-based file: .txt, .md, .js, .ts, .py, .java, .go, .rb, .rs, .c, .cpp, .h, .css, .html, .json, .yaml, .toml, .xml, .csv, .log, source files in any language, plus any extensionless text. Binary files (images, PDFs, archives, executables) are detected and skipped with a warning. Maximum 200 files and 50 MB total combined per session."}},{"@type":"Question","name":"How is this different from gitingest or repomix?","acceptedAnswer":{"@type":"Answer","text":"gitingest and repomix are excellent for fetching public GitHub repos. freefilestoprompt.app is browser-only, free, no sign-up, no CLI install, and works on any local files (including private code that should never touch a third-party server). Trade-off: you drag files in manually rather than pasting a repo URL — which is also the privacy advantage. Live repo ingestion is on the Pro roadmap."}}]}</script>
+    <style>*{box-sizing:border-box;margin:0;padding:0}:root{--bg:#faf9f6;--surface:#f4f2ee;--border:#e8e4dd;--text-primary:#1a1917;--text-secondary:#6b6760;--text-muted:#9e9b96;--accent:#C49A2A;--accent-hover:#A8831F;--shadow:0 1px 3px rgba(0,0,0,.06),0 2px 8px rgba(0,0,0,.04);--font-body:"Lora",Georgia,serif;--font-ui:"DM Sans",-apple-system,system-ui,sans-serif}html.dark{--bg:#141412;--surface:#1e1c1a;--border:#2e2b27;--text-primary:#f0ede8;--text-secondary:#9e9b96;--text-muted:#6b6760;--accent:#D4A835;--accent-hover:#C49A2A;--shadow:0 1px 3px rgba(0,0,0,.3),0 2px 8px rgba(0,0,0,.2)}html,body{background:var(--bg);color:var(--text-primary);font-family:var(--font-body);font-size:15px;line-height:1.7;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}.header{position:sticky;top:0;height:56px;display:flex;align-items:center;justify-content:space-between;padding:0 24px;border-bottom:1px solid var(--border);background:var(--bg);z-index:10}.brand{font-family:var(--font-ui);font-size:16px;font-weight:700;color:var(--accent)}.brand-mark{display:inline-block;width:18px;height:18px;margin-right:8px;vertical-align:-3px}.theme-toggle{font-family:var(--font-ui);font-size:13px;font-weight:500;background:var(--surface);color:var(--text-secondary);border:1px solid var(--border);border-radius:20px;padding:6px 14px;cursor:pointer}.theme-toggle:hover{background:var(--border);color:var(--text-primary)}.breadcrumb{max-width:880px;margin:24px auto 0;padding:0 24px;font-family:var(--font-ui);font-size:13px;color:var(--text-muted)}.breadcrumb a{color:var(--accent);font-weight:500}.breadcrumb a:hover{text-decoration:underline}.page-hero{max-width:880px;margin:0 auto;padding:24px 24px 32px}.page-hero h1{font-family:var(--font-ui);font-size:36px;font-weight:700;line-height:1.15;letter-spacing:-.02em;margin-bottom:16px}.page-hero p{font-family:var(--font-ui);font-size:18px;color:var(--text-secondary);line-height:1.5;max-width:720px}@media (max-width:640px){.page-hero h1{font-size:28px}.page-hero p{font-size:16px}}main{max-width:880px;margin:0 auto;padding:0 24px 64px}.launch-cta{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:20px 24px;background:var(--surface);border:1px solid var(--border);border-radius:12px;margin-bottom:40px}.launch-cta-text{flex:1;min-width:200px}.launch-cta-label{font-family:var(--font-ui);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--text-muted);margin-bottom:4px}.launch-cta-url{font-family:var(--font-ui);font-size:15px;font-weight:600;color:var(--text-primary)}.launch-btn{font-family:var(--font-ui);font-size:14px;font-weight:600;background:var(--accent);color:#fff;border:none;border-radius:8px;padding:10px 24px;cursor:pointer;transition:all .15s ease;text-decoration:none;display:inline-block}.launch-btn:hover{background:var(--accent-hover)}.content h2{font-family:var(--font-ui);font-size:22px;font-weight:700;margin:40px 0 14px;letter-spacing:-.01em}.content h3{font-family:var(--font-ui);font-size:17px;font-weight:600;margin:24px 0 8px}.content p{margin-bottom:16px;color:var(--text-secondary)}.content strong{color:var(--text-primary);font-weight:600}.content a{color:var(--accent);font-weight:500}.content a:hover{text-decoration:underline}.content ul,.content ol{padding-left:24px;margin-bottom:16px;color:var(--text-secondary)}.content li{margin-bottom:6px}.faq{margin-top:48px}.faq h2{font-family:var(--font-ui);font-size:22px;font-weight:700;margin-bottom:16px;letter-spacing:-.01em}.faq details{border:1px solid var(--border);border-radius:10px;margin-bottom:8px;background:var(--bg)}.faq summary{font-family:var(--font-ui);font-size:15px;font-weight:500;padding:14px 18px;cursor:pointer;color:var(--text-primary);list-style:none;position:relative;padding-right:40px}.faq summary::-webkit-details-marker{display:none}.faq summary::after{content:"+";position:absolute;right:18px;top:50%;transform:translateY(-50%);font-size:18px;color:var(--text-muted);transition:transform .15s ease}.faq details[open] summary::after{transform:translateY(-50%) rotate(45deg)}.faq details[open] summary{border-bottom:1px solid var(--border)}.faq details p{padding:14px 18px;margin:0;color:var(--text-secondary);font-family:var(--font-body);font-size:15px}.related{margin-top:48px;padding:24px;background:var(--surface);border-radius:10px}.related h2{font-family:var(--font-ui);font-size:16px;font-weight:600;margin-bottom:12px}.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:8px}.related-grid a{font-family:var(--font-ui);font-size:13px;color:var(--text-secondary);background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:10px 12px;transition:all .15s ease}.related-grid a:hover{background:var(--border);color:var(--accent)}.related-grid a .rn{font-weight:600;color:var(--text-primary);display:block;margin-bottom:2px;font-size:13px}.related-grid a:hover .rn{color:var(--accent)}.footer{border-top:1px solid var(--border);padding:32px 24px;text-align:center;font-family:var(--font-ui);font-size:12px;color:var(--text-muted)}.footer a{color:var(--accent);font-weight:500}</style>
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+
+<header class="header" role="banner"><a class="brand" href="/" aria-label="Freesuite home"><svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true"><rect x="2" y="2" width="26" height="26" rx="5" fill="#C49A2A"/><rect x="36" y="2" width="26" height="26" rx="5" fill="currentColor"/><rect x="2" y="36" width="26" height="26" rx="5" fill="currentColor"/><rect x="36" y="36" width="26" height="26" rx="5" fill="#C49A2A"/></svg>Freesuite</a><button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode"><span id="themeLabel">Dark</span></button></header>
+
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Freesuite</a> &rsaquo; <a href="/free-developer-tools">Developer</a> &rsaquo; Files to Prompt</nav>
+
+<section class="page-hero">
+    <h1>Files to Prompt — Pack Multiple Files into One LLM Prompt That Fits the Context Window</h1>
+    <p>Drag files (or a folder) into the drop zone, the tool counts tokens per file, you pick a target model from a dropdown of 14 popular options (Claude Opus 4.7 with 1M tokens, GPT-5 with 400K, Llama 4 Scout with 10M), and the auto-fit feature drops lowest-priority files until everything fits the budget. Output is one concatenated prompt with file delimiters in your choice of format — XML-ish, Markdown, or plain — plus an optional directory tree. All client-side, files never leave your browser.</p>
+</section>
+
+<main>
+
+    <div class="launch-cta">
+        <div class="launch-cta-text">
+            <div class="launch-cta-label">Launch the tool</div>
+            <div class="launch-cta-url">freefilestoprompt.app</div>
+        </div>
+        <a class="launch-btn" href="https://freefilestoprompt.app/" target="_blank" rel="noopener">Open Files to Prompt &rarr;</a>
+    </div>
+
+    <article class="content">
+
+        <h2>Features</h2>
+        <ul>
+            <li>Drag-and-drop or browse for files (folders supported via webkitdirectory)</li>
+            <li>Per-file token count, priority dropdown (high/med/low), pin/drop buttons</li>
+            <li>14 target models in dropdown with their context windows + Custom option</li>
+            <li>Live budget bar (used / total, color-coded green/warn/over)</li>
+            <li>Auto-fit: greedy fill by priority, keeping pinned files first</li>
+            <li>Three output formats: XML (Anthropic-recommended), Markdown, Plain</li>
+            <li>Optional directory tree at top of output</li>
+            <li>Optional line numbers</li>
+            <li>Per-file token report as CSV</li>
+            <li>Markdown / TXT downloads, copy-to-clipboard</li>
+            <li>Conservative token estimator (ASCII 4, CJK 1.5, other Unicode 2.5, ×1.05 safety margin)</li>
+            <li>No API keys, no AI calls — pure file processing in browser</li>
+            <li>Dark mode and offline PWA shell</li>
+        </ul>
+
+        <h2>How it works</h2>
+        <ol>
+            <li>Open freefilestoprompt.app in any browser</li>
+            <li>Drag files or a folder into the drop zone (or paste raw text)</li>
+            <li>Pick a target model from the dropdown to set the context budget</li>
+            <li>Mark priorities, pin must-keep files, drop irrelevant ones</li>
+            <li>Click Auto-fit, pick output format, copy or download</li>
+        </ol>
+
+        <h2>Common use cases</h2>
+        <ul>
+            <li>Convert a repo into one LLM prompt that fits the context window (Claude / GPT / Gemini)</li>
+            <li>Pack documentation into a single prompt for cross-doc Q&amp;A</li>
+            <li>Bundle log files + config + code for a debugging prompt</li>
+            <li>Prepare context for code review, architecture analysis, migration planning</li>
+            <li>Generate input for embedding pipelines or RAG systems</li>
+        </ul>
+
+        <h2>How it compares</h2>
+        <p>gitingest and repomix solve the same problem but require either a server (gitingest, paid web app) or a CLI install (repomix, npm). freefilestoprompt.app is browser-only, free, no sign-up, and works on local files (including private code that should never touch a third-party server). Trade-off: you drag files in manually rather than pasting a GitHub URL — which is also the privacy advantage. Live repo ingestion is on the Pro roadmap.</p>
+
+        <h2>Privacy</h2>
+        <p>freefilestoprompt.app is a static page. Files are read with the browser&#39;s native FileReader API; their contents never leave your device. No upload endpoint, no Freesuite server in the request path, no third-party SDKs, no analytics on file content. Verify by inspecting the Network tab while dropping files.</p>
+
+    </article>
+
+    <section class="faq" id="faq">
+        <h2>Frequently asked questions</h2>
+        <details><summary>What is freefilestoprompt.app?</summary><p>freefilestoprompt.app is a free, browser-based tool that takes multiple files (text, code, markdown, JSON, etc.) and packs them into one LLM prompt that fits your target model&#39;s context window. You drag files in, the tool counts tokens per file, you pick a target model, and the auto-fit feature drops lowest-priority files until everything fits the budget. Output is a single concatenated prompt with file delimiters in your choice of format (XML, Markdown, or plain).</p></details>
+        <details><summary>Why pack files into a single prompt?</summary><p>Most LLM tasks involving multiple files (code review, documentation Q&amp;A, repo analysis, multi-doc summarization) work best when you give the model all the context at once rather than splitting across multiple turns. Modern context windows are huge (Claude Opus 4.7 and Gemini 2.5 Pro both handle 1M tokens, Llama 4 Scout up to 10M) so packing many files is now practical. The challenge is fitting them under the cap — that is what freefilestoprompt.app does.</p></details>
+        <details><summary>How does freefilestoprompt.app count tokens?</summary><p>freefilestoprompt.app uses a calibrated heuristic: ASCII text averages 4 characters per token, CJK averages 1.5, other Unicode 2.5, multiplied by 1.05 for a conservative overestimate so packed prompts reliably fit under the model&#39;s context window. For exact per-model counts, use freetokencounter.app on the packed output.</p></details>
+        <details><summary>Are my files uploaded anywhere?</summary><p>No. freefilestoprompt.app is a static page. Files are read directly in your browser using the FileReader API; their contents never leave your device. There is no upload endpoint, no Freesuite server in the request path, no third-party SDKs, no analytics on file content. You can verify by inspecting the Network tab while dropping files.</p></details>
+        <details><summary>What output format should I use?</summary><p>XML format wraps each file in &lt;file path=&quot;...&quot;&gt;CONTENT&lt;/file&gt; tags. This is what Anthropic recommends for Claude and works cleanly for GPT, Gemini, and most other providers. Markdown format uses ### File: path headers with fenced code blocks. Plain format uses === FILE: path === separators with no formatting. XML is the safest default for multi-file LLM workflows.</p></details>
+        <details><summary>How does priority and auto-fit work?</summary><p>Each file gets a priority (high, medium, low) and optional pin/drop flags. When you click Auto-fit, freefilestoprompt.app first removes files marked Drop, then pinned files always stay. Among the rest, it greedily includes files in priority order (highs first, then mediums, then lows) until adding the next file would exceed your budget. Excluded files are visually marked but kept in the list so you can adjust priorities and re-fit.</p></details>
+        <details><summary>What file types does it support?</summary><p>Any text-based file: .txt, .md, .js, .ts, .py, .java, .go, .rb, .rs, .c, .cpp, .h, .css, .html, .json, .yaml, .toml, .xml, .csv, .log, source files in any language, plus any extensionless text. Binary files (images, PDFs, archives, executables) are detected and skipped with a warning. Maximum 200 files and 50 MB total combined per session.</p></details>
+        <details><summary>How is this different from gitingest or repomix?</summary><p>gitingest and repomix are excellent for fetching public GitHub repos. freefilestoprompt.app is browser-only, free, no sign-up, no CLI install, and works on any local files (including private code that should never touch a third-party server). Trade-off: you drag files in manually rather than pasting a repo URL — which is also the privacy advantage. Live repo ingestion is on the Pro roadmap.</p></details>
+    </section>
+
+    <aside class="related">
+        <h2>Related tools</h2>
+        <div class="related-grid">
+            <a href="/tools/freetokencounter"><span class="rn">AI Token Counter</span>freetokencounter.app</a>
+            <a href="/tools/freeprompttester"><span class="rn">AI Prompt Tester</span>freeprompttester.app</a>
+            <a href="/tools/freeaicostcalculator"><span class="rn">AI Cost Calculator</span>freeaicostcalculator.app</a>
+            <a href="/tools/freejsonformatter"><span class="rn">JSON Formatter</span>freejsonformatter.app</a>
+            <a href="/free-developer-tools"><span class="rn">All Developer tools &rarr;</span>browse the category</a>
+        </div>
+    </aside>
+
+</main>
+
+<footer class="footer"><a href="/">&larr; Back to Freesuite</a> &middot; <a href="/free-developer-tools">Developer</a> &middot; <a href="/tools/">All tool guides</a></footer>
+<script>(function(){const r=document.documentElement,l=document.getElementById('themeLabel');function a(t){r.classList.toggle('dark',t==='dark');if(l)l.textContent=t==='dark'?'Light':'Dark'}const s=localStorage.getItem('suite_theme'),p=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;a(s||(p?'dark':'light'));document.getElementById('themeToggle').addEventListener('click',()=>{const n=r.classList.contains('dark')?'light':'dark';localStorage.setItem('suite_theme',n);a(n)})})();</script>
+</body>
+</html>
