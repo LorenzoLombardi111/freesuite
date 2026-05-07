@@ -41,7 +41,7 @@ Freesuite is a family of single-purpose web apps. Each tool does exactly one tas
 - [Freejsonformatter](https://freejsonformatter.app/) — Free JSON formatter in your browser
 - [Freebase64](https://freebase64.app/) — Encode and decode Base64 for text and files
 - [Freeregextester](https://freeregextester.app/) — Test regular expressions with live match highlighting, capture groups, and flags
-- [Freediffchecker](https://freediffchecker.app/) — Compare two texts side-by-side with added and removed lines highlighted
+- [Freediffchecker](https://freediffchecker.app/) — Compare two texts or files side-by-side
 - [Freesqlformatter](https://freesqlformatter.app/) — Free SQL formatter and beautifier
 - [Freecodebeautify](https://freecodebeautify.app/) — Format HTML, CSS, JavaScript, TypeScript, JSON, XML with one click
 - [Freegradientgen](https://freegradientgen.app/) — Visual CSS gradient generator for linear, radial, and conic gradients

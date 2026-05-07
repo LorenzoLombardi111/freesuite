@@ -1040,65 +1040,83 @@
       "title": "Diff Checker",
       "domain": "freediffchecker.app",
       "category": "developer",
-      "seoTitle": "Free Online Diff Checker — Side-by-Side Text Comparison",
-      "metaDesc": "Compare two texts side-by-side with added and removed lines highlighted. Free, ad-free, works in your browser.",
-      "h1": "Free Diff Checker — compare two texts side by side",
-      "hero": "Paste two texts and see a side-by-side diff with added lines green and removed lines red. Useful for code review, config comparison, and document revisions.",
+      "cardDesc": "Compare two texts or files side-by-side. Line and word-level diff, ignore whitespace, copy unified patch. Free, browser-only, instant.",
+      "seoTitle": "Free Diff Checker Online — freediffchecker.app",
+      "metaDesc": "Compare two texts or files side-by-side. Line and word-level diff, ignore whitespace, copy unified patch. Free, browser-only, instant.",
+      "h1": "Free Diff Checker — Compare Two Texts Side-by-Side, See Exactly What Changed",
+      "hero": "Paste your original text on the left, the modified version on the right, click Compare. The tool runs the Myers diff algorithm (the same one used by Git and GNU diff) to find line-level changes, then highlights word-level differences within each modified line. Three view modes — side-by-side (GitHub-style), inline, and unified patch (.diff format) — plus four ignore-flags (whitespace, case, trailing whitespace, blank lines). Everything runs in your browser; text is never uploaded.",
       "features": [
-        "Side-by-side text comparison",
-        "Line-by-line additions (green) and removals (red)",
-        "Word-level diff for changes within lines",
-        "Ignore whitespace option",
-        "No signup, no upload",
-        "Ad-free",
-        "Works offline after first load"
+        "Three view modes: side-by-side, inline, unified patch",
+        "Myers O((N+M)D) diff engine — same algorithm as Git",
+        "Word-level intra-line diff highlighting on changed lines",
+        "Ignore whitespace, case, trailing whitespace, blank lines (independent toggles)",
+        "Live stats: lines added, lines removed, % similarity",
+        "File drag-drop or paste — up to 25 MB per side",
+        "Copy as unified patch, download as .diff or self-contained .html",
+        "Jump-to-next/previous-change navigation (n / Shift+N)",
+        "Synced scrolling between left and right panes",
+        "100% client-side — text never leaves your browser",
+        "Dark mode and offline PWA shell",
+        "Sample data button for instant demo"
       ],
       "howItWorks": [
-        "Open freediffchecker.app",
-        "Paste original text in the left input",
-        "Paste new text in the right input",
-        "Differences highlight automatically"
+        "Open freediffchecker.app in any browser",
+        "Paste original on the left and modified on the right (or drop files)",
+        "Click Compare (or press Ctrl/Cmd+Enter)",
+        "Switch between Side-by-side / Inline / Unified views",
+        "Toggle ignore-whitespace / case / trailing / blank-lines as needed",
+        "Copy patch or download .diff / .html"
       ],
       "useCases": [
-        "Comparing two versions of a config file",
-        "Manual code review without git",
-        "Legal document revision tracking",
-        "Log file comparison for debugging",
-        "Checking edits to a written draft"
+        "Code review — compare two versions of a file before merging",
+        "JSON/YAML config diff — spot which keys changed between environments",
+        "Contract redlining — see what a counterparty modified in a Word doc round-trip",
+        "Manuscript revision — writers comparing two drafts",
+        "Log diffing — what changed between two failure logs from the same job",
+        "Translation review — what was modified vs the source",
+        "API response comparison — diff before/after a deploy"
       ],
-      "comparison": "DiffChecker.com is the most common result but has ads and an upsell to a paid tier. Freediffchecker is the same core functionality, ad-free and unlimited.",
-      "privacyNote": "Both texts stay in your browser. Safe for sensitive content comparison.",
+      "comparison": "diffchecker.com is the most well-known online diff tool but it processes inputs server-side, requires sign-up for diffs over 5,000 characters, gates folder/image diffing behind a paid plan, and shows ads on the free tier. freediffchecker.app is fully browser-based (so text never leaves your device — important for confidential content), free, no sign-up, no length limit beyond browser memory, no ads, and ships every output format (side-by-side, inline, unified patch) and ignore option (whitespace, case, trailing, blank lines) on day one.",
+      "privacyNote": "freediffchecker.app is a static page. Both inputs are diffed entirely in your browser using JavaScript; their contents never leave your device. There is no upload endpoint, no Freesuite server in the request path, no third-party SDKs, no analytics on what you compare. Verify by inspecting the Network tab while running a diff. Safe for diffing private code, NDA'd contracts, internal docs, or anything else you would not want to send to a third party.",
       "faqs": [
         [
-          "Is Freediffchecker free?",
-          "Yes. Ad-free, no signup, no usage limits."
+          "What is freediffchecker.app?",
+          "freediffchecker.app is a free, browser-based diff tool that compares two texts or files and shows exactly what changed line by line and word by word. Paste your original on the left, modified on the right, and the tool highlights additions in green, removals in red, and changed words within lines. Three view modes are available: side-by-side, inline, and unified patch (the standard .patch / .diff format). Whitespace and case can be ignored with one click. Everything runs in your browser — text is never uploaded."
         ],
         [
-          "Does it diff code with syntax highlighting?",
-          "Diffs are line-based. For language-specific syntax-aware diffs, use git diff or IDE diff tools."
+          "Is the text I diff sent to a server?",
+          "No. freediffchecker.app is a static page. Both inputs are diffed entirely in your browser using JavaScript; their contents never leave your device. There is no upload endpoint, no Freesuite server in the request path, no third-party SDKs, no analytics on what you compare. You can verify by inspecting the Network tab while running a diff. This makes the tool safe for diffing private code, NDA'd contracts, internal docs, or anything else you would not want to send to a third party."
         ],
         [
-          "Can I ignore whitespace differences?",
-          "Yes. Toggle \"ignore whitespace\" to focus on substantive changes."
+          "What diff algorithm does freediffchecker.app use?",
+          "freediffchecker.app uses the Myers O((N+M)D) diff algorithm — the same algorithm at the heart of Git, GNU diff, and most modern diff tools — to compute a minimal line-level edit script between the two inputs. For lines flagged as changed, a second-pass word-level LCS diff highlights exactly which tokens differ within the line. The implementation is inlined in the page (no library dependencies) and handles inputs up to roughly 50,000 lines combined."
         ],
         [
-          "Is there a file-size limit?",
-          "Bounded by browser memory. Typical diffs up to thousands of lines perform well."
+          "What are the three view modes?",
+          "Side-by-side puts the original on the left and the modified on the right with synced scrolling — this is the GitHub-style compare view and is the default. Inline collapses both into a single column with removed lines in red and added lines in green directly below — easier on narrow screens. Unified is the standard unified diff format with --- / +++ headers, @@ hunks, and ± prefixes — copy this directly as a .patch or .diff file to apply with patch or git apply."
         ],
         [
-          "Are my texts uploaded?",
-          "No. Everything happens in your browser."
+          "How do the ignore-whitespace and ignore-case options work?",
+          "Ignore whitespace treats runs of spaces and tabs as equivalent so reformatted code with different indentation does not show as changed. Ignore case folds both inputs to lowercase before diffing. Ignore trailing whitespace strips spaces and tabs at the end of each line. Ignore blank lines hides lines that became empty in either side. All four flags are independent and can be combined."
         ],
         [
-          "Can I diff three-way (like git merge)?",
-          "Not yet. This tool is two-way diff only."
+          "Can I download the diff as a patch file?",
+          "Yes. After running a diff, click Download → Patch (.diff) to save a standard unified diff that can be applied with the patch command-line tool or git apply. You can also Download → HTML to save a fully self-contained side-by-side rendering for offline review or sharing, or Copy → Patch to copy the unified diff to your clipboard."
+        ],
+        [
+          "How does freediffchecker.app compare to diffchecker.com?",
+          "diffchecker.com processes inputs server-side, caps free diffs at 5,000 characters, gates folder/image diffing behind a paid plan, and runs ads on the free tier. freediffchecker.app is fully browser-based (text never leaves your device), free, no sign-up, no length limit beyond browser memory, no ads, and ships every output format and ignore option for free."
+        ],
+        [
+          "Does freediffchecker.app work offline?",
+          "Yes. The app is a Progressive Web App — once visited, the service worker caches the HTML, fonts, and assets so the diff tool runs fully offline on subsequent visits. The diff engine is inlined in the HTML and has no runtime network dependencies."
         ]
       ],
       "related": [
         "freejsonformatter",
-        "freeregextester",
-        "freecodebeautify",
-        "freesqlformatter"
+        "freebase64",
+        "freetokencounter",
+        "freefilestoprompt"
       ]
     },
     {
