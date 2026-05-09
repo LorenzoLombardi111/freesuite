@@ -2737,6 +2737,75 @@
         "freeaicostcalculator",
         "freejsonformatter"
       ]
+    },
+    {
+      "slug": "freepalettegen",
+      "title": "Color Palette Generator",
+      "name": "Freepalettegen",
+      "domain": "freepalettegen.app",
+      "category": "developer",
+      "cardDesc": "Generate color palettes with 5 harmony modes: complementary, analogous, triadic, tetradic, monochromatic. Extract from images.",
+      "seoTitle": "Free Color Palette Generator Online — freepalettegen.app",
+      "metaDesc": "Generate beautiful color palettes in your browser. Complementary, analogous, triadic, tetradic, monochromatic harmonies. Extract colors from images. Free.",
+      "h1": "Free Color Palette Generator — harmonious colors in your browser",
+      "hero": "Pick a base color and choose from five harmony modes — complementary, analogous, triadic, tetradic, or monochromatic — and get an instant palette with hex codes ready to copy. Upload any image to extract its dominant colors. No signup, no ads.",
+      "features": [
+        "5 harmony modes: complementary, analogous, triadic, tetradic, monochromatic",
+        "Native color picker with live hex display",
+        "Click-to-copy individual swatches",
+        "Copy All Hex button for full palette export",
+        "Extract dominant colors from any uploaded image via Canvas API",
+        "Random Palette button for instant inspiration",
+        "Dark mode and offline PWA support"
+      ],
+      "howItWorks": [
+        "Open freepalettegen.app in any browser",
+        "Pick a base color with the color picker or click Random Palette",
+        "Choose a harmony mode — palette updates instantly",
+        "Click any swatch to copy its hex code, or click Copy All Hex",
+        "Optionally upload an image to extract its dominant colors"
+      ],
+      "useCases": [
+        "Web design — generating harmonious color schemes",
+        "Branding — pulling a palette from a company logo",
+        "UI design — building CSS custom property color systems",
+        "Creative inspiration — extracting colors from photos",
+        "Accessibility — monochromatic palettes for clean interfaces"
+      ],
+      "comparison": "Coolors offers cloud saving but has ads and account gates. Adobe Color requires Creative Cloud. freepalettegen.app is simpler, free, and entirely client-side.",
+      "privacyNote": "All palette generation and image extraction happens in your browser. Nothing is uploaded.",
+      "faqs": [
+        [
+          "How do I generate a color palette on freepalettegen.app?",
+          "Pick a base color with the color picker, choose a harmony mode, and freepalettegen.app instantly generates a 5-color palette. Click any swatch to copy its hex code."
+        ],
+        [
+          "What color harmonies does freepalettegen.app support?",
+          "freepalettegen.app supports five harmony modes: complementary (180-deg apart), analogous (30-deg apart), triadic (120-deg apart), tetradic (90-deg apart), and monochromatic (variations in lightness/saturation of a single hue)."
+        ],
+        [
+          "Can I extract colors from an image?",
+          "Yes. Upload any image and freepalettegen.app analyzes pixels to extract dominant colors. The image never leaves your browser."
+        ],
+        [
+          "Is freepalettegen.app free?",
+          "Yes. Completely free with no signup, no ads, and no usage limits."
+        ],
+        [
+          "Can I copy the entire palette at once?",
+          "Yes. Click Copy All to copy every hex code in the palette, separated by commas."
+        ],
+        [
+          "Is my image uploaded when I extract colors?",
+          "No. All color extraction happens in your browser using the Canvas API."
+        ]
+      ],
+      "related": [
+        "freegradientgen",
+        "freeboxshadow",
+        "freecolorconvert",
+        "freememegen"
+      ]
     }
   ]
 }
